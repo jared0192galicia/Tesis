@@ -1,0 +1,897 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Ajufo2025SedentaryCVD}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=e783f6df8d433b311db995ee0b1b53ed}{%
+           family={Ajufo},
+           familyi={A\bibinitperiod},
+           given={Ehimare},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb8d7af1f1dda075ee4b36ee7308ad1e}{%
+           family={Kany},
+           familyi={K\bibinitperiod},
+           given={Sigrid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=418fa40e6e1c490551457ef37d8ac4fc}{%
+           family={Rämö},
+           familyi={R\bibinitperiod},
+           given={Juha\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cd833ffa66094b4d9aeec31d78e0b5d}{%
+           family={Churchill},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d361d4ae98c58e7d13d40c0d124736e6}{%
+           family={Guseh},
+           familyi={G\bibinitperiod},
+           given={Jason\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c28072d9c060c87e8c7d0a9560ac73}{%
+           family={Aragam},
+           familyi={A\bibinitperiod},
+           given={Krishna\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f66439929a95109d7912306caa769bcd}{%
+           family={Ellinor},
+           familyi={E\bibinitperiod},
+           given={Patrick\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdc43474e15afc94ef338581b175bf0}{%
+           family={Khurshid},
+           familyi={K\bibinitperiod},
+           given={Shoaib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93153b451594c4f84cb0ff2e4167f94a}
+      \strng{fullhash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{fullhashraw}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{bibnamehash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authorbibnamehash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authornamehash}{93153b451594c4f84cb0ff2e4167f94a}
+      \strng{authorfullhash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authorfullhashraw}{3da2a292b664c9031c7ac3133c0bbce2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American College of Cardiology}
+      \field{number}{5}
+      \field{title}{Accelerometer-Measured Sedentary Behavior and Risk of Future Cardiovascular Disease}
+      \field{volume}{85}
+      \field{year}{2025}
+      \field{pages}{473\bibrangedash 486}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jacc.2024.10.065
+      \endverb
+    \endentry
+    \entry{ancheytariesgo}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88e5f922b541cf8147866a7d169e37be}{%
+           family={Ancheyta\bibnamedelima Espinosa},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Carlota},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Benemérita Universidad Autónoma de Puebla}%
+      }
+      \strng{namehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{fullhash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{fullhashraw}{88e5f922b541cf8147866a7d169e37be}
+      \strng{bibnamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorbibnamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authornamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorfullhash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorfullhashraw}{88e5f922b541cf8147866a7d169e37be}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
+      \field{year}{2023}
+    \endentry
+    \entry{CastilloGuaña2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=62a6f6187876ba16558f016f47f4c09b}{%
+           family={Castillo-Anzules},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Marlon},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=687557127d9a734e52b4f0dd74919827}{%
+           family={Guaña-Moya},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Edison\bibnamedelima Javier},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{fullhash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{fullhashraw}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{bibnamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorbibnamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authornamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorfullhash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorfullhashraw}{f1de05fad044c876302beb503ee0a5a4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ingenio Global (Revista)}
+      \field{number}{1}
+      \field{title}{Kanban: Una metodología ágil para la gestión eficiente del flujo de trabajo en el desarrollo de software, una revisión sistemática}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{pages}{17\bibrangedash 28}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.62943/rig.v3n1.2024.68
+      \endverb
+      \verb{urlraw}
+      \verb http://190.57.147.202:90/xmlui/handle/123456789/4587
+      \endverb
+      \verb{url}
+      \verb http://190.57.147.202:90/xmlui/handle/123456789/4587
+      \endverb
+    \endentry
+    \entry{bun2024loadtesting}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c950009fb3cede58dff3c50084f821dc}{%
+           family={Docs},
+           familyi={D\bibinitperiod},
+           given={Quave\bibnamedelima Cloud},
+           giveni={Q\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{fullhash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{fullhashraw}{c950009fb3cede58dff3c50084f821dc}
+      \strng{bibnamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorbibnamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authornamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorfullhash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorfullhashraw}{c950009fb3cede58dff3c50084f821dc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quave Cloud Docs Blog}
+      \field{title}{Bun vs. Node.js: A Load-Testing Experiment}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+      \verb{url}
+      \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+    \endentry
+    \entry{10.1093/ajh/hpae024}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=e29adbecbe54bdd88e57dad3c8bb2026}{%
+           family={Palomo-Piñón},
+           familyi={P\bibinithyphendelim P\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd92a8a23582cb929038270b2604e583}{%
+           family={Antonio-Villa},
+           familyi={A\bibinithyphendelim V\bibinitperiod},
+           given={Neftali\bibnamedelima Eduardo},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e309a7eea49d84ee7d5753c64d79010a}{%
+           family={García-Cortés},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Luis\bibnamedelima Rey},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=971e5948535498b4dfaa51b9ced29f47}{%
+           family={Moreno-Noguez},
+           familyi={M\bibinithyphendelim N\bibinitperiod},
+           given={Moises},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=346d74925ef0eb2d97644e5de147be6a}{%
+           family={Alcocer},
+           familyi={A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=502398e8e6f9324ad831752d2b5c5b55}{%
+           family={Álvarez-López},
+           familyi={Á\bibinithyphendelim L\bibinitperiod},
+           given={Humberto},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea92504424a66fc98b703f0be1658ce2}{%
+           family={Cardona-Muñoz},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Ernesto\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542ad53a294fc4c71d995587796681c5}{%
+           family={Chávez-Mendoza},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Adolfo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08524f0c4872b9a3d62960d45a03b784}{%
+           family={Díaz-Díaz},
+           familyi={D\bibinithyphendelim D\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22dbff18c8edfb9e27a51478c4e4eac1}{%
+           family={Enciso-Muñoz},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5210118e39c689eefff1d964036c8fe9}{%
+           family={Galván-Oseguera},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={Héctor},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f23789c89964cc0b04834e6e1f853f}{%
+           family={Rosas-Peralta},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Martín},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f298dcbc6a8465334606cd2f69e24694}{%
+           family={Experts\bibnamedelimb on\bibnamedelimb Arterial\bibnamedelima Hypertension},
+           familyi={E\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Mexican\bibnamedelima Group},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{c86d19fab9f623ede59cdd877c84d156}
+      \strng{fullhash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{fullhashraw}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{bibnamehash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authorbibnamehash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authornamehash}{c86d19fab9f623ede59cdd877c84d156}
+      \strng{authorfullhash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authorfullhashraw}{7f97f718911a70bdc7381fe9f49fa15a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-7225}
+      \field{journaltitle}{American Journal of Hypertension}
+      \field{month}{03}
+      \field{number}{7}
+      \field{title}{Patients Living With Arterial Hypertension in Mexico: First Insights of The Mexican Registry of Arterial Hypertension (RIHTA Study)}
+      \field{volume}{37}
+      \field{year}{2024}
+      \field{pages}{503\bibrangedash 513}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/ajh/hpae024
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/ajh/article-pdf/37/7/503/58278970/hpae024.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/ajh/hpae024
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/ajh/hpae024
+      \endverb
+    \endentry
+    \entry{patel2023nextjsperformance}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63ad27f217fe8c67004a7432e1fe36e8}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{fullhash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{fullhashraw}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{bibnamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorbibnamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authornamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorfullhash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorfullhashraw}{63ad27f217fe8c67004a7432e1fe36e8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{International Journal of Computer Applications Technology and Research}
+      \field{title}{Analyzing the Impact of Next.JS on Site Performance and SEO}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{24\bibrangedash 27}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.7753/IJCATR1210.1004
+      \endverb
+      \verb{urlraw}
+      \verb https://ijcat.com/archieve/volume12/issue10/ijcatr12101004.pdf
+      \endverb
+      \verb{url}
+      \verb https://ijcat.com/archieve/volume12/issue10/ijcatr12101004.pdf
+      \endverb
+    \endentry
+    \entry{rodriguez2023riesgo}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=582df6bf2f19f777e583896f3b36dbad}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={Agustín\bibnamedelima Paramio},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0b81c06ca65c082af36773d09db987}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={Luis\bibnamedelimb Gustavo\bibnamedelima Rivero},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0432ff6777f6be897b1133c48b41d25}{%
+           family={Navas},
+           familyi={N\bibinitperiod},
+           given={Myder\bibnamedelima Hernández},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{593e82a8f945671a7ad68f2f83d74e05}
+      \strng{fullhash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{fullhashraw}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{bibnamehash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authorbibnamehash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authornamehash}{593e82a8f945671a7ad68f2f83d74e05}
+      \strng{authorfullhash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authorfullhashraw}{9b4f8937512686c8f02f58e1939f9f07}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Cubana de Cardiología y Cirugía Cardiovascular}
+      \field{number}{1}
+      \field{title}{Riesgo cardiovascular global: estudios realizados en la población cubana}
+      \field{volume}{29}
+      \field{year}{2023}
+      \field{pages}{1330}
+      \range{pages}{1}
+    \endentry
+    \entry{Thabet2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb45d4c9d1cf7df10e8c74a5c7bad16}{%
+           family={Thabet},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a55b686cea34a8923b6ea395549772e}{%
+           family={otros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{fullhash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{fullhashraw}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{bibnamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorbibnamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authornamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorfullhash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorfullhashraw}{0ca9f15a1de4f5690aa266363e624e1a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Manufacturing}
+      \field{title}{Development of an agile development method based on Kanban for distributed part-time teams and an introduction framework}
+      \field{year}{2018}
+      \field{pages}{45\bibrangedash 50}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.promfg.2018.03.159
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2351978918304633
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2351978918304633
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Ajufo2025SedentaryCVD}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=e783f6df8d433b311db995ee0b1b53ed}{%
+           family={Ajufo},
+           familyi={A\bibinitperiod},
+           given={Ehimare},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb8d7af1f1dda075ee4b36ee7308ad1e}{%
+           family={Kany},
+           familyi={K\bibinitperiod},
+           given={Sigrid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=418fa40e6e1c490551457ef37d8ac4fc}{%
+           family={Rämö},
+           familyi={R\bibinitperiod},
+           given={Juha\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cd833ffa66094b4d9aeec31d78e0b5d}{%
+           family={Churchill},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d361d4ae98c58e7d13d40c0d124736e6}{%
+           family={Guseh},
+           familyi={G\bibinitperiod},
+           given={Jason\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c28072d9c060c87e8c7d0a9560ac73}{%
+           family={Aragam},
+           familyi={A\bibinitperiod},
+           given={Krishna\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f66439929a95109d7912306caa769bcd}{%
+           family={Ellinor},
+           familyi={E\bibinitperiod},
+           given={Patrick\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdc43474e15afc94ef338581b175bf0}{%
+           family={Khurshid},
+           familyi={K\bibinitperiod},
+           given={Shoaib},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93153b451594c4f84cb0ff2e4167f94a}
+      \strng{fullhash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{fullhashraw}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{bibnamehash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authorbibnamehash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authornamehash}{93153b451594c4f84cb0ff2e4167f94a}
+      \strng{authorfullhash}{3da2a292b664c9031c7ac3133c0bbce2}
+      \strng{authorfullhashraw}{3da2a292b664c9031c7ac3133c0bbce2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American College of Cardiology}
+      \field{number}{5}
+      \field{title}{Accelerometer-Measured Sedentary Behavior and Risk of Future Cardiovascular Disease}
+      \field{volume}{85}
+      \field{year}{2025}
+      \field{pages}{473\bibrangedash 486}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jacc.2024.10.065
+      \endverb
+    \endentry
+    \entry{ancheytariesgo}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88e5f922b541cf8147866a7d169e37be}{%
+           family={Ancheyta\bibnamedelima Espinosa},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Carlota},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Benemérita Universidad Autónoma de Puebla}%
+      }
+      \strng{namehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{fullhash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{fullhashraw}{88e5f922b541cf8147866a7d169e37be}
+      \strng{bibnamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorbibnamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authornamehash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorfullhash}{88e5f922b541cf8147866a7d169e37be}
+      \strng{authorfullhashraw}{88e5f922b541cf8147866a7d169e37be}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
+      \field{year}{2023}
+    \endentry
+    \entry{CastilloGuaña2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=62a6f6187876ba16558f016f47f4c09b}{%
+           family={Castillo-Anzules},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Marlon},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=687557127d9a734e52b4f0dd74919827}{%
+           family={Guaña-Moya},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Edison\bibnamedelima Javier},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{fullhash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{fullhashraw}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{bibnamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorbibnamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authornamehash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorfullhash}{f1de05fad044c876302beb503ee0a5a4}
+      \strng{authorfullhashraw}{f1de05fad044c876302beb503ee0a5a4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ingenio Global (Revista)}
+      \field{number}{1}
+      \field{title}{Kanban: Una metodología ágil para la gestión eficiente del flujo de trabajo en el desarrollo de software, una revisión sistemática}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{pages}{17\bibrangedash 28}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.62943/rig.v3n1.2024.68
+      \endverb
+      \verb{urlraw}
+      \verb http://190.57.147.202:90/xmlui/handle/123456789/4587
+      \endverb
+      \verb{url}
+      \verb http://190.57.147.202:90/xmlui/handle/123456789/4587
+      \endverb
+    \endentry
+    \entry{bun2024loadtesting}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c950009fb3cede58dff3c50084f821dc}{%
+           family={Docs},
+           familyi={D\bibinitperiod},
+           given={Quave\bibnamedelima Cloud},
+           giveni={Q\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{fullhash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{fullhashraw}{c950009fb3cede58dff3c50084f821dc}
+      \strng{bibnamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorbibnamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authornamehash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorfullhash}{c950009fb3cede58dff3c50084f821dc}
+      \strng{authorfullhashraw}{c950009fb3cede58dff3c50084f821dc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quave Cloud Docs Blog}
+      \field{title}{Bun vs. Node.js: A Load-Testing Experiment}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+      \verb{url}
+      \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+    \endentry
+    \entry{10.1093/ajh/hpae024}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=e29adbecbe54bdd88e57dad3c8bb2026}{%
+           family={Palomo-Piñón},
+           familyi={P\bibinithyphendelim P\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd92a8a23582cb929038270b2604e583}{%
+           family={Antonio-Villa},
+           familyi={A\bibinithyphendelim V\bibinitperiod},
+           given={Neftali\bibnamedelima Eduardo},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e309a7eea49d84ee7d5753c64d79010a}{%
+           family={García-Cortés},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Luis\bibnamedelima Rey},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=971e5948535498b4dfaa51b9ced29f47}{%
+           family={Moreno-Noguez},
+           familyi={M\bibinithyphendelim N\bibinitperiod},
+           given={Moises},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=346d74925ef0eb2d97644e5de147be6a}{%
+           family={Alcocer},
+           familyi={A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=502398e8e6f9324ad831752d2b5c5b55}{%
+           family={Álvarez-López},
+           familyi={Á\bibinithyphendelim L\bibinitperiod},
+           given={Humberto},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea92504424a66fc98b703f0be1658ce2}{%
+           family={Cardona-Muñoz},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Ernesto\bibnamedelima G},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542ad53a294fc4c71d995587796681c5}{%
+           family={Chávez-Mendoza},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Adolfo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08524f0c4872b9a3d62960d45a03b784}{%
+           family={Díaz-Díaz},
+           familyi={D\bibinithyphendelim D\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22dbff18c8edfb9e27a51478c4e4eac1}{%
+           family={Enciso-Muñoz},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5210118e39c689eefff1d964036c8fe9}{%
+           family={Galván-Oseguera},
+           familyi={G\bibinithyphendelim O\bibinitperiod},
+           given={Héctor},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f23789c89964cc0b04834e6e1f853f}{%
+           family={Rosas-Peralta},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Martín},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f298dcbc6a8465334606cd2f69e24694}{%
+           family={Experts\bibnamedelimb on\bibnamedelimb Arterial\bibnamedelima Hypertension},
+           familyi={E\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Mexican\bibnamedelima Group},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{c86d19fab9f623ede59cdd877c84d156}
+      \strng{fullhash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{fullhashraw}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{bibnamehash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authorbibnamehash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authornamehash}{c86d19fab9f623ede59cdd877c84d156}
+      \strng{authorfullhash}{7f97f718911a70bdc7381fe9f49fa15a}
+      \strng{authorfullhashraw}{7f97f718911a70bdc7381fe9f49fa15a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-7225}
+      \field{journaltitle}{American Journal of Hypertension}
+      \field{month}{03}
+      \field{number}{7}
+      \field{title}{Patients Living With Arterial Hypertension in Mexico: First Insights of The Mexican Registry of Arterial Hypertension (RIHTA Study)}
+      \field{volume}{37}
+      \field{year}{2024}
+      \field{pages}{503\bibrangedash 513}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/ajh/hpae024
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/ajh/article-pdf/37/7/503/58278970/hpae024.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/ajh/hpae024
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/ajh/hpae024
+      \endverb
+    \endentry
+    \entry{patel2023nextjsperformance}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63ad27f217fe8c67004a7432e1fe36e8}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{fullhash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{fullhashraw}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{bibnamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorbibnamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authornamehash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorfullhash}{63ad27f217fe8c67004a7432e1fe36e8}
+      \strng{authorfullhashraw}{63ad27f217fe8c67004a7432e1fe36e8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{International Journal of Computer Applications Technology and Research}
+      \field{title}{Analyzing the Impact of Next.JS on Site Performance and SEO}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{24\bibrangedash 27}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.7753/IJCATR1210.1004
+      \endverb
+      \verb{urlraw}
+      \verb https://ijcat.com/archieve/volume12/issue10/ijcatr12101004.pdf
+      \endverb
+      \verb{url}
+      \verb https://ijcat.com/archieve/volume12/issue10/ijcatr12101004.pdf
+      \endverb
+    \endentry
+    \entry{rodriguez2023riesgo}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=582df6bf2f19f777e583896f3b36dbad}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={Agustín\bibnamedelima Paramio},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0b81c06ca65c082af36773d09db987}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={Luis\bibnamedelimb Gustavo\bibnamedelima Rivero},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0432ff6777f6be897b1133c48b41d25}{%
+           family={Navas},
+           familyi={N\bibinitperiod},
+           given={Myder\bibnamedelima Hernández},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{593e82a8f945671a7ad68f2f83d74e05}
+      \strng{fullhash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{fullhashraw}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{bibnamehash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authorbibnamehash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authornamehash}{593e82a8f945671a7ad68f2f83d74e05}
+      \strng{authorfullhash}{9b4f8937512686c8f02f58e1939f9f07}
+      \strng{authorfullhashraw}{9b4f8937512686c8f02f58e1939f9f07}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Cubana de Cardiología y Cirugía Cardiovascular}
+      \field{number}{1}
+      \field{title}{Riesgo cardiovascular global: estudios realizados en la población cubana}
+      \field{volume}{29}
+      \field{year}{2023}
+      \field{pages}{1330}
+      \range{pages}{1}
+    \endentry
+    \entry{Thabet2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb45d4c9d1cf7df10e8c74a5c7bad16}{%
+           family={Thabet},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a55b686cea34a8923b6ea395549772e}{%
+           family={otros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{fullhash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{fullhashraw}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{bibnamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorbibnamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authornamehash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorfullhash}{0ca9f15a1de4f5690aa266363e624e1a}
+      \strng{authorfullhashraw}{0ca9f15a1de4f5690aa266363e624e1a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Manufacturing}
+      \field{title}{Development of an agile development method based on Kanban for distributed part-time teams and an introduction framework}
+      \field{year}{2018}
+      \field{pages}{45\bibrangedash 50}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.promfg.2018.03.159
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2351978918304633
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2351978918304633
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

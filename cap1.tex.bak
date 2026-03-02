@@ -1,0 +1,211 @@
+\chapter{Introducción}
+\section{Antecedentes} 
+%  á          á       ñ     ?`
+%  é          é       ñ     !`
+%  í	      í       \"u
+%  ó          ó       \"U
+%  ú          ú
+Hoy en día la mayoría de las actividades realizadas y relacionadas con el tratamiento de la información involucran procesos de automatización, los cuales se desarrollan empleando computadoras para realizar una acción o tarea concreta, por ejemplo, la búsqueda de información, la captura de datos e inclusive generar cualquier tipo de informe que se requiera en una empresa o institución. 
+%Actualmente, el uso de las computadoras y los procesos de la automatización de la información tienen como meta agilizar en tiempo y forma los procesos que hacen uso de ella, tales como, la captura, la consulta, la modificación y el almacenamiento de la misma.
+Actualmente, el uso de sistemas de información tiene como meta agilizar los procesos relacionados con el tratamiento de los datos automatizando diferentes tareas, tales como la captura, la consulta, la modificación y el almacenamiento de información. 
+De esta manera, al implementar un sistema para el proceso de automatización de la información se pretenden reducir tiempos y esfuerzos en la realización de tareas desarrolladas de manera convencional (Como podría ser lápiz y papel). Además, el desarrollar un sistema para la automatización de procesos, permite a los usuarios organizar y manipular mejor la información almacenada y procesada de acuerdo a cada tarea.
+
+Al observar el avance y alcance de nuevas tecnologías en los últimos años y sobre todo el surgimiento de nuevos dispositivos de interacción, que permiten intercambiar información con una computadora, se presentan alternativas innovadoras para mejorar el proceso de automatización de la información. %En cada área existen diferentes problemáticas de acuerdo al contexto en que se desenvuelven diferentes procesos, por ejemplo, en el área de la salud están relacionadas con el manejo excesivo de información, tal es el caso del expediente clínico electrónico.
+
+
+Durante el transcurso de un proyecto de software, las fases del proceso de desarrollo contemplan diferentes actividades tales como el análisis de requerimientos, diseño del sistema, desarrollo y pruebas, entre otros. En la fase de pruebas, se pueden incluir algunas que involucran un estudio relacionado con la información fisiológica del ser humano o cuando interactúa con la computadora. Algunos ejemplos de estas, son las pruebas de estudio que involucran señales, tales como: el ritmo cardíaco, de conductancia de la piel, del cerebro, de presión arterial y de la temperatura corporal por mencionar algunas.
+
+
+En el mercado de software existen sistemas que permiten la captura, análisis, almacenamiento y procesamiento de información de las señales eléctricas del cerebro, entregado por un electroencefalógrafo. Estos sistemas cuentan con la capacidad de interpretar la información bioeléctrica, que el usuario puede consultar en tiempo real el comportamiento de dicha información.
+
+Un ejemplo de estos sistemas se presentó en la Universidad Politécnica de Valencia, donde se desarrolló un sistema que integra un dispositivo electroencefalográfico denominado Emotiv EPOC+, dispositivo que es accesible para el público en general. El sistema tenía como finalidad incorporar automatización a los procesos realizados en las pruebas de usuarios y en la captura de datos. En el laboratorio Labhuman de la universidad se realizó una serie de experimentos con ayuda  del software y el electroencefalógrafo mencionado, con los sensores del casco algunos marcadores automáticos eran activados por los mismos usuarios \cite{proyectoCerda}. Sin embargo, sólo se integró un componente externo al sistema, y no se consideraron otras señales, como el pulso cardíaco o la conductancia eléctrica de la piel.
+
+En 2015 en la Universidad Peruana de Ciencias Aplicadas fueron implementadas tres aplicaciones que utilizaban el software del dispositivo Emotiv EPOC+. Estas aplicaciones se desarrollaron con la finalidad de apoyar a las personas con discapacidad en extremidades superiores. El dispositivo Emotiv EPOC+ se usó para interactuar con diferentes dispositivos, entre ellos una Smart TV, una computadora y un robot NAO. En este proyecto se utilizó el dispositivo para la recolección de señales procesadas por el cerebro, las cuales se interpretaron como medio de control y manipulación de los dispositivos \cite{sifuentes}. Sin embargo, al igual que en el proyecto mencionado anteriormente el sistema se limita al software, ya que permitió integrar sólo un dispositivo de recolección de señales bioeléctricas al  sistema.
+
+
+En 2017 en la Universidad de Oulu, se implementó un electroencefalógrafo, el cual evalúa la activación cognitiva y emocional, cuando se codifica en diferentes lenguajes de programación, en ese trabajo de tesis se planteó un estudio piloto y un experimento controlado para recopilar y evaluar los datos que proporciona el dispositivo junto con los informes que brindaba el software para obtener resultados estadísticos significativos e interpretar la actividad emocional y congnitiva de los participantes \cite{tesisReajendra}. En el proyecto, la parte central consistía en la planificación y elaboración de un experimento de laboratorio involucrando a diferentes participantes, en tareas predefinidas y de igual manera, como los proyectos anteriores sólo se consideró un elemento para la recopilación de datos durante el experimento.
+
+En 2017 en la Universidad de la Sierra Sur, se publicó el artículo ``Integración de un sistema cerebro computadora empleando software libre'', el cual recolecta la información bioeléctrica generada por un usuario durante un experimento. El sistema hace uso del electroencefalógrafo Emotiv EPOC+ para la recolección de información generada por el cerebro y permite la visualización de la información en tiempo real \cite{artIrving}.
+
+En 2018 se realizó un estudio con base en la caracterización de colores RGB mediante EEG (Diadema Emotiv), este estudio consistió en el análisis de las ondas existentes en el cerebro humano, alfa, teta, beta inferiores, beta superiores y gamma; las cuales mediante un análisis estadístico se pudo extraer un comportamiento diferente referente a los diferentes colores tales como: azul, negro, amarillo, verde, rojo y blanco \cite{artGambaGomez}. Sin embargo, en el estudio sólo se hizo uso del hardware y software comercial de la Emotiv EPOC para la recolección de señales bioeléctricas.
+
+En 2019 se publicó un artículo en donde se menciona un estudio cuya meta era evaluar los cambios a corto y largo plazo en parámetros de un electroencefalograma realizado a pacientes con deterioro cognitivo leve, y después de ciertos ejercicios, se observó que el ejercicio aeróbico mostró una gran mejoría en la cognición después del tratamiento a corto y largo plazo con algunos sujetos, en este proyecto se utilizó la Emotiv EPOC como dispositivo de recolección de señales. Sin embargo, el sistema se limitó a integrar un sólo dispositivo para la recolección de señales bioeléctricas durante sus experimentos relacionados con la evaluación y función cognitiva (Amjad, Toor, Niazi, Afzal, Jochumsen, Shafique, Allen, Haavik y Ahmed, 2019).\nocite{artImran}
+
+\section{Planteamiento del problema}
+Actualmente existen sistemas que permiten obtener y procesar señales bioeléctricas, tales como, las del cerebro, el ritmo cardíaco, la conductancia de la piel por mencionar algunas. Estos sistemas vienen acompañados de un software comercial: EmotivPro, Emotiv BrainViz, ConsenSys, entre otros, que resulta un desafío para la comunidad científica cuando se pretende realizar alguna   o experimento que precisa de una configuración específica del proceso de la información, ya que no permite personalizar o realizar una configuración diferente.
+
+
+Los sistemas anteriores han sido proyectos interesantes y han cumplido con el objetivo para el cual fueron planteados. Sin embargo, disponen de algunas limitaciones, por ejemplo, no hacen posible agregar dispositivos de sensado bioeléctricos diferentes a los ya establecidos por el proveedor. El presente proyecto, se realiza con el fin de apoyar a los grupos de investigación que requieran de una plataforma de experimentación, que permita la recopilación de señales bioeléctricas de diferentes dispositivos de sensado, creación de expediente clínico electrónico, generación de reportes y configuración del experimento. 
+
+
+Ante esta situación, se pretende generar un sistema que integre software y hardware para la elaboración y ejecución de pruebas experimentales empleando software libre. Se integrarán al sistema diferentes dispositivos de adquisición de datos bioeléctricos, tales como, un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia de la piel. Así también, integrará diferentes módulos, entre los cuales destacan la generación y consulta de expedientes clínicos, la configuración del experimento, la exportación de los datos y finalmente, un módulo de autenticación para el acceso al sistema. Con base en lo antes mencionado, se plantea la siguiente pregunta de investigación: 
+
+
+%?`Es posible desarrollar un sistema basado en software libre que permita la integración de un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel, de tal modo, que se puedan llevar a cabo experimentos, y que además dicho sistema permita la obtención, almacenamiento y despliegue de la  información generada durante el experimento?
+
+?`Es posible diseñar, desarrollar y evaluar un sistema basado en software libre que permita la integración de un sistema para la captación de información bioeléctrica por medio de tres sensores (un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel), un sistema de acondicionamiento de datos bioeléctricos y un sistema para la gestión, administración y visualización de la información generada durante un experimento? 
+
+\section{Justificación}
+
+Este proyecto de investigación se orienta a la automatización de procesos durante la ejecución de pruebas experimentales, que emplean el uso de información bioeléctrica de un sujeto de estudio. La importancia que radica en el desarrollo del presente proyecto, es el uso de herramientas de software libre, esto significa que el sistema puede ser utilizado para cualquier propósito, ya que se tiene acceso al código fuente y existe la libertad de modificar y mejorar el sistema. Uno de los retos es que a partir de los resultados de este proyecto se pretenden diseñar de manera específica las herramientas de software y hardware necesarias y suficientes para poder llevar a cabo estudios de usabilidad. 
+
+El presente proyecto de investigación surge con la necesidad de gestionar y administrar la información obtenida durante la ejecución de un experimento que requiere de la información bioeléctrica, ya que en ocasiones el administrador de la prueba almacena de manera desordenada la información, esto genera un retardo en las actividades al querer analizarla. Por tal motivo, existe la necesidad de generar un sistema que permita automatizar los procesos de información de un experimento minimizando los retardos de tiempo, los errores al momento de capturar la información o incluso la pérdida de la misma.% Así también, el sistema pretende solventar la administración de experimentos, la información de los sujetos de pruebas, generación de reportes, visualización y almacenamiento de información bioeléctrica, control y autenticación de usuarios.% Finalmente, para desarrollar este proyecto de investigación se plantea la integración de herramientas de software libre.
+
+%El problema radica al momento de gestionar y administrar la información obtenida por los experimentos, ya que el administrador de la prueba realiza de manera desordenada o no administrada el control de esta información generalmente. 
+
+%El usuario realiza de manera desordenada o no administrada
+%hay necesidad de automatizar procesos por retardos de tiempo errores en los datos por que se pueden perder datos
+%hay de manera desordenada los log o información
+%entra la hipotesis como ordenar la iniformación
+%una de las importanvcias que radica en el desarrollo es esta
+%la importancia que radica en el desarrollo del presente proyecto es la autonatización de los procesos durante la automatización de una prueba ya que actualmentwe los investigadores de la unsis realizan procedimientos poco confiables para el tratado de la información, se generan de manera mannual bitacoras, logs etc y}
+%ahora para desarrollar este software es necesario conttemplar usos de herramientas de software libre esto coonlegva a generar un sosftware con estas herramientas
+
+Al implementar el software propuesto, los principales beneficiarios son la comunidad interesada en la planificación de pruebas experimentales basadas en información bioeléctrica, así como en las áreas de psicología y marketing, quienes, con la ayuda de la automatización en la recolección de datos podrán acceder a la información procesada y desplegada por el sistema. Cuando los usuarios finales se encuentren utilizando el sistema, estos podrán configurar cada uno de los experimentos, y de esta manera obtener información durante las pruebas experimentales con el objetivo de que pueda ser analizada de manera independiente e interpretada por expertos en el área.
+
+Adicionalmente, a partir de la propuesta de solución planteada en este proyecto, la comunidad científica en el área de la usabilidad de la Universidad de la Sierra Sur pretende agilizar la recolección de datos bioelétricos y evaluar de manera objetiva el proceso de interacción entre un humano y una computadora al emplear diferentes paradigmas de interacción. Con la automatización de la información bioelétrica, se pretende disminuir los tiempos de recolección de los datos durante el proceso de las pruebas y disminuir la tasa de errores que se generan al hacerlo de manera convencional. %Los resultados obtenidos en esta investigación se darán a conocer en congresos y en la publicación de artículos en revistas especializadas.
+
+\section{Hipótesis}
+
+Las hipótesis propuestas para la investigación se describen a continuación.
+
+\subsection{Hipótesis general}
+
+La implementación de un software para la automatización de procesos empleando software libre, sí administra y automatiza los procesos de información de una prueba experimental por los usuarios finales.
+
+\subsection{Hipótesis específicas}
+
+\begin{itemize}
+	\item La integración de información recolectada por los sensores (un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel) y marcadores colocados por el usuario, ordenados en un archivo influirá en el correcto y ordenado análisis de la información.
+	\item El proceso de recolección de información a través del software minimizará el tiempo de creación de los informes finales.%Cambié Disponibilidad por creación
+	\item Emplear una metodología evolutiva para el desarrollo y codificación del sistema, una metodología de diseño centrada en el usuario para la generación de las interfaces e implementar el patrón de arquitectura Modelo-Vista-Controlador (MVC) en las interfaces de usuario, garantiza un sistema usable y escalable.
+	
+\end{itemize}
+
+
+
+
+%Las hipótesis propuestas son definidas de manera correspondiente a las preguntas elaboradas en el planteamiento del problema de la siguiente manera:
+
+%\begin{itemize}
+%	\item Dado que un conjunto de sensores (un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel) pueden ser utilizados para la recopilación de información bioeléctrica, se pueden integrar los sensores en un sistema de información basado en información bioeléctrica.
+	
+%	\item Mediante el uso del modelo de procesos de ingeniería de usabilidad y accesibilidad se pueden desarrollar interfaces interactivas con el usuario.
+	
+%	\item Mediante la implementación de un modelo de procesos evolutivo se puede realizar la mejora continua de prototipos generados para la interfaz del sistema.
+	
+%	\item Mediante la aplicación de la arquitectura modelo vista controlador se puede distribuir lógicamente la integración de un conjunto de sensores y de esta manera permitir su mantenimiento, adición o modificación de código de programación.
+%\end{itemize}
+
+\section{Objetivos}
+
+El desarrollo del software basado en información bioeléctrica demanda un objetivo general y objetivos específicos que se mencionan a continuación.
+
+\subsection{Objetivo general}
+%?`Es posible diseñar, desarrollar y evaluar un sistema basado en software libre que permita la integración de un sistema para la captación de información bioeléctrica por medio de tres sensores (un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel), un sistema de acondicionamiento de datos bioeléctricos y un sistema para la gestión, administración y visualización de la información generada durante un experimento? 
+
+
+%Desarrollar un sistema basado en software libre que permita la integración de un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel, que pueda llevar a cabo experimentos basados en la obtención de esta información y que además, pueda ser almacenada, exportada y desplegada.
+
+Diseñar, desarrollar y evaluar un sistema basado en software libre, que permita la integración de un sistema para la captación de información bioeléctrica por medio de tres sensores (un electroencefalógrafo, un sensor de ritmo cardíaco y un sensor de conductancia eléctrica de la piel), un sistema de acondicionamiento de datos bioeléctricos y un sistema para la gestión, administración y visualización de la información generada durante la ejecución del experimento.
+
+\subsection{Objetivos específicos}
+\begin{itemize}
+\item Identificar y definir la metodología más apropiada para el desarrollo del sistema.
+\item Determinar el patrón de arquitectura que permita la escalabilidad del Sistema de Información Basado en Información Bioeléctrica (SIBIB).
+\item Desarrollar un software de propósito específico bajo el concepto de software libre con base en los lenguajes de programación Java y C principalmente.
+\item Diseñar un conjunto de interfaces de usuario con base en el modelo de procesos de ingeniería de usabilidad y accesibilidad.
+\item Identificar y caracterizar los dispositivos para la recolección de información bioeléctrica, así como comprobar su integración con el sistema.
+\item Desarrollar una aplicación en GNU Linux para el pre-procesamiento de datos recolectados con los diferentes dispositivos de sensado.
+\item Realizar pruebas experimentales para verificar que sean cumplidos todos los requisitos planteados y pruebas de evaluación heurística.
+\end{itemize}
+
+\section{Metodología} \label{sectionmeto}
+
+Al tener en cuenta los tipos de investigación según Creswell (2013) \nocite{Creswell}, por la forma en que esta investigación es usada: ``La investigación fundamental o básica es la que tiene como objetivo esencial, ampliar, intensificar y aclarar los campos de la ciencia. La investigación aplicada o técnica tiende a la resolución de problemas o al desarrollo de ideas, dirigidas a conseguir innovaciones, mejoras de procesos o productos, etc.'' \cite{CegarraLib}.
+%José Cegarra
+%Metodología de la investigación científica y tecnológica
+%Pg 42
+%España
+%2011
+
+El sistema desea dar solución a los problemas generales y específicos detallados en el presente documento, a su vez optimizar los procesos de recolección de información bioeléctrica, generación de reportes y optimización de procesos realizados por los usuarios finales. Por lo tanto el presente documento es considerado como una investigación \textbf{APLICADA}.
+
+Los pasos a seguir en el presente proyecto se describen a continuación:
+
+\begin{itemize}
+	\item Revisión bibliográfica. Se realizará una investigación con base en la documentación existente de las diferentes tecnologías y dispositivos de conexión que se plantean integrar en el sistema, su uso, su implementación y algunos de los sistemas donde han sido implementados.
+	\item {Diseño. Las etapa de diseño se implementará con base en el Modelo de Procesos de la Ingeniería de la Usabilidad y la Accesibilidad (MPIu+a) mostrado en la Figura \ref{figy5}. 
+	{
+		\begin{figure}[H]
+			\center
+			\includegraphics[width=9cm]{imag//DCU2.png}\\
+			\caption{Modelo de Proceso de la Ingeniería de la Usabilidad y la Accesibilidad}\label{figy5}
+			Fuente: Lorés, Granollers y Lana (2002)\nocite{lores1}
+			\endcenter
+		\end{figure}
+	}
+	Este modelo proporciona una esquema con cuatro ideas básicas, las cuales se plantean para llevar a cabo en el desarrollo de la aplicación:
+	{
+	
+
+\begin{enumerate}
+ 		\item Organización conceptual
+
+Análisis de requisitos: Se plantea utilizar el método de indagación conocido como observación de campo con el objetivo de monitorizar a los usuarios finales en su ambiente de trabajo. Este método permitirá describir las actividades y procesos fundamentales que estos lleven a cabo durante cada una de sus tareas.% De esta forma tener una mejor descripción de las tareas que realiza el usuario en su contexto..% La meta que se pretende alcanzar es incluir al usuario final dentro del diseño de la aplicación y de esta manera tener una mejor descripción de las tareas que realiza el usuario en su contexto.
+ 	
+ 	Diseño: Se diseñarán los primeros prototipos utilizando el método de indagación \textit{Focus group}, el cual permite realizar una entrevista a los usuarios finales para recopilar la información de procesos,  conseguir la participación de todos los asistentes respecto al diseño de las Interfaces Gráficas de Usuario (\textit{GUI} por sus siglas en inglés) e incluir a los usuarios finales dentro del diseño de la aplcación.%, en esta actividad se planea recolectar diversas opiniones en una mesa de trabajo.
+
+Implementación: %Se realizará
+De acuerdo a la arquitectura del sistema este está constituido por tres subsistemas, uno para la captación de señales, otro para el procesamiento y otro para la visualización de la información. En esta etapa se requiere de la integración de los tres trabajando como uno solo para obtener información bioeléctrica de las pruebas experimentales.
+
+%De acuerdo a la arquitectura del sistema se requiere del uso de dos computadoras, la primera computadora tendrá el sistema operativo Linux (Ubuntu 18.04). Además de tener conectados todos los sensores para la recopilación de información del usuario (Emotiv Epoc+, GSR, SRC). Posteriormente, se ejecutará en esa misma computadora una aplicación SIREDA que permita la recolección de los datos captados por los sensores y, que envíe esta información a la segunda computadora. La segunda computadora tendrá el sistema operativo  Windows 7 Professional, esta ejecutará la aplicación SIBIB, la cual mostrará y almacenará la información que se estará obteniendo desde Linux en tiempo real.
+	
+Evaluación: Se realizarán pruebas funcionales (o de caja negra) y de medición de usabilidad (evaluación heurística) con usuarios finales o expertos en áreas afines.
+ 	
+ \item Tres pilares básicos
+ 	\\Se combinará la estructura general de los procesos de la Ingeniería de Software (IS) mostrados en la Organización conceptual con los principios básicos de la Ingeniería de Usabilidad (IU) con la finalidad de guiar al desarrollador durante el proceso de construcción del sistema (prototipado). Finalmente, evaluar el prototipo o los resultados finales del desarrollo mediante algún método de evaluación existente.% Los tres pilares se presentan a continuación:
+% 	{
+%	\begin{itemize}
+%		\item La IS clásica compuesta por la estructura de Análisis, Diseño, Implementación e Instalación.
+%		
+%		\item El prototipado, como modelo que engloba las técnicas que permitirán la posterior fase de evaluación.
+%		
+%		\item La evaluación que engloba y categoriza los métodos de evaluación existentes.
+%		
+%	\end{itemize}
+ %	} 	
+ \item El usuario
+	 \\Se incluirá al usuario final en cada una de las fases de desarrollo, así como la prueba y evaluación del sistema.
+ \item La interactividad del método  
+ 	\\Las fases que se consideren menos importantes que otras se omitirán por tiempos de desarrollo. De igual manera, las técnicas de evaluación que más se adecuen al contexto serán implementadas.
+\end{enumerate}
+
+}}
+\item Desarrollo. En la etapa de desarrollo se implementará un modelo de proceso evolutivo, en concreto la implementación de prototipos. Este se define mediante un conjunto de requisitos generales para el software, el cual poco a poco evoluciona en el sistema ideal o esperado por el usuario. Así también, se integrará el patrón de arquitectura Modelo-Vista-Controlador para la distribución de la lógica de programación dentro del SIBIB.
+\item Redacción. Se redacta conforme se va desarrollando el sistema.
+\item Revisión. Se revisa conforme se va evaluando el sistema el sistema.
+\end{itemize}
+
+
+
+\section{Organización de la Tesis}
+
+A continuación se describe la organización de la tesis. 
+
+\begin{itemize}
+	\item Capítulo 2 ``Marco conceptual'', se incluyen los conocimientos fundamentales sobre los cuales se encuentra basado el proyecto, así también, los principios básicos para el entendimiento del mismo.
+	\item Capítulo 3 ``Diseño y desarrollo de la arquitectura del sistema'', se describen el diseño y desarrollo del sistema. Además, contiene el proceso de cada una de las fases que se necesitaron para el mismo siguiendo el MPIu+a. Estas fases incluyen el análisis de requisitos, el diseño, la implementación y diseño de las pruebas.
+	\item Capítulo 4 ``Pruebas y evaluación del sistema'', se presentan las pruebas realizadas al sistema y los resultados obtenidos de estas. Las pruebas funcionales y la evaluación heurística utilizando tres evaluadores.
+	\item Capítulo 5 ``Conclusiones y trabajos a futuro'', contiene las conclusiones y los trabajos a futuro finales de este trabajo de investigación.
+	\item Apéndice A se presentan los escenarios en representación de análisis de tareas jerárquicos. 
+	\item Apéndice B contiene los prototipos de baja fidelidad generados para el sistema. 
+	\item Apéndice C muestra los prototipos de alta fidelidad. 
+	\item Apéndice D ofrece la información referente al diccionario de datos. 
+	\item Apéndice E proporciona el diseño del plan de pruebas funcionales.
+	\item Apéndice F contiene el análisis heurístico generado para el sistema.
+\end{itemize}
+
+
+
+%El Capítulo 2 llamado marco conceptual, se incluyen los conocimientos fundamentales sobre los cuales se encuentra basado el proyecto, así también, los principios básicos para el entendimiento del mismo. En el Capítulo 3 se describen el diseño y desarrollo del sistema. Además, contiene el proceso de cada una de las fases que se necesitaron para el mismo, siguiendo el MPIu+a. Estas fases incluyen el análisis de requisitos, el diseño, la implementación y diseño de las pruebas. En el Capítulo 4 se presentan las pruebas realizadas al sistema y los resultados obtenidos de estas. Las pruebas funcionales utilizando un ejecutor y la evaluación heurística utilizando tres evaluadores. Posteriormente el Capítulo 5 contiene las conclusiones y los trabajos a futuro finales de este trabajo de investigación. En el Apéndice A se presentan los escenarios en representación de análisis de tareas jerárquicos. El Apéndice B presenta los prototipos de baja fidelidad generados para el sistema. El Apéndice C presenta los prototipos de alta fidelidad. El apéndice D proporciona la información referente al diccionario de datos. El Apéndice E contiene el diseño del plan de pruebas y finalmente, el Apéndice F proporciona el análisis heurístico generado para el sistema.

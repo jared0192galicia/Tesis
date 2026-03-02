@@ -1,0 +1,1522 @@
+% !TeX root = Tesis.tex
+\chapter{Escenarios} \label{htaref}
+
+\section{Análisis de tareas jerárquico (HTA)} 
+
+Los usuarios que realizan un experimento, presentan en la mayoría de las ocasiones una serie de acciones consecutivas, por ejemplo, para hacer el llenado de la información de test SAM, el usuario obtiene la carpeta física de los cuestionarios (papel), captura los resultados de cada cuestionario en una Base de Datos (BD) y realiza un análisis estadístico empleando software especial. El proceso se aprecia en formato HTA en la Figura \ref{figx11}.
+
+\begin{figure}[H]
+	\center	
+	\includegraphics[width=15cm]{hta//4.png}		
+	\caption{HTA proceso de realizar la captura de informaci\'on de un test SAM.}\label{figx11}
+	Fuente: Elaboraci\'on propia.
+	\endcenter
+\end{figure}
+
+El proceso de realizar una prueba es el siguiente, primero le explica las instrucciones de la prueba, posteriormente, llena un cuestionario con los datos personales del sujeto de pruebas. Después, inicia la aplicación del dispositivo Emotiv EPOC+ donde verifica el contacto con cada uno de los sensores, buscan los videos de excitación de la emoción correspondiente, se colocan los audífonos al usuario y se continúa con el proceso hasta finalizar su prueba. En la Figura \ref{figx9} se presenta el HTA correspondiente al proceso de realizar una prueba de manera completa.
+
+\begin{figure}[H]
+	\center	
+	\includegraphics[width=15cm]{hta//1.png}		
+	\caption{HTA proceso de realizar una prueba.}\label{figx9}
+	Fuente: Elaboraci\'on propia.
+	\endcenter
+\end{figure} 
+
+Así también, otra de las tareas que realiza un usuario después de realizar un experimento es analizar la prueba, para ello el usuario busca los resultados del usuario en la carpeta del servidor, extrae los datos generados para analizar la respuesta del sujeto de prueba. Posteriormente, utiliza software de terceros para realizar el análisis de la información y graficar los resultados. El proceso se aprecia en formato HTA en la Figura \ref{figx10}.
+
+\begin{figure}[H]
+	\center	
+	\includegraphics[width=15cm]{hta//3.png}		
+	\caption{HTA proceso de realizar el an\'alisis de una prueba experimental.}\label{figx10}
+	Fuente: Elaboraci\'on propia.
+	\endcenter
+\end{figure}
+
+
+\chapter{Prototipos de baja fidelidad} \label{prototiposbaja}
+
+Al utilizar los prototipos de baja fidelidad se presenta una ventaja para el desarrollo del sistema, ya que permite al desarrollador modificar o corregir los dise\~nos antes de que se implementen. Algunos de los prototipos de baja fidelidad generados durante el \textit{Focus group} fueron los siguientes:
+
+\begin{itemize}
+\item Prototipo de diseño general (ver Figura \ref{p:f1})
+\item Prototipo de experimento en ejecución (ver Figura \ref{p:f2})
+\item Prototipo de autenticación de usuarios (ver Figura \ref{f:1} y Figura \ref{f:2})
+\item Prototipo de conexión de componentes (ver Figura \ref{f:3} y Figura \ref{f:4})
+\item Prototipo de mensajes de error (ver Figura \ref{f:5} y Figura \ref{f:6})
+\item Prototipo de mensajes de confirmación (ver Figura \ref{f:7} y Figura \ref{f:8})
+\end{itemize}
+
+\begin{figure}[H]
+	\center	
+	\includegraphics[width=10cm]{imag//dg.jpg}		
+	\caption{Prototipo de baja fidelidad del diseño general de la aplicación SIBIB.}\label{p:f1}
+	Fuente: Elaboraci\'on propia.
+	\endcenter
+\end{figure}
+
+\begin{figure}[H]
+	\center	
+	\includegraphics[width=10cm]{imag//dg2.jpg}		
+	\caption{Prototipo de baja fidelidad del módulo experimento en ejecución de la aplicación SIBIB.}\label{p:f2}
+	Fuente: Elaboraci\'on propia.
+	\endcenter
+\end{figure}
+
+\begin{figure}
+ \centering
+  \subfloat[Ventana inicio.]{
+   \label{f:1}
+    \includegraphics[width=0.5\textwidth]{imag//P13.jpg}}
+  \subfloat[Ventana Login.]{
+   \label{f:2}
+    \includegraphics[width=0.5\textwidth]{imag//P12.jpg}}
+ \caption{Prototipo de baja fidelidad del módulo de autenticación de usuarios.}
+ \label{fpf1}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \subfloat[Iniciando comunicación con audio.]{
+   \label{f:3}
+    \includegraphics[width=0.5\textwidth]{imag//P16.jpg}}
+  \subfloat[Iniciando comunicación con cámara.]{
+   \label{f:4}
+    \includegraphics[width=0.5\textwidth]{imag//P17.jpg}}
+ \caption{Prototipo de baja fidelidad del módulo de conexión de componentes.}
+ \label{fpf2}
+\end{figure}
+
+
+\begin{figure}
+ \centering
+  \subfloat[Mensaje de error de conexión con dispositivos.]{
+   \label{f:5}
+    \includegraphics[width=0.5\textwidth]{imag//MensajeError.jpg}}
+  \subfloat[Mensaje de error en contraseña o usuario.]{
+   \label{f:6}
+    \includegraphics[width=0.5\textwidth]{imag//MensajeError2.jpg}}
+ \caption{Prototipo de baja fidelidad de mensajes de error.}
+ \label{fpf3}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \subfloat[Mensaje de confirmación aceptar.]{
+   \label{f:7}
+    \includegraphics[width=0.5\textwidth]{imag//mc.jpg}}
+  \subfloat[Mensaje de confirmación eliminar.]{
+   \label{f:8}
+    \includegraphics[width=0.5\textwidth]{imag//mc2.jpg}}
+ \caption{Prototipo de baja fidelidad de mensajes de confirmación.}
+ \label{fpf4}
+\end{figure}
+
+\chapter{Prototipos de alta fidelidad} \label{prototiposalta}
+
+Con ayuda de los prototipos de baja fidelidad generados, se desarrollaron los prototipos de alta fidelidad, que permiten la interacción del usuario final con el sistema, mostrando acciones, mensajes de error, entre otras cosas. Algunos de los prototipos de alta fidelidad generados son los siguientes:  
+
+\begin{itemize}
+\item Prototipo de menú de usuarios (ver Figura \ref{paf:1})
+\item Prototipo de login usuarios de sistema (ver Figura \ref{paf:2})
+\item Prototipo de dispositivos de configuración (ver Figura \ref{paf:3})
+\item Prototipo de conexión con dispositivos (ver Figura \ref{paf:4})
+\item Prototipo de menú de colocación (ver Figura \ref{paf:5})
+\item Prototipo de seguimiento de instrucciones (ver Figura \ref{paf:6})
+\end{itemize}
+
+
+\begin{figure}
+ \centering
+  \subfloat[Diseño de menú de usuarios del sistema SIBIB.]{
+   \label{paf:1}
+    \includegraphics[width=0.5\textwidth]{imag//i1.png}}
+  \subfloat[Login de usuarios del sistema SIBIB.]{
+   \label{paf:2}
+    \includegraphics[width=0.5\textwidth]{imag//i2.png}}
+ \caption{Prototipo de alta fidelidad de menú y login de usuarios.}
+ \label{paf}
+\end{figure}
+
+
+\begin{figure}
+ \centering
+  \subfloat[Dispositivos de configuración del sistema SIBIB.]{
+   \label{paf:3}
+    \includegraphics[width=0.5\textwidth]{imag//i3.png}}
+  \subfloat[Dispositivos de conexión del sistema SIBIB.]{
+   \label{paf:4}
+    \includegraphics[width=0.5\textwidth]{imag//i4.png}}
+ \caption{Prototipo de alta fidelidad de dispositivos de configuración y conexión.}
+ \label{paff}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \subfloat[Menú de colocación de dispositivos del sistema SIBIB.]{
+   \label{paf:5}
+    \includegraphics[width=0.5\textwidth]{imag//i5.png}} \\
+  \subfloat[Seguimiento de instrucciones de colocación del sistema SIBIB.]{
+   \label{paf:6}
+    \includegraphics[width=0.5\textwidth]{imag//i6.png}}
+ \caption{Prototipo de alta fidelidad de dispositivos de colocación e instrucciones.}
+ \label{pafff}
+\end{figure}
+
+
+%
+%
+%\begin{lstlisting}
+%#include <assert.h>
+%#include <math.h>
+%#include <stdio.h>
+%#include <stdlib.h>
+%#include <string.h>
+%#include <sstream>
+%#include <cstdlib>
+%
+%return (0);
+%}
+%\end{lstlisting}
+
+\chapter{Diccionario de datos} \label{lblDiccionarioDatos}
+Un diccionario de datos es un listado organizado de los elementos pertenecientes a un sistema, este ayuda a complementar la información del diagrama de base presentado en la Sección \ref{dBaseDato}. A continuación se presenta un listado de los diccionarios de base de datos de las Tablas del SIBIB.
+
+\begin{itemize}
+\item Tabla \textit{huella} (ver Tabla \ref{Tabla:huella})
+\item Tabla \textit{usuarios} (ver Tabla \ref{Tabla:usuarios})
+\item Tabla \textit{listaExperimentos} (ver Tabla \ref{Tabla:listaExperimentos})
+\item Tabla \textit{expedienteSujetoPruebas} (ver Tabla \ref{Tabla:expedienteSujetoPruebas})
+\item Tabla \textit{estadoCivil} (ver Tabla \ref{Tabla:estadoCivil})
+\item Tabla \textit{religion} (ver Tabla \ref{Tabla:religion})
+\item Tabla \textit{Sexo} (ver Tabla \ref{Tabla:sexo})
+\item Tabla \textit{gradoEstudio} (ver Tabla \ref{Tabla:gradoEstudio})
+\item Tabla \textit{expedienteSujetoPruebas\_has\_gradoEstudio} (ver Tabla \ref{Tabla:expedienteSujetoPruebashasgradoEstudio})
+\item Tabla \textit{idioma} (ver Tabla \ref{Tabla:idioma})
+\item Tabla \textit{expedienteSujetoPruebas\_has\_idioma} (ver Tabla \ref{Tabla:expedienteSujetoPruebashasidioma})
+\item Tabla \textit{enfermedades} (ver Tabla \ref{Tabla:enfermedades})
+\item Tabla \textit{expedienteSujetoPruebas\_has\_enfermedades} (ver Tabla \ref{Tabla:expedienteSujetoPruebashasenfermedades})
+\end{itemize}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline \multicolumn{4}{||c||}{\textit{\textbf{Tabla huella}}}\\ \hline \cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} &\cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idHuella} & {INT} & {No tiene, es llave primaria} & {Identificador de la tabla \textit{huella}.} \\ \hline \textbf{descripcionDedo} & {VARCHAR (32)} & {No tiene} & {Almacena una breve descripción de la huella.} \\ \hline
+\textbf{print1} & {VARBINARY (4000)} & {No tiene} & {Almacena el conjunto de bits de la huella captada por el sensor de huella.} \\ \hline
+\textbf{usuarios\_idUsuario} & {INT} & {Relación con la tabla \textit{usuarios}} & {Almacena el elemento identificador de la tabla \textit{usuarios}.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla huella}
+\label{Tabla:huella}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla usuarios}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idUsuario} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{usuarios}.} \\ \hline
+\textbf{usuarioNombre} & {VARCHAR (50)} & {No tiene} & {Almacena el nombre del usuario.} \\ \hline
+\textbf{usuarioPass} & {VARCHAR (50)} & {No tiene} & {Almacena la contraseña del usuario.} \\ \hline
+\textbf{usuarioFullName} & {VARCHAR (50)} & {No tiene} & {Almacena el nombre completo del usuario.} \\ \hline
+\textbf{usuarioEmail} & {VARCHAR (50)} & {No tiene} & {Almacena el correo del usuario.} \\ \hline
+\textbf{usuarioTipo} & {VARCHAR (50)} & {No tiene} & {Almacena el tipo de usuario.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla usuarios}
+\label{Tabla:usuarios}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla listaExperimentos}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idListaExperimen- tos} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{listaExperimentos}.} \\ \hline
+\textbf{fecha} & {VARCHAR (50)} & {No tiene} & {Almacena la fecha de realización del experimento.} \\ \hline
+\textbf{nombreExperimen- to} & {VARCHAR (50)} & {No tiene} & {Almacena el nombre del experimento.} \\ \hline
+\textbf{nombreArchivo} & {VARCHAR (150)} & {No tiene} & {Almacena el nombre de la carpeta que contiene los archivos generados durante el experimento.} \\ \hline
+\textbf{experimentoTemp} & {INT} & {No tiene} & {Indica si el experimento se considera como temporal o permite exportarlo y reproducirlo.} \\ \hline
+\textbf{usuarios\_idUsuario} & {INT} & {Relación con la Tabla \textit{usuarios}} & {Identificador de la Tabla \textit{usuarios}.} \\ \hline
+\textbf{expedienteSujeto- Pruebas\_idSujeto- Pruebas} & {INT} & {Relación con la Tabla \textit{expedienteSujetoPruebas}} & {Identificador de la Tabla \textit{expedienteSujetoPruebas}.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla listaExperimentos}
+\label{Tabla:listaExperimentos}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla expedienteSujetoPruebas}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idSujetoPruebas} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{expedienteSujetoPruebas}.} \\ \hline
+\textbf{sujetoNombre} & {VARCHAR (50)} & {No tiene} & {Almacena el nombre del sujeto de pruebas.} \\ \hline
+\textbf{sujetoApPat} & {VARCHAR (50)} & {No tiene} & {Almacena el apellido paterno el sujeto de pruebas.} \\ \hline
+\textbf{sujetoApMat} & {VARCHAR (50)} & {No tiene} & {Almacena el apellido materno del sujeto de pruebas.} \\ \hline
+\textbf{sujetoFechaNac} & {DATE} & {No tiene} & {Almacena la fecha de nacimiento del sujeto de pruebas.} \\ \hline
+\textbf{sujetoCurp} & {VARCHAR (50)} & {No tiene} & {Almacena la clave única de registro de población del sujeto de prueba.} \\ \hline
+\textbf{sexo\_idSexo} & {INT} & {Relación con la Tabla \textit{sexo}} & {Almacena una relación con la tabla \textit{sexo}.} \\ \hline
+\textbf{religion\_idReligion} & {INT} & {Relación con la Tabla \textit{religion}} & {Almacena una relación con la tabla \textit{religion}.} \\ \hline
+\textbf{estadoCivil\_idEsta- doCivil} & {INT} & {Relación con la Tabla \textit{estadoCivil}} & {Almacena una relación con la Tabla \textit{estadoCivil}.} \\ \hline
+\end{tabular}	
+\caption{Diccionario de la tabla expedienteSujetoPruebas}
+\label{Tabla:expedienteSujetoPruebas}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla estadoCivil}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idEstadoCivil} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{estadoCivil}.} \\ \hline
+\textbf{descripcion} & {VARCHAR (45)} & {No tiene} & {Descripción de estado civil, ejemplos: soltero, casado , en una relación entre otros.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla estadoCivil}
+\label{Tabla:estadoCivil}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla religion}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idReligion} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{religion}.} \\ \hline
+\textbf{decripcion} & {VARCHAR (45)} & {No tiene} & {Descripción de la religión, ejemplos: católico, pentecostal, cristiano entre otros.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla religion}
+\label{Tabla:religion}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla sexo}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idSexo} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{sexo}.} \\ \hline
+\textbf{descripcion} & {VARCHAR (45)} & {No tiene} & {Descripción del sexo de un sujeto de pruebas, ejemplos: hombre y mujer.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla sexo}
+\label{Tabla:sexo}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla gradoEstudio}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idGradoEstudio} & {INT} & {No tiene, es llave primaria}& {Identificador de la Tabla \textit{gradoEstudio}.} \\ \hline
+\textbf{descripcion}  & {VARCHAR (45)} & {No tiene}& {Descripción del grado de estudio, ejemplos: Licenciatura en Enfermería, Licenciatura en Informática, Licenciatura en Ciencias Empresariales entre otros.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla gradoEstudio}
+\label{Tabla:gradoEstudio}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla expedienteSujetoPruebas\_has\_gradoEstudio}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{expedienteSujeto- Pruebas\_idSujeto- Pruebas} & {INT} & {Relación con la Tabla \textit{expedienteSujetoPruebas}} & {Identificador de la Tabla \textit{expedienteSujetoPruebas}.} \\ \hline
+\textbf{gradoEstudio\_id- GradoEstudio} & {INT} & {Relación con la Tabla \textit{gradoEstudio}} & {Identificador de la Tabla \textit{gradoEstudio}.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla expedienteSujetoPruebas\_has\_gradoEstudio}
+\label{Tabla:expedienteSujetoPruebashasgradoEstudio}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla idioma}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idIdioma} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{idioma}.} \\ \hline
+\textbf{descripcion} & {VARCHAR (45)} & {No tiene} & {Descripción del idioma, ejemplo: español, inglés, zapoteco entre otros.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla idioma}
+\label{Tabla:idioma}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla expedienteSujetoPruebas\_has\_idioma}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{expedienteSujeto- Pruebas\_idSujeto- Pruebas} & {INT} & {Relación con la Tabla \textit{expedienteSujetoPruebas}} & {Identificador de la Tabla \textit{expedienteSujetoPruebas}.} \\ \hline
+\textbf{idioma\_idIdioma} & {INT} & {Relación con la Tabla \textit{idioma}} & {Identificador de la Tabla \textit{idioma}.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla expedienteSujetoPruebas\_has\_idioma}
+\label{Tabla:expedienteSujetoPruebashasidioma}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla enfermedades}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{idEnfermedades} & {INT} & {No tiene, es llave primaria} & {Identificador de la Tabla \textit{enfermedades}.} \\ \hline
+\textbf{abreviatura} & {VARCHAR (45)} & {No tiene} & {Almacena la abreviatura de la enfermedad.} \\ \hline
+\textbf{nombre} & {VARCHAR (45)} & {No tiene} & {Almacena el nombre completo de la enfermedad.} \\ \hline
+\textbf{descripcion} & {VARCHAR (200)} & {No tiene} & {Almacena una descripción referente a la enfermedad.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla enfermedades}
+\label{Tabla:enfermedades}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{2,5cm}|p{2,5cm}|p{5cm}||}
+\hline
+\multicolumn{4}{||c||}{\textit{\textbf{Tabla expedienteSujetoPruebas\_has\_enfermedades}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{Campo} & \cellcolor{lightgray}\textbf{Tipo} & \cellcolor{lightgray}\textbf{Relación} & \cellcolor{lightgray}\textbf{Descripción} \\ \hline 
+\textbf{expedienteSujeto- Pruebas\_idSujeto- Pruebas} & {INT} & {Relación con la Tabla \textit{expedienteSujetoPruebas}} & {Identificador de la Tabla \textit{expedienteSujetoPruebas}.} \\ \hline
+\textbf{enfermedades\_id- Enfermedades} & {INT} & {Relación con la Tabla \textit{enfermedades}} & {Identificador de la Tabla \textit{enfermedades}.} \\ \hline
+\end{tabular}
+\caption{Diccionario de la tabla expedienteSujetoPruebas\_has\_enfermedades}
+\label{Tabla:expedienteSujetoPruebashasenfermedades}
+\end{center}
+\end{table}
+
+\chapter{Diseño del plan de pruebas} \label{plapru}
+
+A continuación se presenta el diseño del plan de pruebas.
+
+\section{Prueba 1: Validación de expedientes clínicos electrónicos} 
+
+La Tabla \ref{tP1} presenta las condiciones iniciales para la prueba 1.
+
+\begin{longtable}{||C{1cm}|p{13cm}||}
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\ \hline 
+\cellcolor{lightgray}\textbf{{No.}} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endfirsthead
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{No.} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endhead
+\multicolumn{2}{c}{Continúa en la página siguiente.}
+\endfoot
+\endlastfoot
+{01}&{El SIBIB se encuentra en la interfaz de autenticación.}\\ \hline
+{02}&{El lector de huella debe estar desconectado del equipo de cómputo.}\\ \hline
+\caption{Condiciones iniciales de la Prueba 1}
+\label{tP1}
+\end{longtable}
+
+A continuación, se presenta la prueba.
+
+\textbf{Hora inicial de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\textbf{Inicio}
+
+\begin{enumerate}
+	\item {Iniciar sesión llenando los campos ``Nombre de Usuario'' y ``Contraseña''.\\
+			$\bullet$ Nombre de usuario: admin\\
+			$\bullet$ Contraseña: admin\\
+			?`Se logró un inicio de sesión exitoso?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	?`El usuario tuvo retroalimentación?
+		\begin{todolist}
+		\item Sí.
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Ir a la Ventana principal''.\\
+		?`El sistema mostró la ventana principal?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Crear dos nuevos expediente clínicos, llenar uno con la información propia y el otro utilizar la siguiente:\\
+			$\bullet$ Nombre: Luis Fernando\\
+			$\bullet$ Apellido Paterno: Santiago\\
+			$\bullet$ Apellido Materno: Martínez\\
+			$\bullet$ Fecha de Nacimiento: 1996-7-28\\
+			$\bullet$ Carrera: Licenciatura en Informática\\
+			$\bullet$ Religión: Católico\\
+			$\bullet$ Estado Civil: Soltero\\
+			$\bullet$ SAML960728HOCNRS01\\
+			$\bullet$ Sexo: Hombre\\
+			$\bullet$ Lengua Materna: Español\\
+			$\bullet$ Otro idioma: Inglés\\	
+	?`El sistema mostró retroalimentación de la generación exitosa de los expedientes clínicos?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Consultar la información almacenada previamente.\\	
+	?`Se encontró donde se consulta la información de los expedientes clínicos?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Editar'', modificar algunos datos (nombre, estado civil entre otros) y dar clic en el botón ``Guardar cambios''.\\	
+	?`Se logró la tarea con éxito?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Editar'' y dar clic en el botón ``Eliminar Datos''.\\	
+	?`Se eliminó el expediente clínico exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Cerrar sesión, dar clic en ``Cerrar Sesión'' y confirmar el cierre de sesión.\\	
+	?`Se cerró la sesión con éxito?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Salir de la Aplicación.\\	
+	?`Se finalizó la aplicación exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+\end{enumerate}
+ 
+Nombre y firma de aplicador de la prueba:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Nombre y firma de técnico de apoyo:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Lugar y Fecha de aplicación:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Observaciones:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+  
+\textbf{Fin}
+
+\textbf{Hora final de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\section{Prueba 2: Validación de experimentos}
+
+La Tabla \ref{tP2} presenta las condiciones iniciales para la prueba 2.
+
+\begin{longtable}{||C{1cm}|p{13cm}||}
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\ \hline 
+\cellcolor{lightgray}\textbf{{No.}} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endfirsthead
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{No.} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endhead
+\multicolumn{2}{c}{Continúa en la página siguiente.}
+\endfoot
+\endlastfoot
+
+{01}&{El SIBIB se encuentra en la interfaz de autenticación.}\\ \hline
+{02}&{El lector de huella debe estar desconectado del equipo de cómputo.}\\ \hline
+{03}&{El dispositivo Emotiv EPOC+ debe tener una carga mayor a 50\%.}\\ \hline
+
+\caption{Condiciones iniciales de la Prueba 2}
+\label{tP2}
+\end{longtable}
+
+A continuación, se presenta la prueba.
+
+\textbf{Hora inicial de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\textbf{Inicio}
+
+\begin{enumerate}
+	\item {Iniciar sesión llenando los campos ``Nombre de Usuario'' y ``Contraseña''.\\
+			$\bullet$ Nombre de usuario: admin\\
+			$\bullet$ Contraseña: admin
+		\\	
+	?`Se logró un inicio de sesión exitoso?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+		
+	\item {Dar clic en el botón ``GSR''.\\	
+	?`Se encontró donde ver la información del GSR?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seguir los pasos de colocación del dispositivo y pulsar el botón ``Finalizar''.\\	
+	?`Se siguió cada paso de manera exitosa?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	
+	Nota: Finalizar el proceso de la terminal.
+
+	\item {Dar clic en el botón ``SRC''.\\	
+	?`Se encontró donde ver la información del SRC?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seguir los pasos de colocación del dispositivo y pulsar el botón ``Finalizar''.\\	
+	?`Se siguió cada paso de manera exitosa?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	
+	
+	Nota: Finalizar el proceso de la terminal.
+\item {Dar clic en el botón ``Emotiv EPOC+''.\\	
+	?`Se encontró donde ver la información del dispositivo Emotiv EPOC+?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seguir los pasos de colocación del dispositivo y pulsar el botón ``Finalizar''.\\	
+	?`Se siguió cada paso de manera exitosa?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	
+	\item {Dar clic en el botón ``Ir a la Ventana principal''.\\	
+	?`El sistema mostró la ventana principal?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Iniciar SIREDA con permisos de superusuario (Se ejecuta en la computadora con Ubuntu).\\
+	\\ Paso 1. Ejecutar la aplicación Terminal.
+	\\ Paso 2. Dirigirse a la carpeta SIREDA, ejecutar el comando ``cd SIREDA''.
+	\\ Paso 3. Ejecutar el comando ``sudo su''.
+	\\ Paso 4. Ejecutar el comando ``sh compilar.sh''.
+	\\ Paso 5. Ejecutar el comando ``sh ejecutar.sh''.\\
+	?`Se inició SIREDA exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Ingresar la dirección IP de la máquina que contiene SIREDA.\\
+			?`Se ingresó exitosamente la dirección IP?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Ingresar el puerto de conexión de la máquina que contiene SIREDA.\\
+			?`Se ingresó el puerto de conexión de manera exitosa?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Probar Conexión''.\\
+			?`Se logró una conexión exitosa?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Elegir a un sujeto de pruebas para el experimento.\\
+			?`Se eligió un sujeto de pruebas exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Escribir el nombre del experimento.\\
+			?`Se escribió el nombre del experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No
+	\end{todolist}
+	\item {Dar clic en el botón ``Iniciar''.\\
+			?`Se encontró donde iniciar con el experimento?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Comenzar visualización de los sensores, dar clic en el botón ``Comenzar''.\\
+			?`Se encontró donde se inicia con la visualización del nivel de conexión de los sensores?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Iniciar el almacenamiento de información para almacenar el primer experimento, dar clic en el botón ``Iniciar''.\\
+			?`Se inició el primer experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Escribir tres comentarios diferentes al experimento.\\
+			?`Se encontró donde agregar el comentario?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Finalizar el almacenamiento de información, dar clic en el botón ``Finalizar''.\\
+			?`Se finalizó el primer experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Iniciar el almacenamiento de información para almacenar el segundo experimento, dar clic en el botón ``Iniciar''.\\
+			?`Se inició el segundo experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Agregar tres comentarios diferentes al experimento.\\
+			?`Se encontró donde agregar el comentario?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Finalizar el almacenamiento de información, dar clic en el botón ``Finalizar''.\\
+			?`Se finalizó el segundo experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Iniciar el almacenamiento de información para almacenar el tercer experimento, dar clic en el botón ``Iniciar''.\\
+			?`Se inició el tercer experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Agregar tres comentarios diferentes al experimento.\\
+			?`Se encontró donde agregar el comentario?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Finalizar el almacenamiento de información, dar clic en el botón ``Finalizar'', dar clic en el botón ``Detener'' y cerrar de la ventana del experimento.\\
+			?`Se finalizó con el tercer experimento exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist} 
+	\item {Actualizar la ventana de iniciar experimento, dar clic en el botón ``Actualizar'', dar clic en el botón ``Editar'', cambiarle algún dato y dar clic en el botón ``Guardar cambios''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Eliminar información de uno de los experimentos realizados, dar clic en el botón ``Eliminar''.\\
+			?`Se eliminó la información exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Almacenar en base de datos uno de los experimentos restantes, dar clic en el botón ``Almacenar''.\\
+			?`El sistema almacenó los datos exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+
+	\item {Dar clic en ``Historial de experimentos'', dar clic en el botón ``Actualizar''.\\
+			?`Se encontró historial de experimentos?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	
+	\item {Exportar la información de uno de los experimentos en la ruta que se prefiera, dar clic en el botón exportar.\\
+			?`Se exportó la información exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Utilizar el filtro de información buscando un experimento por su nombre.\\
+			?`Se utilizó el filtro de información exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en ``Reportes'', Dar clic en ``Exportar'' en la sección ``Lista de Historial de Experimentos'' y almacenar donde prefiera el usuario.\\
+			?`Se realizó esta actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No
+	\end{todolist}
+	\item {Dar clic en ``Reportes'', Dar clic en ``Exportar'' en la sección ``Lista de Historial de Experimentos Temporales'' y almacenar donde prefiera el usuario.\\
+			?`Se realizó esta actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Cerrar sesión, dar clic en ``Cerrar Sesión'' y confirmar el cierre de sesión.\\
+			?`Se cerró la sesión exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Salir de la Aplicación.\\	
+	?`Se finalizó la aplicación exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+\end{enumerate}
+
+Nombre y firma de aplicador de la prueba:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Nombre y firma de técnico de apoyo:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Lugar y Fecha de aplicación:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Observaciones:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+  
+\textbf{Fin}
+
+\textbf{Hora final de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+
+\section{Prueba 3: Validación de la creación de usuarios}
+
+La Tabla \ref{tP3} presenta las condiciones iniciales para la prueba 3.
+
+\begin{longtable}{||C{1cm}|p{13cm}||}
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\ \hline 
+\cellcolor{lightgray}\textbf{{No.}} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endfirsthead
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{No.} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endhead
+\multicolumn{2}{c}{Continúa en la página siguiente.}
+\endfoot
+\endlastfoot
+
+{01}&{El SIBIB se encuentra en la interfaz de autenticación.}\\ \hline
+{02}&{El lector de huella debe estar conectado al equipo de cómputo con Windows.}\\ \hline
+
+\caption{Condiciones iniciales de la Prueba 3}
+\label{tP3}
+\end{longtable}
+
+A continuación, se presenta la prueba.
+
+\textbf{Hora inicial de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\textbf{Inicio}
+
+\begin{enumerate}
+	\item {Iniciar sesión llenando los campos ``Nombre de Usuario'' y ``Contraseña''.\\
+			$\bullet$ Nombre de usuario: admin\\
+			$\bullet$ Contraseña: admin
+	}
+	?`Se logró un inicio de sesión exitoso?
+	
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Ir a la Ventana principal''.\\
+			?`El sistema mostró la ventana principal?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Perfil'', dar clic en el botón ``Nuevo'', llenar los campos correspondientes y dar clic en el botón ``Guardar''.\\
+			?`Se creó el perfil de usuario exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Selecciona el perfil creado.\\
+			?`Se seleccionó el perfil exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}	
+	
+	\item {Dar clic en el botón ``Capturar Nueva Huella'', utilizar el dedo índice, colocarlo la cantidad de veces que indique el programa, agregar su descripción y dar clic en el botón ``Guardar''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Capturar Nueva Huella'', utilizar el dedo medio, colocarlo la cantidad de veces que indique el programa, agregar su descripción y dar clic en el botón ``Guardar''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Capturar Nueva Huella'', utilizar el dedo anular, colocarlo la cantidad de veces que indique el programa, agregar su descripción y dar clic en el botón ``Guardar''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seleccionar la huella con descripción ``dedo índice'' y dar clic en ``Eliminar Actual''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seleccionar la huella con descripción ``dedo medio'', modificar la descripción de la huella y dar clic en ``Actualizar Descripción''.\\
+			?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Perfil'', dar clic en el botón ``Nuevo'', llenar los campos correspondientes y dar clic en el botón ``Guardar''.\\
+			?`Se creó el perfil de usuario exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seleccionar al usuario creado y dar clic en ``Eliminar Actual''.\\
+			?`Se eliminó el perfil exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Cerrar sesión, dar clic en ``Cerrar Sesión'' y confirmar el cierre de sesión.\\	
+	?`Se cerró la sesión con éxito?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Salir de la Aplicación.\\	
+	?`Se finalizó la aplicación exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+\end{enumerate}
+
+Nombre y firma de aplicador de la prueba:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Nombre y firma de técnico de apoyo:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Lugar y Fecha de aplicación:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Observaciones:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+  
+\textbf{Hora final de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\textbf{Fin}
+
+
+\section{Prueba 4: Validación de modificación de la información propia}
+
+La Tabla \ref{tP4} presenta las condiciones iniciales con respecto a la prueba 4.
+
+\begin{longtable}{||C{1cm}|p{13cm}||}
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\ \hline 
+\cellcolor{lightgray}\textbf{{No.}} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endfirsthead
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Condiciones iniciales}}}\\
+\hline 
+\cellcolor{lightgray}\textbf{No.} & \cellcolor{lightgray}\textbf{Descripción}\\ \hline 
+\endhead
+\multicolumn{2}{c}{Continúa en la página siguiente.}
+\endfoot
+\endlastfoot
+
+{01}&{El SIBIB se encuentra en la interfaz de autenticación.}\\ \hline
+{02}&{El lector de huella debe estar conectado al equipo de cómputo.}\\ \hline
+{03}&{Se utilizará el usuario generado en la prueba 3 con su respectiva huella almacenada.}\\ \hline
+
+\caption{Condiciones iniciales de la Prueba 4}
+\label{tP4}
+\end{longtable}
+
+A continuación, se presenta la prueba.
+
+\textbf{Hora inicial de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+\textbf{Inicio}
+
+
+\begin{enumerate}
+	\item {Iniciar sesión con huella digital, colocar el dedo que no haya sido eliminado en el lector.\\	
+	?`El usuario inició la sesión con éxito?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Ir a la Ventana principal''.\\	
+	?`El sistema mostró la ventana principal?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en ``Reportes'' y dar clic en el botón ``Exportar'' del apartado ``Lista de expedientes clínicos''.\\	
+	?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en ``Perfil'', dar clic en ``Editar'', modificar los datos (nombre de usuario, contraseña u otro) y y dar clic en ``Guardar''.\\	
+	?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Capturar Nueva Huella'', utilizar el dedo pulgar, colocarlo la cantidad de veces que indique el programa, agregar su descripción y dar clic en el botón ``Guardar''.\\
+	?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Dar clic en el botón ``Capturar Nueva Huella'', utilizar el dedo meñique, colocarlo la cantidad de veces que indique el programa, agregar su descripción y dar clic en el botón ``Guardar''.\\
+	?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seleccionar la huella con descripción ``dedo pulgar'', modificar la descripción de la huella y dar clic en ``Actualizar Descripción''.\\
+	?`Se realizó la actividad exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Seleccionar la huella para eliminar, dar clic en el botón ``Eliminar Actual'' y confirmar eliminación.\\	
+	?`Se eliminó la huella exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+	\item {Salir de la Aplicación.\\	
+	?`Se finalizó la aplicación exitosamente?
+	}
+	\begin{todolist}
+		\item Sí
+		\item No, existió problema por: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+	\end{todolist}
+\end{enumerate}
+
+Nombre y firma de aplicador de la prueba:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Nombre y firma de técnico de apoyo:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Lugar y Fecha de aplicación:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Observaciones:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+  
+\textbf{Fin}
+
+\textbf{Hora final de la prueba:\_\_\_\_\_\_\_\_\_\_\_\_}
+
+
+
+\chapter{Evaluación Heurístico}\label{refanan}
+
+A continuación se presenta la evaluación heurística realizada en el SIBIB.
+
+\section{Datos del evaluador heurístico}
+
+Como parte fundamental de toda prueba se debe especificar la información sobre el usuario que va a realizar en análisis heurístico. La Tabla \ref{datamin} muestra los campos a tomar en cuenta del evaluador.
+
+\begin{longtable}{||p{4cm}|p{10cm}||}
+\hline
+\multicolumn{2}{||c||}{\textit{\textbf{Información personal del evaluador}}}\\ \hline 
+{Nombre:}&{}\\ \hline
+{Formación académica:}&{}\\ \hline
+{Grado académico:}&{}\\ \hline
+{Áreas de dominio:}&{}\\ \hline
+{Género:}&{}\\ \hline
+\caption{Datos del evaluador heurístico}\label{datamin}
+\end{longtable}
+
+
+\section{Datos de análisis}
+
+En esta sección se presenta la información básica de la prueba (ver Tabla \ref{datos1}), las interfaces que van a ser probadas (ver Tabla \ref{datos2}) y las tareas que se pueden realizar en el sistema.
+
+\begin{longtable}{||p{2cm}|p{12cm}||}
+\hline
+{Fecha}&{}\\ \hline
+{Versión}&{}\\ \hline
+{Evaluador}&{}\\ \hline
+\caption{Información básica de la prueba}
+\label{datos1}
+\end{longtable}
+
+
+\begin{longtable}{||p{2cm}|p{12cm}||}
+\hline
+{Pantallas o interfaces}&{$\bullet$ Interfaz de autenticación.
+
+$\bullet$ Interfaz de menú de opciones generales.
+
+$\bullet$ Interfaz de ayuda para la conexión de sensores.
+
+$\bullet$ Interfaz de inicio de experimento.
+
+$\bullet$ Interfaz de experimento en ejecución.
+
+$\bullet$ Interfaz de historial de experimentos.
+
+$\bullet$ Interfaz de creación de expediente clínico.
+
+$\bullet$ Interfaz de consulta, modificación y eliminación de expediente clínico.
+
+$\bullet$ Interfaz de reportes.
+
+$\bullet$ Interfaz de perfiles de usuario.
+
+$\bullet$ Interfaz de cierre de sesión.
+
+$\bullet$ Iniciar sesión.
+	
+	$\bullet$ Crear expediente clínico.
+
+	$\bullet$ Modificar el expediente clínico.
+
+	$\bullet$ Eliminar el expediente clínico.
+
+	$\bullet$ Ver configuración de sensores GSR, SRC y Emotiv EPOC+.
+
+	$\bullet$ Prueba de conexión entre computadoras.
+}\\ \hline
+\caption{Interfaces a evaluar en la prueba}
+\label{datos2}
+\end{longtable}
+
+\newpage
+
+\begin{longtable}{||p{2cm}|p{12cm}||}
+\hline
+{Tareas}&{$\bullet$ {Iniciar un experimento.
+		
+		\begin{itemize}
+			\item Visualizar la información en tiempo real.
+			\item Almacenar la información del experimento.
+			\item Agregar comentarios.
+		\end{itemize}}
+	
+	$\bullet$ Ver experimentos temporales almacenados.
+
+	$\bullet$ Modificar experimentos temporales almacenados.
+	
+	$\bullet$ Eliminar experimentos temporales almacenados.
+
+	$\bullet$ Almacenar en base de datos un experimento temporal.
+	
+	$\bullet$ Ver historial de experimentos almacenados.
+
+	$\bullet$ Modificar experimentos almacenados.
+
+	$\bullet$ Eliminar experimentos almacenados.
+
+	$\bullet$ Exportar experimentos almacenados.
+
+	$\bullet$ Reproducir experimentos almacenados.
+
+	$\bullet$ Filtrar información de los experimentos almacenados.
+
+	$\bullet$ Generación de reporte de lista de historial de experimentos, lista de experimentos temporales, lista de expedientes clínicos, lista de enfermedades de pacientes, lista de idiomas en pacientes.
+
+	$\bullet$ Crear perfil de usuario, modificar perfil de usuario creado, eliminar perfil de usuario creado (Administrador).
+
+	$\bullet$ Generar huella para un usuario, modificar la descripción de la huella, eliminar la huella (Administrador).
+
+	$\bullet$ Modificar la información propia de perfil.
+
+	$\bullet$ Generar huella, modificar descripción y eliminar la huella propia.
+
+	$\bullet$ Cerrar sesión.
+
+	$\bullet$ Salir de la aplicación.
+}\\ \hline
+
+\caption{Tareas de la prueba}
+\label{datana}
+\end{longtable}
+
+\newpage
+
+\section{Objetivos}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{6cm}|p{4cm}||}
+\hline 
+\cellcolor{lightgray}\textbf{Objetivo}
+ & \cellcolor{lightgray}\textbf{Tarea}
+ & \cellcolor{lightgray}\textbf{Pantalla} \\ \hline 
+
+{Inicio de sesión exitoso}&{Iniciar sesión por medio de nombre de usuario y contraseña.}&{Interfaz de autenticación} \\ \hline 
+{Crear un expediente clínico}&{Crear un expediente clínico con los datos necesarios.}&{Interfaz de creación de expediente clínico} \\ \hline 
+{Modificar un expediente clínico}&{Corregir la información errónea que haya sido ingresada durante la creación de un expediente clínico.}&{Interfaz de consulta, modificación y eliminación de expediente clínico} \\ \hline 
+{Iniciar un experimento}&{Configurar el experimento con los datos pertinentes, probar la conexión e iniciar el experimento.}&{Interfaz de inicio de experimento} \\ \hline 
+{Modificación de experimentos temporales}&{Modificar con otro nombre el experimento.}&{Interfaz de inicio de experimento} \\ \hline 
+{Almacenamiento de experimentos temporales}&{Agregar el experimento a la base de datos.}&{Interfaz de inicio de experimento} \\ \hline 
+{Modificación de experimentos almacenados}&{Modificar con otro nombre el experimento.}&{ Interfaz de historial de experimentos} \\ \hline 
+{Exportación de la información de los experimentos almacenados}&{Exportar el experimento en la ruta que prefiera el usuario.}&{\item Interfaz de historial de experimentos} \\ \hline 
+{Reproducir el experimento almacenado}&{Ver la repetición del experimento en ejecución.}&{ Interfaz de historial de experimentos} \\ \hline 
+
+\end{tabular}
+
+\caption{Objetivos del análisis heurístico Parte 1 de 2}
+\label{XX21}
+\end{center}
+\end{table}
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||p{4cm}|p{6cm}|p{4cm}||}
+\hline 
+\cellcolor{lightgray}\textbf{Objetivo}
+ & \cellcolor{lightgray}\textbf{Tarea}
+ & \cellcolor{lightgray}\textbf{Pantalla} \\ \hline 
+{Exportación exitosa del reporte de lista de historial de experimentos}&{Generación de reporte de lista de historial de experimentos.}&{Interfaz de reportes} \\ \hline 
+{Crear un nuevo usuario}&{Crear un nuevo usuario con los datos necesarios.}&{Interfaz de perfiles de usuario} \\ \hline 
+{Crear una huella para el usuario}&{Generar la huella de usuario con los pasos necesarios.}&{Interfaz de perfiles de usuario} \\ \hline 
+{Cerrar sesión}&{Finalizar la sesión de usuario.}&{Interfaz de cierre de sesión} \\ \hline 
+
+\end{tabular}
+
+\caption{Objetivos del análisis heurístico Parte 2 de 2}
+\label{XX22}
+\end{center}
+\end{table}
+
+\section{Mediciones}
+
+Las mediciones que se utilizaron para este análisis heurístico se describen a continuación.
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{||C{1cm}|p{13cm}||}
+\hline 
+\cellcolor{lightgray}\textbf{Valor}
+ & \cellcolor{lightgray}\textbf{Observaciones} \\ \hline 
+
+{1}&{Se da la mínima expresión del heurístico en las páginas evaluadas.} \\ \hline 
+{2}&{Se da una expresión más baja del heurístico en las pruebas evaluadas.} \\ \hline 
+{3}&{Se da una expresión media del heurístico en las pruebas evaluadas.} \\ \hline 
+{4}&{Se da una expresión alta del heurístico en las pruebas evaluadas.} \\ \hline 
+{5}&{Se da la máxima expresión del heurístico en las pruebas evaluadas.} \\ \hline
+
+\end{tabular}
+
+\caption{Mediciones del análisis heurístico}
+\label{XX2}
+\end{center}
+\end{table}
+
+\section{Principios heurísticos}
+Los principios heurísticos presentados a continuación se describen en la Sección \ref{evalheuricap3}. 
+
+\subsection{Visibilidad del estado en que se encuentra el sistema}
+
+El sistema siempre debe mantener informado al usuario conforme a las acciones que este realice. Así también, debe brindar la retroalimentación necesaria durante su proceso.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{PH1}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+{P1.1}&{La pantalla asociada al producto software tiene un título o cabecera que describe su contenido.}&{}\\ \hline
+{P1.2}&{El icono asociada al producto software permite distinguirlo con facilidad cuando aparece con otros iconos de otros productos.}&{}\\ \hline
+{P1.3}&{Hay feedback visual en menús y cajas de diálogo sobre las opciones seleccionadas actualmente.}&{}\\ \hline
+{P1.4}&{Si se pueden seleccionar múltiples opciones en un menú o caja de diálogo, hay feedback visual sobre qué opciones están seleccionadas.}&{}\\ \hline
+{P1.5}&{Puede el usuario saber en qué estado está el sistema y qué acciones pueden llevarse a cabo.}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 1}
+\label{AEvalUsP1}
+\end{longtable}
+
+\subsection{Correspondencia entre el producto de software y el mundo real}
+
+El sistema debe adecuarse al lenguaje normal del usuario, usando frases o conceptos similares para él. Además la información debe ser presentada de manera consecutiva y lógica conforme se requiera.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Correspondencia entre producto de software y el mundo real}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ 
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P2.1}&{Las imágenes e íconos utilizados son concretos y familiares para el usuario.}&{}\\ \hline
+{P2.2}&{Los menús están organizados de una forma lógica.}&{}\\ \hline
+{P2.3}&{Si se utilizan formas como claves visuales, éstas encajan con las convenciones culturales.}&{}\\ \hline
+{P2.4}&{Las combinaciones de colores utilizadas se corresponde con las expectativas habituales sobre códigos de color.}&{}\\ \hline
+{P2.5}&{Las etiquetas utilizadas en los formularios, se utiliza una terminología familiar al usuario.}&{}\\ \hline
+{P2.6}&{Las opciones de menú encajan en las diferentes categorías establecidas.}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 2}
+\label{AEvalUsP2}
+\end{longtable}
+
+
+\subsection{Control y libertad de usuario}
+
+El sistema proporciona soporte para hacer y deshacer tareas o acciones(colores, tamaños y tipos de letra entre otros).
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Control y libertad de usuario}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P3.1}&{Es fácil moverse entre las pestañas asociadas con el producto software cuando éste las ofrece.}&{}\\ \hline
+{P3.2}&{Si el usuario puede utilizar un ratón para utilizar el producto software, puede seleccionar con él opciones de menú y mediante el teclado.}&{}\\ \hline
+{P3.3}&{Puede el usuario personalizar sus pantallas, archivos y producto software en general.}&{}\\ \hline
+{P3.4}&{Tiene el usuario opción de deshacer cualquiera de las acciones que realiza.}&{}\\ \hline
+{P3.5}&{?`Cuando se produce un error, se informa de forma clara y no alarmista al usuario de lo ocurrido y de cómo solucionar el problema?}&{}\\ \hline
+{P3.6}&{?`Posee el usuario libertar para actuar?}&{}\\ \hline
+{P3.7}&{?`Se informa al usuario de lo que ha pasado?}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 3}
+\label{AEvalUsP3}
+\end{longtable}
+
+\subsection{Consistencia y cumplimiento de estándares}
+
+El sistema mantiene convenciones conforme a sus elementos. 
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Consistencia y cumplimiento de estándares}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P4.1}&{Los iconos están etiquetados.}&{}\\ \hline
+{P4.2}&{El producto software maneja entre 12 y 20 íconos.}&{}\\ \hline
+{P4.3}&{Si se ofrece una opción de salida en el menú del producto software, aparece al final.}&{}\\ \hline
+{P4.4}&{?`Muestra de forma precisa y completa qué contenidos o servicios ofrece realmente el sitio?
+
+?`Los títulos de los menús están centrados o justificados a la izquierda?}&{}\\ \hline
+{P4.5}&{Las diferencias de tamaño de letra son hasta cuatro.}&{}\\ \hline
+{P4.6}&{Las diferencias de uso de fuentes son hasta tres.}&{}\\ \hline
+{P4.7}&{El movimiento utilizando el cursor es coherente a lo largo de todo el producto software.}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 4}
+\label{AEvalUsP4}
+\end{longtable}
+
+\subsection{Prevención de errores}
+
+El sistema cuenta con formularios que indican al usuario los mensajes de error que tiene o le brindan retroalimentación acerca de los campos que han sido llenados correctamente.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Prevención de errores}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+{P5.1}&{Las elecciones disponibles en el menú son lógicas y distinguidas entre sí.}&{}\\ \hline
+{P5.2}&{La navegación entre las ventanas es simple y visible.}&{}\\ \hline
+{P5.3}&{El sistema previene a los usuarios de cometer errores.}&{}\\ \hline
+{P5.4}&{El sistema alerta al usuario si cometerá alguna acción.}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 5}
+\label{AEvalUsP5}
+\end{longtable}
+
+\subsection{ Interacción basada más en el reconocimiento que en el recuerdo}
+
+El sistema minimiza la carga de información por parte del usuario realizando procesos intuitivos.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Interacción basada más en el reconocimiento que en el recuerdo}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ 
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P6.1}&{La presentación de información comienza en la parte superior izquierda.}&{}\\ \hline
+{P6.2}&{La información, claves y mensajes del producto software las ofrece en un lugar visible en pantalla.}&{}\\ \hline
+{P6.3}&{La información se muestra adecuadamente justificada para su fácil recorrido.}&{}\\ \hline
+{P6.4}&{Se puede distinguir fácilmente cuando se ofrece un menú de selección simple y de selección múltiple.}&{}\\ \hline
+{P6.5}&{Las diferentes áreas se agrupan lógicamente y se distinguen mediante cabeceras.}&{}\\ \hline
+{P6.6}&{Los datos que el usuario puede proporcionar de forma opcional en un formulario se marcan de forma clara.}&{}\\ \hline
+{P6.7}&{El uso del tamaño, la negrita, o el color se utiliza para resaltar la importancia de cada elemento que conforma las ventanas.}&{}\\ \hline
+{P6.8}&{Hay una conjunción adecuada de color, brillo y contraste entre foreground y background.}&{}\\ \hline
+
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 6}
+\label{AEvalUsP6}
+\end{longtable}
+
+\subsection{ Flexibilidad y eficiencia de uso}
+
+El sistema permite la interacción flexible y eficiente para los usuarios, de tal forma que, tanto usuarios expertos o experimentados pueden interactuar con él.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Flexibilidad y eficiencia de uso}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P7.1}&{El producto software ofrece lo habitual de forma inmediata.}&{}\\ \hline
+{P7.2}&{El producto software ofrece valores por defecto y completa cuando es posible}&{}\\ \hline
+{P7.3}&{Todo lo que se puede hacer con el producto software pulsando directamente sobre objetos se puede lograr utilizando el teclado.}&{}\\ \hline
+{P7.4}&{Se puede distinguir fácilmente cuando se ofrece un menú de selección simple y de selección múltiple.}&{}\\ \hline
+{P7.5}&{?`El tamaño de fuente se ha definido de forma relativa, o por lo menos, la fuente es lo suficientemente grande como para no dificultar la legibilidad del texto?}&{}\\ \hline
+{P7.6}&{?`El tipo de fuente, efectos tipográficos, ancho de línea y alineación empleados facilitan la lectura?}&{}\\ \hline
+{P7.7}&{?`Existe un alto contraste entre el color de fuente y el fondo?}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 7}
+\label{AEvalUsP7}
+\end{longtable}
+
+\subsection{ Diseño estético y minimalista}
+
+El sistema proporciona diálogos con la información que el usuario necesita, ya sea mensajes informativos o resultados de sus acciones.
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Diseño estético y minimalista}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ \hline
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P8.1}&{Toda la iconografía utilizada en el producto software es conceptual y visualmente distintiva.}&{}\\ \hline
+{P8.2}&{Las etiquetas utilizadas son breves, descriptivas y familiares.}&{}\\ \hline
+{P8.3}&{?`El uso de imágenes o animaciones proporcionan algún tipo de valor añadido?}&{}\\ \hline
+{P8.4}&{?`Las metáforas visuales son reconocibles y comprensibles por cualquier usuario?}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 8}
+\label{AEvalUsP8}
+\end{longtable}
+
+\subsection{ El tratamiento de la privacidad en el software}
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{El tratamiento de la privacidad en el software}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ 
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P9.1}&{Pueden las áreas protegidas o confidenciales ser accedidas con ciertas contraseñas.}&{}\\ \hline
+{P9.2}&{En caso de que el producto software trate información de carácter privado, hay referencias a los reales decretos relacionados.}&{}\\ \hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 9}
+\label{AEvalUsP9}
+\end{longtable}
+
+\subsection{ Portabilidad y extensibilidad}
+
+\begin{longtable}{||C{1,5cm}|p{11cm}|p{1,5cm}||}
+\hline
+\multicolumn{3}{||c||}{\textit{\textbf{Portabilidad y extensibilidad}}}\\ \hline 
+\cellcolor{lightgray}{Id}&\cellcolor{lightgray}{Preguntas}&\cellcolor{lightgray}{Puntos}\\ 
+\hline \endhead \multicolumn{3}{c}{Contin\'ua en la p\'agina siguiente.} \endfoot \endlastfoot
+{P10.1}&{El programa está escrito en un lenguaje de programación portable (p.e.: php, java, python, c, ...).}&{}\\ \hline
+{P10.2}&{El programa está disponible para diferentes sistemas operativos (p.e.: Linux, Windows, Mac).}&{}\\ \hline
+{P10.3}&{El programa puede utilizar archivos de documentación abiertos.}&{}\\ \hline
+{P10.4}&{El programa puede generar archivos de documentación abiertos.}&{}\\ \hline
+{P10.5}&{El programa se integra de forma correcta en el sistema en cuanto a la
+facilidad de instalación.}&{}\\ \hline
+{P10.6}&{El programa se integra de forma correcta en el sistema en cuanto a que no presenta problemas con otros programas o librerías.}&{}\\ \hline
+{P10.7}&{El programa puede reemplazarse de forma simple por nuevas versiones.}&{}\\ \hline
+{P10.8}&{La estructuración del código del producto es correcta y permite modificarlo con facilidad.}&{}\\ \hline
+{P10.9}&{Existe documentación para desarrolladores que ayude a entender el código y los mecanismos de extensión.}&{}\\ 
+\hline
+{}&{\textbf{TOTAL}}&{}\\ \hline
+\caption{Principio heurístico 10}
+\label{AEvalUsP10}
+\end{longtable}
+
+
+Nombre y firma de aplicador de la prueba:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Nombre y firma de técnico de apoyo:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Lugar y Fecha de aplicación:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Observaciones:
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+  

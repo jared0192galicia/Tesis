@@ -1,0 +1,571 @@
+% !TeX root = Tesis.tex
+\chapter{Introducción}
+\label{Ch:Intro}
+
+Las ciencias de la computación evolucionan día a día. Su historia
+a principios del siglo XX donde aparecen las primeras
+computadoras,éstas eran máquinas que ocupaban gran espacio y no
+contaban con entorno gráfico para programarlas todo se hacia de
+manera de manual. Años más tarde aparecen las computadoras de
+escritorio, posteriormente las laptop y en nuestros días los
+dispositivos móviles. A partir de la aparición de los dispositivos
+móviles la tecnología ha optado en construir entornos inteligentes
+de tal manera que se pueda controlar el medio físico. De esta
+manera nace la idea de crear entornos ubicuos.
+
+\vspace*{0.4cm} Un entorno ubicuo es un área autónoma e
+independiente, y que administra sus propios recursos y servicios,
+intercambiando información con otras áreas para coordinarse entre
+ellas y tomar decisiones en función del contexto actual del
+usuario nómada \cite{Castro2010}. Un usuario nómada, es aquel que
+se desplaza dentro del entorno ubicuo entre las diferentes áreas
+tomando un rol diferente en cada una de ellas. Este le permite
+acceder a la información y a los servicios que se ofrecen en estas
+áreas.
+
+\vspace*{0.4cm} A continuación se muestra la estructura general
+que conforma un entorno ubicuo:\\
+
+\vspace*{0.2cm}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=7cm]{pictures//egentornoubicuo.png}\\
+   \caption{Estructura general de un entorno ubicuo}\label{Fig1. Estructura general de un entorno ubicuo}
+  \end{center}
+\end{figure}
+
+\newpage
+En la imagen se muestra cuando un usuario nómada va a interactuar
+en el entorno ubicuo y puede acceder a diferentes servicios
+ofrecidos por estas áreas, como pueden ser: acceder a información
+administrativa, personal, finanzas, recursos humanos; compartir
+información entre los usuarios; acceder a Internet, hacer pagos,
+ingresar a páginas web, hacer compras y videoconferencias con
+otras entidades físicas relacionadas a la organización. En la
+figura anterior se hace mención a estas áreas etiquetando como
+área1, área2, área3 y una área en común denominada área de
+administración de flujos de trabajo. A las áreas anteriores se
+pueden añadir el control de los servicios físicos tales como;
+impresión y escaneado de documentos, control de temperatura,
+control de iluminación, control del sistema de seguridad, etc.\\
+
+\vspace*{0.2cm}
+
+La importancia de controlar el medio físico permite tener mejores
+servicios optimizando el rendimiento de los mismos, por ejemplo:
+solamente debe estar encendida una lámpara cuando exista personal
+que requiera de dicho servicio, mientras tanto no es recomendable
+que se tenga encendida la luz si no se tiene personal en dicha
+área, he aquí la importancia de crear los entornos ubicuos, de tal
+manera que permitan controlar el ambiente de manera óptima y
+eficiente.\\
+
+\vspace{0.2cm}
+
+Dentro del entorno ubicuo el usuario nómada puede manipular los
+servicios ofrecidos por cada área empleando dispositivos móviles,
+a través del área de administración de flujos de trabajo, la cual
+se encarga de controlar los servicios físicos.\\
+
+\vspace{0.2cm} Pero ahora se preguntará ?`Cómo nacen los entornos
+ubicuos?\\
+
+\vspace{0.2cm}
+
+La historia de los sistemas de cómputo nace a partir de 1970
+cuando surgen los sistemas distribuidos. Estos son considerados
+como una colección de computadoras independientes que aparecen
+ante los usuarios del sistema, como una única
+computadora\cite{Tanenbaum1996}. Los sistemas distribuidos forman
+una LAN que permite a los usuarios acceder a la información de
+manera remota. Con la aparición de las redes inalámbricas y las
+computadoras portátiles,permiten acceder a la información de
+manera móvil, se da una evolución de los sistemas distribuidos
+hacia el cómputo móvil, que nace en la década de 1990. Los
+sistemas de cómputo móvil permiten acceder de manera inalámbrica
+desde cualquier dispositivo PDA, Laptop o cualquier teléfono
+celular con capacidad de transmisión y recepción a múltiples
+servicios como e-mail, bases de datos, sistemas ERP, redes
+privadas, internet e intranet, en forma sencilla y rápida
+\cite{computomovil}. Con el avance de la tecnología los
+dispositivos portátiles tienden a ser más pequeños, incrementando
+su mayor uso en aplicaciones, que no sólo permiten acceder a la
+información sino a los servicios que se ofrecen en las redes
+inalámbricas. La disminución en el tamaño de estos dispositivos
+móviles hace que sean imperceptibles a la vista del usuario,
+creando con ello los espacios inteligentes, dando origen así a la
+idea de cómputo ubicuo. Mark Weiser visualiza esta idea de cómputo
+ubicuo como: ``las tecnologías más profundas son las que
+desaparecen... se tejen ellas mismas dentro de la vida cotidiana
+hasta que se vuelven indistinguibles'', lo cual permite a los
+usuarios acceder a la información en entornos denominados entornos
+ubicuos.\\
+\vspace{0.2cm}
+
+Como ya he mencionado anteriormente los entornos ubicuos cuentan
+con el área de administración de flujos de trabajo, el cual
+trabaja de la siguiente manera:\\
+\vspace{0.2cm}
+
+La comunicación entre el dispositivo móvil y el área de
+administración de flujos de trabajo se realiza mediante
+comunicación bluetooth, mientras que la comunicación del área de
+administración de flujos de trabajo y los diferentes sistemas de
+control permite controlarlos mediante la comunicación USB que
+todavía no existen para los entornos ubicuos pero son primordiales
+para establecer la comunicación con los sistemas físicos que se
+encuentren en el entorno. De aquí surge la necesidad de generar el
+protocolo de comunicación vía USB para estos entornos ubicuos.\\
+
+\vspace{0.2cm}
+
+El crear estos entornos ubicuos debe contar con la ayuda de
+diversas disciplinas de las ciencias abstractas. En este caso la
+informática forma parte de las ciencias abstractas, y cuya
+definición es el manejo automático de la información. En mi caso
+como Informático me motivó desarrollar este tema de investigación
+por que al crear un protocolo de comunicación se manejará
+eficientemente los recursos computacionales. De igual forma
+controlar de los equipos físicos de un entorno, resultado de ello,
+que se utilicen de la mejor manera sin que se desperdicien, por el
+mal uso que se le da.\\
+
+\vspace{0.2cm}
+
+El generar el protocolo de comunicación vía USB permitirá que un
+entorno ubicuo pueda manipular los equipos físicos y automatizar
+las áreas ofreciendo mejores servicios físicos a los usuarios
+nómadas.\\
+
+\vspace{0.2cm}
+
+Un usuario nómada puede manipular los servicios ofrecidos por cada
+área, empleando dispositivos móviles, a través del área de
+administración de flujos de trabajo, misma que controla los
+equipos físicos dentro del entorno a través del sistema de
+control.\\
+
+\vspace{0.2cm}
+
+La importancia que juega el área de administración de flujos de
+trabajo en un entorno ubicuo radica en que es el área en donde se
+almacena la información para controlar los servicios físicos
+(control de temperatura, ventilación, abrir y cerrar una ventana o
+una puerta, etc.) y los servicios lógicos (aplicaciones web,
+acceso a archivos, etc.) a los que puede tener acceso el usuario
+nómada. Así que es importante contar el área de administración de
+flujos de trabajo como un área común para todas las áreas de
+manera que se cumpla con la definición del cómputo ubicuo, proveer
+servicios a los usuarios en redes que se tejen en objetos de la
+vida diaria, pero que sean imperceptibles a la vista del usuario.
+Y la informática puede contribuir a este desarrollo automatizando
+el flujo de información entre el área de administración de flujos
+de trabajo y el sistema de control.\\
+
+\vspace{0.2cm}
+
+\newpage
+\section{Planteamiento del Problema}
+Los entornos hospitalarios ubicuos son áreas autónomas que
+trabajan de forma independiente, pero tienen que ser controladas y
+administradas por el área de administración de flujos de trabajo
+(AAFT), que se encarga de ofrecer los servicios disponibles en la
+red a los usuarios nómadas. Estos servicios pueden ser web o de
+manipulación de servicios físicos. Para que el usuario nómada
+pueda manipular los servicios físicos a través del área de
+administración de flujos de trabajo, es necesario disponer de un
+sistema de control, que se encargue de controlar dichos servicios.
+El sistema de control es un conjunto de elementos que permiten
+controlar un sistema (e.g. iluminación, ventilación, abrir y
+cerrar puertas y ventanas, entre otros). Básicamente, un sistema
+de control esta formado por sensores, actuadores, sistema de
+acondicionamiento de señal y etapa de potencia.\\
+
+\vspace{0.2cm}
+
+Actualmente en los entornos hospitalarios ubicuos, no se
+especifica el sistema de control, el área de administración de
+flujos de trabajo, ni mucho menos la forma como se comunican ambos
+sistemas. Se ha venido considerando que es suficiente tener un
+área de administración de flujos de trabajo para manipular
+directamente los servicios físicos, lo cual no es cierto, porque
+se tiene la necesidad de tener un sistema de control entre el AAFT
+y los sistemas físicos, el problema surge de la necesidad de crear
+la comunicación entre el área de administrador de flujos de
+trabajo y el sistema de control que es lo que no se tiene y es
+primordial en los entornos hospitalarios ubicuos.\\
+
+\vspace{0.2cm}
+
+Como esta es la primera aportación a los entornos ubicuos todavía
+no se tiene terminadas todas las partes que conforman los entornos
+ubicuos, así es que la prueba para el protocolo de comunicación
+vía USB consistirá en una computadora que simule al AFT y el
+microcontrolador el sistema de control. Esto se realizará enviando
+y recibiendo datos entre la computadora y el microcontrolador a
+través de sus puertos USB mediante la entrada de datos por teclado
+y visualización en pantalla de los resultados a través del monitor
+un LCD respectivamente.\\
+
+\vspace{0.2cm}
+
+La importancia de crear los protocolos en el área de informática
+radica en la facilidad que se obtendrá en el envió de la
+información, lo cual será información que pasará por ciertas
+reglas que estarán automatizadas para facilitar el acceso al área
+de administrador de flujos de trabajo y al sistema de control,
+mismo que la informática se encarga del manejo automático de la
+información y con este aporte la informática se ve involucrado en
+el manejo eficiente de los recursos computacionales con los que se
+cuente para proveer los servicios que se requieran. Toda esta
+investigación de los entornos hospitalarios ubicuos esta en pleno
+desarrollo aún no se han concluido las demás etapas, por
+consiguiente esta investigación quienes vallan a probar el
+protocolo son investigadores que del área de cómputo ubicuo,
+computo móvil y sistemas de control. Aunque es una investigación
+que beneficiará al sector salud, en esta ocasión no se contará con
+el apoyo del personal de esta área para probar este protocolo, por
+que falta la interacción de otras áreas que se ven involucradas en
+un entorno hospitalario ubicuo.\\
+
+\vspace{0.2cm}
+
+\newpage
+\section{Objetivo General}
+
+Desarrollar un protocolo de comunicación USB que posibilite la
+comunicación entre el administrador de flujos de trabajo y el
+sistema de control en un entorno hospitalario ubicuo.\\
+
+\vspace{0.2cm}
+
+\section{Objetivos Específicos}
+
+\begin{itemize}
+    \item Extraer los requisitos de la manera en que se almacenan los datos en el administrador de flujos de trabajo.
+    \item Entregar la documentación de la forma en que trabaja el área de control de la computadora.
+    \item Obtener la configuración correcta del puerto USB en el administrador de flujos de trabajo para enviar/recibir datos.
+    \item Desarrollar la interfaz grafica de configuración del puerto USB con las librerías de Windows archivos (*.dll) y la API de Java para facilitar el envió/recepción de los datos.
+    \item Entregar el manual de configuración del protocolo USB para configurar correctamente el administrador de flujos de trabajo de manera que se pueda implementar la comunicación bidireccional del puerto USB al área de control.
+\end{itemize}
+
+\section{Supuestos}
+
+A través del protocolo de comunicación USB desarrollado se
+comunican correctamente el área de administración de flujos de
+trabajo y el sistema de control de un entorno hospitalario
+ubicuo.\\
+
+\vspace{0.1cm}
+
+El protocolo de comunicación vía USB manipulara de mejor manera el
+área de control de manera que no necesite tanta configuración para
+el envió/recepción de datos.\\
+
+\vspace{0.1cm}
+
+El protocolo de comunicación vía USB permite tener el control de
+los datos, para manipular eficazmente los dispositivos físicos a
+través del sistema de control.\\
+
+\vspace{0.1cm}
+
+Los datos almacenados en el administrador de flujos de trabajo
+permiten tener la correcta administración de los equipos físicos a
+controlar y de los servicios lógicos que se pretenden ofrecer al
+usuario.\\
+
+\vspace{0.2cm}
+
+\section{Hipótesis}
+
+El protocolo de comunicación USB permite una comunicación de alta
+velocidad que permite ser medida igual a la velocidad del
+procesador para la transferencia de la información a través del
+puerto USB 2.0 con el área de control.\\
+
+\vspace{0.2cm}
+
+\newpage
+\section{Justificación}
+
+En la actualidad, se cuenta con entornos hospitalarios donde la
+obtención de información de los distintos servicios es
+relativamente lenta, por lo que no se puede realizar una buena
+administración física de las instalaciones del hospital.\\
+
+\vspace{0.2cm}
+
+En un hospital se tienen diversos usuarios, entre ellos están los
+doctores, enfermeras, pacientes, personal administrativo, etc.
+cada uno de ellos necesita acceder a diversos servicios físicos y
+lógicos dependiendo del lugar donde se encuentre. Para ello se
+debe contar con un sistema de control que visualice el entorno
+físico y envíe datos al área de administración de flujos de
+trabajo de un entorno hospitalario ubicuo. Este flujo de
+información debe ser bidireccional, para que el usuario, a través
+del área de administración de flujos de trabajo, pueda manipular
+los diferentes servicios, y este es precisamente el problema que
+se quiere resolver con el desarrollo de este proyecto.\\
+
+\vspace{0.2cm}
+
+El beneficio que aportará este proyecto de tesis es empezar a
+construir un entorno hospitalario ubicuo, ya que cada día en los
+hospitales se esta empezando a automatizar áreas y servicios, y se
+esta invirtiendo en infraestructura y en tecnología para equiparlo
+de la mejor calidad, mismo que al crear un entorno hospitalario
+ubicuo da inicio a la creación de entornos hospitalarios
+ubicuos.\\
+
+\vspace{0.2cm}
+
+Por ejemplo, en el distrito de Miahuatlán de Porfirio Díaz Oaxaca
+es una región donde se tiene un creciente número de habitantes y
+se cuenta con poco personal médico para atender a los pacientes,
+por lo tanto deben de automatizarse algunas áreas de hospital, la
+solución ideal es empezar a crear entornos hospitalarios ubicuos,
+por ejemplo automatizar el área de administración del hospital. El
+beneficio que se obtendrá será un mejor servicio de salud a la
+población.Algunos ejemplos:\\
+
+\begin{itemize}
+    \item Agilizar el tiempo de consulta para la adqusición del
+    expediente clinico del paciente.
+    \item Ahorro de energía eléctrica en la infraestructura del
+    hospital, cuando no se ocupe dicha área.
+    \item Cuidar del medio ambiente al no utilizar energía cuando
+    no es necesario.
+\end{itemize}
+
+\vspace{0.2cm}
+
+El crear un entorno hospitalario ubicuo beneficiará a médicos,
+enfermeras, pacientes, personal administrativo, etc. ya que
+facilitará el manejo de la información y el acceso a ello será más
+ágil, este proyecto es la primera aportación que se dará al crear
+un entorno hospitalario ubicuo, ya que en un futuro estos entornos
+mejoraran la eficiencia y eficacia para proporcionar mejores
+oportunidades de acceso a la salud pública equipando con la mejor
+y última tecnología para los hospitales del país.\\
+
+\vspace{0.2cm}
+
+Actualmente, se están haciendo inversiones para equipar hospitales
+con las mejores tecnologías de la información, a fin de mejorar la
+calidad de los servicios que se ofrecen. El implementar un entorno
+hospitalario ubicuo permite automatizar las distintas áreas de un
+hospital logrando con ello que se trabaje de mejor manera y
+ofreciendo un servicio de calidad a los usuarios, donde juega un
+papel importante la comunicación entre el área de
+administración de flujos de trabajo y el sistema de control.\\
+
+\vspace{0.2cm}
+
+Esta investigación es importante por que forma parte del
+desarrollo de los entornos hospitalarios ubicuos. Establecer un
+protocolo de comunicación entre el administrador de flujos de
+trabajo y el sistema de control permitirá tener toda la
+automatización antes mencionada, y con la información que se
+almacene en el administrador de flujos de trabajo para controlar
+todas las áreas, pero sobre todo radica en la correcta
+comunicación que se debe implementar, y en esto se apoya de la
+Informática, del manejo
+automático de la información.\\
+
+\vspace{0.2cm}
+
+\section{Metas}
+\begin{itemize}
+    \item Obtener el software del protocolo de comunicación USB para el área de administración de flujos de trabajo como para el sistema de control.
+    \item Documentar las características, reglas y demás especificaciones del protocolo de comunicación USB.
+    \item Realizar un manual del programador que explique la configuración del puerto USB.
+    \item Realizar un manual de usuario donde se explique la instalación y configuración del software del protocolo de comunicación.
+    \item Diseñar los diagramas al flujo de información entre el AAFT y el sistema de control.
+    \item Validar el protocolo de comunicación USB conectando al puerto USB a un cable USB y éste a un LCD y que simule la transferencia de datos enviando datos desde el administrador de flujos de trabajo y el sistema de control.
+\end{itemize}
+
+\newpage
+\section{Marco teórico}
+
+\subsection{Cómputo ubicuo}
+En la actualidad los usuarios de las tecnologías de la información
+y comunicación están pasando de la era de la computadora personal
+PC (Personal Computer), a la era de los dispositivos móviles (e.g.
+Smartphones, computadoras portátiles y PDAs), donde por lo regular
+se tiene acceso a diferentes servicios y éstos se proporcionan de
+manera inalámbrica.\\
+
+\vspace{0.2cm}
+
+Estos dispositivos móviles cada día tienden a hacerse más pequeños
+y con mayor capacidad de procesamiento de información,
+ofreciéndose mayores prestaciones y servicios a través de las
+redes inalámbricas.\\
+
+\vspace{0.2cm}
+
+La idea de Mark Weiser, considerado como el padre del cómputo
+ubicuo, consiste en la desaparición física de la computadora y en
+la incorporación de capacidades de conmutación y comunicación en
+la mayoría de objetos físicos cotidianos, con el fin de formar una
+gran red de dispositivos interconectados, cuyo objetivo es crear
+entornos físicos inteligentes mediante el uso de sistemas
+computacionales, que estén disponibles pero que se vuelvan
+invisibles a los usuarios\cite{Castro2010}. La idea anterior
+define lo que se
+conoce como cómputo ubicuo.\\
+
+\vspace{0.2cm}
+
+Un espacio inteligente para que funcione correctamente, debe estar
+orientado hacia lo que definió Weiser como cómputo ubicuo,
+surgiendo así los entornos ubicuos que constan de muchas
+computadoras colocadas en un espacio físico, unidas por una red de
+alta velocidad y capaces de detectar personas, objetos y
+dispositivos.\\
+
+\vspace{0.2cm}
+
+\subsection{Áreas Autónomas}
+
+Un entorno ubicuo está constituido por áreas autónomas e
+independientes, se llaman de esta manera por que administran sus
+propios recursos y servicios intercambiando información con otras
+áreas para coordinarse entre ellas y toma decisiones en función
+del contexto actual del usuario\cite{Tanenbaum1996}.\\
+
+\vspace{0.2cm}
+
+Dentro de las áreas autónomas, el usuario tiende a volverse
+nómada. El usuario puede manipular distintas áreas y no está
+limitado a una de ellas. Así nace el concepto de usuario nómada.\\
+
+\subsection{Usuario nómada}
+
+El usuario nómada es aquel que se desplaza dentro de las áreas
+autónomas del entorno ubicuo tomando un rol distinto en cada una
+de ellas, lo que le permite acceder a la información y a los
+servicios que se ofrecen en dichas áreas.\\
+
+\vspace{0.2cm}
+
+\subsection{Área de administración de flujos de trabajo (AAFT)}
+
+Como he mencionado anteriormente, los entornos ubicuos están
+constituidos por áreas autónomas independientes de las otras
+áreas, pero para que puedan coordinarse e intercambiar
+información, existe un área común llamada área de administración
+de flujos de trabajo.\\
+
+\vspace{0.2cm}
+
+El área de administración de flujos de trabajo está formada por
+los sistemas de flujos de trabajo (workflows) enfocados a la
+definición y construcción de los procesos de las organizaciones.
+Estas se determinan en términos de tareas\cite{articulodeZur} .
+Los usuarios son definidos como actores, los que llevan a cabo un
+conjunto de tareas, siguiendo un orden parcial, que define el
+momento en que
+deben ser analizadas.\\
+
+\vspace{0.2cm}
+
+Entonces, para que exista comunicación en un entorno ubicuo debe
+existir el área de administración de flujos de trabajo, que se
+encarga de coordinar la comunicación entre las diversas áreas del
+entorno.\\
+
+\vspace{0.2cm}
+
+\subsubsection{Sistemas de control}
+
+Para poder acceder a los servicios físicos que se ofrecen en las
+diversas áreas autónomas, es necesario disponer de uno o varios
+sistemas de control que permitan manipular los servicios físicos.
+Un elemento físico a ser controlado se denomina``Planta'', por
+ejemplo: la temperatura, la iluminación de una sala, puertas,
+ventanas, cafeteras eléctricas, etc.\\
+
+\vspace{0.2cm}
+
+Una combinación de componentes o dispositivos que actúan juntos
+para alcanzar un cierto objetivo se denomina ``Sistema''. Un
+sistema de control es un sistema que consta de muchos componentes
+como: sensores, actuadores, plantas, etc. El objetivo del sistema
+de control es llevar al sistema de un estado inicial a un estado
+final, en un tiempo finito\cite{libroScontrol}.\\
+
+\vspace{0.2cm}
+
+\subsection{Puertos USB}
+En este proyecto el AAFT y el sistema de control, se van a
+conectar entre sí utilizando puertos USB.\\
+
+\vspace{0.2cm}
+
+USB es el acrónimo de Universal Serial Bus \cite{librodeUSB}. El
+USB fue diseñado para establecer una interfaz de comunicación con
+muchos
+tipos de periféricos de las interfaces.\\
+
+\vspace{0.2cm}
+
+El puerto USB nace a partir de 1996 con el USB 1.0, fecha en la
+que es creado por un conjunto de empresas de las cuales se
+destacan IBM, Intel, Northern Telecom, Compaq, Microsoft, Digital
+Equipment Corporation y NEC\cite{puertosES}. Dos años más tarde,
+en 1998, se lanza el USB 1.1, que agrega un Interruptor de salida.
+Y posteriormente, en abril del año 2000, se lanza al mercado el
+USB
+2.0 que agrega opciones de uso de alta velocidad.\cite{librodeUSB}\\
+
+\vspace{0.2cm}
+
+Cuando se inició el diseño del USB se tenía en mente eliminar la
+necesidad de adquirir tarjetas separadas para poner en los puertos
+ISA y PCI y mejorar las capacidades plug and play, permitiendo a
+estos dispositivos ser conectados y desconectados al sistema sin
+la necesidad de reiniciar el sistema operativo.\\
+
+\vspace{0.2cm}
+
+El auge que tuvo el USB en sus primeros años de creación, fue
+gracias al incremento en la velocidad de transmisión y adquisión
+de datos del sistema operativo hacia el USB, lo que llevó a
+reemplazar los teclados y mouse con puertos PS/2, llegando hasta
+el punto de que las placas base modernas carecen ya de dicho
+puerto y ahora solamente cuentan con puertos USB.\\
+
+\vspace{0.2cm}
+
+El USB es una de las mejores alternativas para el envío,
+transmisión y recepción de información de un dispositivo hardware
+al sistema operativo. Para ello existen cuatro clasificaciones de
+la velocidad de transferencia de los
+dispositivos USB:\\
+
+\begin{itemize}
+    \item Baja velocidad: Utilizado por el USB 1.0, con una tasa de transferencia de 1.5 Mbps o 192 KB/s.
+    \item Velocidad completa: Se implementó en el USB 1.1 con una tasa de transferencia de hasta 12 Mbps o 1.5 MB/s.
+    \item Alta velocidad: Actualmente se encuentra en esta categoría el USB 2.0, con una tasa de transferencia de hasta 480 Mbps o 60 MB/s.
+    \item Super alta velocidad: Esta velocidad se implementará en el USB 3.0 con una tasa de transferencia de datos de hasta 4.8 Gbps o 600
+    MB/s.\cite{librodeUSB}
+\end{itemize}
+
+\vspace{0.2cm}
+
+\subsection{Microcontrolador}
+
+Un microcontrolador es un microprocesador con memoria de datos y
+de programas, puertos de entrada y salida, interruptores externos
+e internos, todo integrado en un solo chip.\cite{libroPIC}\\
+
+\vspace{0.2cm}
+
+Dentro de las aplicaciones del microcontrolador se encuentran: PC,
+impresoras láser, máquinas de fax y teléfono inteligentes. También
+son utilizados en DVDs, video juegos y máquinas de lavado.\\
+
+\vspace{0.2cm}
