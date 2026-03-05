@@ -1,60 +1,60 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
-\contentsline {section}{\numberline {1}Antecedentes}{1}{section.1.1}%
-\contentsline {section}{\numberline {2}Planteamiento del problema}{3}{section.1.2}%
-\contentsline {section}{\numberline {3}Justificación}{3}{section.1.3}%
-\contentsline {section}{\numberline {4}Contribución}{4}{section.1.4}%
-\contentsline {section}{\numberline {5}Objetivos}{5}{section.1.5}%
-\contentsline {subsection}{\numberline {5.1}Objetivo general}{5}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {5.2}Objetivos específicos}{5}{subsection.1.5.2}%
-\contentsline {section}{\numberline {6}Hipotesis}{6}{section.1.6}%
-\contentsline {section}{\numberline {7}Alcances y Limitaciones}{6}{section.1.7}%
-\contentsline {section}{\numberline {8}Metodología}{6}{section.1.8}%
-\contentsline {subsection}{\numberline {8.1}Marco Metodológico de Investigación: Design Science Research (DSR)}{6}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {8.2}Estrategia de Diseño y Desarrollo: Kanban}{7}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {8.3}Tipo, Aplicación y Justificación}{7}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {8.4}Fases de Desarrollo y Entregables}{7}{subsection.1.8.4}%
-\contentsline {subsection}{\numberline {8.5}Tipos y Enfoque de Investigación}{8}{subsection.1.8.5}%
-\contentsline {section}{\numberline {9}Cronograma}{9}{section.1.9}%
-\contentsline {section}{\numberline {10}}{9}{section.1.10}%
-\contentsline {section}{\numberline {11}Marco técnico y conceptual}{11}{section.1.11}%
-\contentsline {section}{\numberline {12}Introducción}{11}{section.1.12}%
-\contentsline {subsection}{\numberline {12.1}Sistemas de información en el ámbito de la salud}{11}{subsection.1.12.1}%
-\contentsline {subsection}{\numberline {12.2}Riesgo cardiovascular}{11}{subsection.1.12.2}%
-\contentsline {subsubsection}{Factores de riesgo cardiovascular}{11}{section*.3}%
-\contentsline {subsubsection}{Clasificación del riesgo cardiovascular}{11}{section*.4}%
-\contentsline {subsection}{\numberline {12.3}Sistemas web}{11}{subsection.1.12.3}%
-\contentsline {subsubsection}{Arquitectura de sistemas web}{11}{section*.5}%
-\contentsline {subsubsection}{Aplicaciones web modernas}{11}{section*.6}%
-\contentsline {subsection}{\numberline {12.4}Tecnologías utilizadas}{11}{subsection.1.12.4}%
-\contentsline {subsubsection}{Bun}{11}{section*.7}%
-\contentsline {subsubsection}{Node.js}{11}{section*.8}%
-\contentsline {subsubsection}{Frameworks y librerías empleadas}{11}{section*.9}%
-\contentsline {subsubsection}{Base de datos}{11}{section*.10}%
-\contentsline {subsection}{\numberline {12.5}Usabilidad}{11}{subsection.1.12.5}%
-\contentsline {subsubsection}{Concepto de usabilidad}{11}{section*.11}%
-\contentsline {subsubsection}{Principios de usabilidad}{11}{section*.12}%
-\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{11}{section*.13}%
-\contentsline {subsection}{\numberline {12.6}Seguridad de la información}{11}{subsection.1.12.6}%
-\contentsline {subsubsection}{Protección de datos personales}{11}{section*.14}%
-\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{11}{section*.15}%
-\contentsline {subsection}{\numberline {12.7}Trabajos relacionados}{11}{subsection.1.12.7}%
-\contentsline {section}{\numberline {13}Capítulo III: Diseño y desarrollo del sistema}{11}{section.1.13}%
-\contentsline {subsection}{\numberline {13.1}Introducción}{11}{subsection.1.13.1}%
-\contentsline {subsection}{\numberline {13.2}Análisis de requisitos}{11}{subsection.1.13.2}%
-\contentsline {subsection}{\numberline {13.3}Prototipado de baja fidelidad}{11}{subsection.1.13.3}%
-\contentsline {subsection}{\numberline {13.4}Pruebas de prototipado}{11}{subsection.1.13.4}%
-\contentsline {subsection}{\numberline {13.5}Prototipado de AF}{11}{subsection.1.13.5}%
-\contentsline {subsection}{\numberline {13.6}Pruebas de usuario}{11}{subsection.1.13.6}%
-\contentsline {subsection}{\numberline {13.7}Resultados}{11}{subsection.1.13.7}%
-\contentsline {subsection}{\numberline {13.8}Conclusiones}{11}{subsection.1.13.8}%
-\contentsline {section}{\numberline {14}Capítulo IV: Resultados}{11}{section.1.14}%
-\contentsline {subsection}{\numberline {14.1}Introducción}{11}{subsection.1.14.1}%
-\contentsline {subsection}{\numberline {14.2}Resultados del desarrollo del sistema}{11}{subsection.1.14.2}%
-\contentsline {subsection}{\numberline {14.3}Resultados de las pruebas}{11}{subsection.1.14.3}%
-\contentsline {subsection}{\numberline {14.4}Evaluación del sistema}{11}{subsection.1.14.4}%
-\contentsline {subsection}{\numberline {14.5}Conclusiones}{11}{subsection.1.14.5}%
-\contentsline {section}{\numberline {15}Capítulo V: Conclusiones y trabajos futuros}{11}{section.1.15}%
-\contentsline {subsection}{\numberline {15.1}Conclusiones}{11}{subsection.1.15.1}%
-\contentsline {subsection}{\numberline {15.2}Limitaciones del estudio}{11}{subsection.1.15.2}%
-\contentsline {subsection}{\numberline {15.3}Trabajos futuros}{11}{subsection.1.15.3}%
+\contentsline {chapter}{\numberline {1}Introducción}{2}{chapter.1}%
+\contentsline {section}{\numberline {1}Antecedentes}{2}{section.1.1}%
+\contentsline {section}{\numberline {2}Planteamiento del problema}{4}{section.1.2}%
+\contentsline {section}{\numberline {3}Justificación}{4}{section.1.3}%
+\contentsline {section}{\numberline {4}Contribución}{5}{section.1.4}%
+\contentsline {section}{\numberline {5}Objetivos}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {5.1}Objetivo general}{6}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {5.2}Objetivos específicos}{6}{subsection.1.5.2}%
+\contentsline {section}{\numberline {6}Hipotesis}{7}{section.1.6}%
+\contentsline {section}{\numberline {7}Alcances y Limitaciones}{7}{section.1.7}%
+\contentsline {section}{\numberline {8}Metodología}{7}{section.1.8}%
+\contentsline {subsection}{\numberline {8.1}Marco Metodológico de Investigación: Design Science Research (DSR)}{7}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {8.2}Estrategia de Diseño y Desarrollo: Kanban}{8}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {8.3}Tipo, Aplicación y Justificación}{8}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {8.4}Fases de Desarrollo y Entregables}{8}{subsection.1.8.4}%
+\contentsline {subsection}{\numberline {8.5}Tipos y Enfoque de Investigación}{9}{subsection.1.8.5}%
+\contentsline {section}{\numberline {9}Cronograma}{10}{section.1.9}%
+\contentsline {section}{\numberline {10}}{10}{section.1.10}%
+\contentsline {section}{\numberline {11}Marco técnico y conceptual}{12}{section.1.11}%
+\contentsline {section}{\numberline {12}Introducción}{12}{section.1.12}%
+\contentsline {subsection}{\numberline {12.1}Sistemas de información en el ámbito de la salud}{12}{subsection.1.12.1}%
+\contentsline {subsection}{\numberline {12.2}Riesgo cardiovascular}{12}{subsection.1.12.2}%
+\contentsline {subsubsection}{Factores de riesgo cardiovascular}{12}{section*.9}%
+\contentsline {subsubsection}{Clasificación del riesgo cardiovascular}{12}{section*.10}%
+\contentsline {subsection}{\numberline {12.3}Sistemas web}{12}{subsection.1.12.3}%
+\contentsline {subsubsection}{Arquitectura de sistemas web}{12}{section*.11}%
+\contentsline {subsubsection}{Aplicaciones web modernas}{12}{section*.12}%
+\contentsline {subsection}{\numberline {12.4}Tecnologías utilizadas}{12}{subsection.1.12.4}%
+\contentsline {subsubsection}{Bun}{12}{section*.13}%
+\contentsline {subsubsection}{Node.js}{12}{section*.14}%
+\contentsline {subsubsection}{Frameworks y librerías empleadas}{12}{section*.15}%
+\contentsline {subsubsection}{Base de datos}{12}{section*.16}%
+\contentsline {subsection}{\numberline {12.5}Usabilidad}{12}{subsection.1.12.5}%
+\contentsline {subsubsection}{Concepto de usabilidad}{12}{section*.17}%
+\contentsline {subsubsection}{Principios de usabilidad}{12}{section*.18}%
+\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{12}{section*.19}%
+\contentsline {subsection}{\numberline {12.6}Seguridad de la información}{12}{subsection.1.12.6}%
+\contentsline {subsubsection}{Protección de datos personales}{12}{section*.20}%
+\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{12}{section*.21}%
+\contentsline {subsection}{\numberline {12.7}Trabajos relacionados}{12}{subsection.1.12.7}%
+\contentsline {section}{\numberline {13}Capítulo III: Diseño y desarrollo del sistema}{12}{section.1.13}%
+\contentsline {subsection}{\numberline {13.1}Introducción}{12}{subsection.1.13.1}%
+\contentsline {subsection}{\numberline {13.2}Análisis de requisitos}{12}{subsection.1.13.2}%
+\contentsline {subsection}{\numberline {13.3}Prototipado de baja fidelidad}{12}{subsection.1.13.3}%
+\contentsline {subsection}{\numberline {13.4}Pruebas de prototipado}{12}{subsection.1.13.4}%
+\contentsline {subsection}{\numberline {13.5}Prototipado de AF}{12}{subsection.1.13.5}%
+\contentsline {subsection}{\numberline {13.6}Pruebas de usuario}{12}{subsection.1.13.6}%
+\contentsline {subsection}{\numberline {13.7}Resultados}{12}{subsection.1.13.7}%
+\contentsline {subsection}{\numberline {13.8}Conclusiones}{12}{subsection.1.13.8}%
+\contentsline {section}{\numberline {14}Capítulo IV: Resultados}{12}{section.1.14}%
+\contentsline {subsection}{\numberline {14.1}Introducción}{12}{subsection.1.14.1}%
+\contentsline {subsection}{\numberline {14.2}Resultados del desarrollo del sistema}{12}{subsection.1.14.2}%
+\contentsline {subsection}{\numberline {14.3}Resultados de las pruebas}{12}{subsection.1.14.3}%
+\contentsline {subsection}{\numberline {14.4}Evaluación del sistema}{12}{subsection.1.14.4}%
+\contentsline {subsection}{\numberline {14.5}Conclusiones}{12}{subsection.1.14.5}%
+\contentsline {section}{\numberline {15}Capítulo V: Conclusiones y trabajos futuros}{12}{section.1.15}%
+\contentsline {subsection}{\numberline {15.1}Conclusiones}{12}{subsection.1.15.1}%
+\contentsline {subsection}{\numberline {15.2}Limitaciones del estudio}{12}{subsection.1.15.2}%
+\contentsline {subsection}{\numberline {15.3}Trabajos futuros}{12}{subsection.1.15.3}%
