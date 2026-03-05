@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Tesis"] 1772649387.31526 "Tesis.bcf" "Tesis.bbl" "Tesis" 1772649750.23607 0
-  "Tesis.bcf" 1772649749 134842 37145e40967c9341ea4883401b5ae3f1 "pdflatex"
+["biber Tesis"] 1772649387.31526 "Tesis.bcf" "Tesis.bbl" "Tesis" 1772650005.78762 0
+  "Tesis.bcf" 1772650005 134842 37145e40967c9341ea4883401b5ae3f1 "pdflatex"
   "bibliografia.bib" 1764969555 5826 fe94e2559790658e389f995d6d888a13 ""
   (generated)
   "Tesis.bbl"
   "Tesis.blg"
   (rewritten before read)
-["pdflatex"] 1772649745.03245 "d:/Anteproyecto/Tesis.tex" "Tesis.pdf" "Tesis" 1772649750.23752 0
+["pdflatex"] 1772650001.26365 "d:/Anteproyecto/Tesis.tex" "Tesis.pdf" "Tesis" 1772650005.78882 0
   "C:/Users/Jared Galicia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772649307 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Jared Galicia/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1772649386 14064 420e31456afe72a5e640417e0fc0aeb5 ""
   "C:/Users/Jared Galicia/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1772649334 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -157,14 +157,16 @@
   "C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/tex/latex/xtab/xtab.sty" 1312120263 20106 cec6cadeaa62ca1707a316e38d65a9eb ""
   "Portada.sty" 1772649736 4931 59510f1e8aacaea90431b6a307707027 ""
-  "Tesis.aux" 1772649749 10030 c30e3359a8070bc899b5bd70d5108f0c "pdflatex"
+  "Tesis.aux" 1772650005 7806 076e01fa06e6b3e05b26209e900760c2 "pdflatex"
   "Tesis.bbl" 1772649470 31775 ee863a8238f09ea48fccf925fc1c4e27 "biber Tesis"
-  "Tesis.out" 1772649749 6279 c1bdf0a5cd56258edc8872fe0f2e3dbe "pdflatex"
-  "Tesis.run.xml" 1772649749 2368 83dfd4fb9840101c4aa8e61d22463f2d "pdflatex"
-  "Tesis.tex" 1772649738 26288 f9152c2706cceda712f41d83dbd8e465 ""
-  "Tesis.toc" 1772649749 4994 48a25637ae37249dacda0cf96d221009 "pdflatex"
+  "Tesis.out" 1772650005 8044 673585afd2bbfa389add70f68cb172f8 "pdflatex"
+  "Tesis.run.xml" 1772650005 2368 83dfd4fb9840101c4aa8e61d22463f2d "pdflatex"
+  "Tesis.tex" 1772649990 6900 8aa48bafe8397719efd965523cf4f175 ""
+  "Tesis.toc" 1772650005 5080 f679bfce0d91f3348d0d825d81c167b7 "pdflatex"
   "algoritmo.sty" 1764969555 1207 197ff1e64e84dbf1c9118d07f5b6680f ""
-  "d:/Anteproyecto/Tesis.tex" 1772649738 26288 f9152c2706cceda712f41d83dbd8e465 ""
+  "cap1.aux" 1772650005 6983 f7bd2b397b60863c5fa29366574ce7b5 "pdflatex"
+  "cap1.tex" 1772649961 19363 9f2c58ad6ea2c2a21562a51cf1ed3d65 ""
+  "d:/Anteproyecto/Tesis.tex" 1772649990 6900 8aa48bafe8397719efd965523cf4f175 ""
   "defmat.tex" 1765837887 420 b3aa8020807a52b734b1074be1287104 ""
   "hut12.clo" 1764969555 17945 71655e9f5888462f16091027b2d05c04 ""
   "huthesis.cls" 1764969555 49141 99e42c0beba9bda0ed2c9583a7acd810 ""
@@ -179,4 +181,5 @@
   "Tesis.pdf"
   "Tesis.run.xml"
   "Tesis.toc"
+  "cap1.aux"
   (rewritten before read)

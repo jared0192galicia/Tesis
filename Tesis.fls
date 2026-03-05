@@ -245,6 +245,9 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\a
 INPUT .\Tesis.aux
 INPUT .\Tesis.aux
 INPUT Tesis.aux
+INPUT .\cap1.aux
+INPUT .\cap1.aux
+INPUT cap1.aux
 OUTPUT Tesis.aux
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -347,7 +350,6 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ur
 INPUT C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
-OUTPUT Tesis.toc
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
@@ -356,10 +358,17 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aer12.vf
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+OUTPUT Tesis.toc
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeti12.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeti12.vf
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
+INPUT .\cap1.tex
+INPUT .\cap1.tex
+OUTPUT cap1.aux
+INPUT .\cap1.tex
+INPUT .\cap1.tex
+INPUT cap1.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\imagenes\cronograma.png
 INPUT .\imagenes\cronograma.png
@@ -376,6 +385,9 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
 INPUT Tesis.aux
+INPUT .\cap1.aux
+INPUT .\cap1.aux
+INPUT cap1.aux
 INPUT .\Tesis.out
 INPUT .\Tesis.out
 INPUT Tesis.run.xml

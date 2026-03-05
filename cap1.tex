@@ -1,210 +1,161 @@
-% !TeX root = Tesis.tex
+\chapter{Introducción}
 
-%\setlength{\parskip}{-1cm}%
-%\chapter{Anteproyecto}
+\section{Antecedentes}
+    Actualmente, las enfermedades cardiovasculares continúan siendo la principal causa de morbimortalidad a nivel mundial, lo que representa un grave problema de salud pública. Dicho concepto hace referencia tanto a la frecuencia de las enfermedades (morbilidad) como al número de muertes que estas provocan (mortalidad), es decir, engloba el impacto total que tienen sobre la salud y la vida de la población. Una forma de abordar esta problemática consiste en estructurar las distintas etapas del riesgo cardiovascular mediante tablas de predicción. En este sentido, \textcite{rodriguez2023riesgo} señalan:
+    
+    \begin{quote}
+    “La determinación del riesgo cardiovascular global mediante tablas es la mejor herramienta para establecer políticas más eficientes de prevención de las enfermedades cardiovasculares. Existen pocos estudios publicados sobre riesgo cardiovascular global en Cuba. Se encontró un predominio del riesgo cardiovascular global bajo. Las tablas de la Organización Mundial de la Salud pueden subestimar las categorías de mayor riesgo.” 
+    % \cite{rodriguez2023riesgo}
+    \end{quote}
+    En el estudio realizado por \textcite{ancheytariesgo}, \textit{“Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas”}, se determinó que la mayoría de los pacientes hipertensos presentan un riesgo cardiovascular intermedio-alto, con una fuerte asociación entre el riesgo y factores como la edad, la diabetes y el tabaquismo. Según la autora, el riesgo cardiovascular en la Unidad de Medicina Familiar No. 1 es de nivel intermedio a alto. En la comunidad de la Universidad de la Sierra Sur (UNSIS), este riesgo se ve acentuado principalmente por el sedentarismo, por lo que resulta necesario intervenir en los factores de riesgo modificables para reducirlo.
+
+    De manera similar, el estudio de \textcite{10.1093/ajh/hpae024} reporta una alta prevalencia de hipertensión no controlada en adultos mexicanos, acompañada de una significativa carga de comorbilidades cardiometabólicas. Estos hallazgos evidencian la necesidad de implementar intervenciones específicas y fortalecer las políticas de atención médica para reducir la carga de la enfermedad en el país.
+    
+    % Estos antecedentes refuerzan la importancia de identificar, medir y atender los factores de riesgo en poblaciones vulnerables, promoviendo estrategias preventivas y mecanismos de monitoreo clínico que contribuyan a disminuir la incidencia de enfermedades cardiovasculares.
 
 
-\section{Antecedentes} 
-Los sistemas  de monitorización remota han evolucionado durante los últimos años incrementando su autonomía, portabilidad y funcionalidad. Por otra parte, el avance en el diseño de biosensores y la generación de algoritmos en la adquisición y procesamiento de bioseñales, han permitido incrementar las áreas de oportunidad en el campo de la investigación. Por ejemplo, en el área de la psicología para la evaluación y experimentación de las emociones, la carga cognitiva y los estados mentales, con el fin de extraer  información para su estudio y análisis.
+    Actualmente, en la UNSIS no se cuenta con un sistema basado en TI para la recolección y análisis de datos de salud cardiovascular para la comunidad universitaria en general. Los datos de salud del personal académico y administrativo de la UNSIS son revisados de forma esporádica y sin seguimiento debido a que se almacenan de forma física (expediente clínico) o en sistemas con fuentes de datos dispersas, o no se almacenan. Esta situación dificulta un adecuado seguimiento de su información y, por ende, una prevención adecuada de enfermedades cardiovasculares. 
 
-El término bioseñal se aplica a todos los tipos de señales fisiológicas que pueden ser medidas y controladas, entre las más conocidas se tienen  las generadas por el cerebro (Electroencefalograma (EEG)), la respuesta galvánica de la piel (por sus siglas en inglés GSR) y la Frecuencia Cardíaca (FC). El tratado de bioseñales ha permitido su aplicación en diversos campos de estudio en el área tecnológica, como en la Interacción Humano Computadora (IHC).  En este caso, a partir de la identificación del nivel de carga cognitiva es posible evaluar patrones de comportamiento durante la interacción entre un usuario y un producto tecnológico. Algunos ejemplos de estos productos pueden ser: una pantalla táctil, teléfonos móviles, tabletas, sitio web, aplicaciones móviles y de escritorio entre otros.
+    Por tal motivo se plantea desarrollar un sistema basado en TI para que usuarios especializados en el área de la salud de la UNSIS pueda recabar los datos del resto del personal administrativo y académico para así tener un sistema centralizado de información y estimar resultados de riesgo cardiovascular para prevenir enfermedades a futuro.
+    
+    El sistema estará desarrollado como una plataforma web empleando tecnologías modernas como lo son Node.js y Bun para darle la capacidad de tolerar múltiples conexiones simultaneas. Asimismo, se emplearán TypeScript, React y Next.js, tecnologías actuales ampliamente adoptadas en el desarrollo web por su robustez, mantenibilidad y escalabilidad, lo que permitirá construir una interfaz dinámica, responsiva, usable y óptica para distintos dispositivos. En el lado del servidor, se integrará Hono, un \textit{framework} ligero y de alto desempeño que facilita la creación de API REST (por sus siglas en inglés Representational State Transfer Application Programming Interface) rápidas y seguras. Además, se implementará una arquitectura modular, con el fin de simplificar su mantenimiento, mejorar la reutilización de componentes y permitir futuras actualizaciones sin comprometer la estabilidad del sistema.
 
- A lo largo de las últimas décadas, la adquisición y monitoreo de bioseñales  han tenido importantes avances tecnológicos. \cite{avalos}, en su tesis de maestría propone un marco de trabajo (framework) enfocado en el tratamiento de bioseñales. En este caso se estudió una  electrocardiografía obtenida a través de dispositivos corporales inteligentes. La integración de bioseñales busca servir de apoyo para el análisis y entendimiento de los patrones de un usuario en actividades académicas,  como el diseño de gramáticas libres de contexto. A través de esta propuesta se demostró la funcionalidad para la adquisición e integración de una sola bioseñal (EEG), sin embargo, no se establece si el sistema es capaz de integrar más de una de ellas.
- 
-La detección de carga cognitiva es beneficiosa en varias aplicaciones de la IHC, incluida la gestión de la atención y la adaptación de la interfaz de usuario. Sin embargo, la investigación actual sobre la detección de carga cognitiva basada en bioseñales precisas y en tiempo real carece de comprensión de la longitud de ventana óptima y mínima en la segmentación de datos. \cite{tervone}, presentan un análisis comparativo de longitudes de ventana ultracortas (30s o menos) en la detección de carga cognitiva con un dispositivo portátil. Las funciones de frecuencia cardíaca, variabilidad de la frecuencia cardíaca, respuesta galvánica de la piel y temperatura de la piel se extraen en seis longitudes de ventana diferentes y se utilizan para entrenar un clasificador de aumento de gradiente extremo para detectar la carga cognitiva y el descanso. Este análisis proporciona una base prometedora para futuras aplicaciones en tiempo real con sensores portátiles.
+    El empleo de TypeScript, React, Next.js y Bun se fundamenta en su comprobada eficiencia técnica. Por ejemplo, estudios de carga muestran que Bun supera significativamente a Node JS en número de peticiones por segundo, latencia y uso de memoria. \textcite{bun2024loadtesting}.
+    Asimismo, investigaciones recientes han documentado que aplicaciones construidas con Next.js obtienen mejoras relevantes en métricas de rendimiento y SEO (uso adecuado de etiquetas de código) frente a aplicaciones desarrolladas exclusivamente con React. \textcite{patel2023nextjsperformance}.
+    Estas evidencias refuerzan que la arquitectura propuesta, basada en stacks contemporáneos y modulares, no sólo es escalable sino también optimizada para rendimiento y mantenibilidad.
 
-La tecnología se encuentra inmersa en nuestra vida diaria, cuando nos imaginamos el futuro, siempre lo hacemos con la certeza de que existirán nuevas tecnologías y formas de comunicarnos. \cite{vaquero}, propone el desarrollo de aplicaciones e interfaces de Realidad Virtual (RV) capaces de adaptarse al estado cognitivo y emocional del cerebro humano, lo cual involucra la medición y la detección de patrones en la actividad cerebral al analizar los datos medidos mediante bioseñales de tipo EEG. Asimismo  \cite{vaquero}, estudia la posibilidad de integrar en un sistema como el descrito un modo de reconocer en tiempo real patrones de actividad cerebral asociados a distintos estados emocionales y cognitivos, como el estrés, la imaginación motora y la carga cognitiva. Todo ello con el fin de alterar el entorno virtual para adaptarse a estas nuevas circunstancias. Una de las desventajas es que al igual que \cite{avalos}, solo emplean el estudio de una bioseñal.
 
-En la IHC para determinar si un producto cumple con los requerimientos de usabilidad se debe evaluar la eficiencia, la eficacia y la satisfacción. Para ello tradicionalmente se emplean técnicas subjetivas, que muchas veces los resultados varían dependiendo del estado emocional del sujeto. Actualmente, se están estudiando aplicar técnicas objetivas, donde el manejo de bioseñales juega un papel importante. El desarrollo de un software para la obtención de un conjunto de bioseñales a partir de dispositivos inteligentes, sería una excelente aportación para investigadores en cualquier campo de estudio, que estén interesados en realizar un análisis con la información obtenida. Este tipo de software ya existe en el mercado, pero muchas veces no es accesible debido a las exigencias del equipo computacional del investigador. Otra desventaja es que la mayoría de los sistemas existentes no son de código abierto, estos se conectan a los servidores de empresas que brindan servicios en la nube, las cuales muchas veces en sus políticas no establecen la privacidad de los datos.
-|
-
-\section{Planteamiento del problema} 
-La pregunta de investigación es la siguiente: ¿Cómo desarrollar un sistema diseñado mediante un framework UX y de software libre, que  proporcione el nivel de carga cognitiva a partir del tratamiento de bioseñales como parte de la evaluación en el  ciclo de vida del Diseño Centrado en el Usuario (DCU)?
+\section{Planteamiento del problema}
+    % Contexto general
+    En la UNSIS no se cuenta con un sistema informático de recolección de datos médicos del personal; por tal motivo, no se puede dar una continuidad adecuada al personal, lo que dificulta la elaboración de reportes precisos y confiables sobre el riesgo cardiovascular u otras enfermedades, o bien implica una gran cantidad de trabajo manual. Ya que los datos de las historias clínicas se encuentran dispersos, almacenados físicamente o no existen.
+    
+    % Descripción específica
+    Estos factores afectan a toda la comunidad de la UNSIS, desde el personal administrativo hasta el académico, porque la información relacionada con su estado de salud no cuenta con un adecuado sistema de almacenamiento electrónico.
+    
+    % Formulación del problema
+    Ante esta situación, surge la necesidad de plantear las siguientes preguntas de investigación para un resultado más específico: \\[4pt]
+   ¿Cómo diseñar e implementar un sistema web utilizando tecnologías modernas y escalables que permita centralizar, registrar y representar la información de salud del personal académico y administrativo de la Universidad de la Sierra Sur, apoyando a los especialistas la detección temprana de factores de riesgo cardiovascular?
+    
+    % Justificación
+    % Los beneficios pueden resumirse en que la integración de la información y un correcto procesamiento de la misma pueden ser una herramienta que ayude a los expertos a detectar las enfermedades cardiovasculares y así prevenirlas mediante un tratamiento oportuno.
+    
+    % Delimitación
+    El alcance esperado para el sistema web es la recolección de la información relacionada con el riesgo cardiovascular del personal académico y administrativo de la UNSIS. Toda la información deberá ser recolectada por lo usuarios especializados y analizada por usuarios administrativos del sistema.
 
 
 \section{Justificación}
-Durante el desarrollo de un sistema se deben establecer las metodologías que se van emplear, por un lado la Ingenería de Software(IS) considera metodologías centradas en la funcionalidad del sistema, mientras que en el Diseño Centrado en el Usuario (DCU) su objetivo se basa en la experiencia del usuario. Con respecto a las metodologías de la IS una de las ventajas del DCU es que involucra al usuario en todas las etapas de su ciclo de vida. Para determinar la usabilidad de un sistema o software existen diversas técnicas, que permiten medir el nivel de usabilidad a partir de la experiencia del usuario durante la interacción.
+    Actualmente, la UNSIS enfrenta una deficiencia en la gestión, almacenamiento y trazabilidad de los expedientes clínicos de su comunidad universitaria. Esta limitación informática imposibilita la creación de un historial clínico digital continuo y, por ende, la realización de un seguimiento efectivo del estado de salud de los empleados de la institución.
 
-Una de las etapas más importantes del DCU es la etapa de evaluación, ya que en esta se determina el nivel de usabilidad que presenta el sistema antes de su lanzamiento. En ella se aplican  métodos tradicionales como indagación, inspección y test, los cuales se basan en examinar las interfaces y su interacción con el usuario, además establecen métricas para cuantificar el rendimiento, la satsifacción y la eficacia del usuario con el sistema. Durante la interacción entre un usuario y un sistema, en el usuario se generan emociones y estados cognitivos, además cuando un usuario intenta resolver una tarea en específico es posible que experimente diferentes niveles de carga cognitiva. Los métodos tradicionales ya mencionados no evalúan el nivel de carga cognitiva durante la interacción de manera objetiva. Hoy en día gracias al avance tecnológico es posible determinar el nivel de carga cognitiva a través del estudio de las señales fisiológicas.
+    El sedentarismo que se da en la UNSIS es debido a que es una institución educativa, lo que implica permanecer varias horas sentado para toda la comunidad universitaria. Según un estudio se señala que pasar períodos prolongados sin actividad física 
+    se asocia con un mayor riesgo de insuficiencia cardíaca (HR = 1.45) y mortalidad cardiovascular \textcite{Ajufo2025SedentaryCVD}.
 
-En la actualidad existen dispositivos fisiológicos que nos permiten controlar  y evaluar patrones de comportamiento, carga cognitiva y emociones mediante la adquisición de bioseñales. En la IHC la obtención de este tipo de señales permite conocer y analizar patrones de comportamiento de las personas al interactuar con un sistema informático, con el fin de desarrollar software centrado en las necesidades y características de los usuarios. 
+    La selección del tema surge de la necesidad de contar con un sistema que permita recolectar, almacenar y representar la información médica del personal académico y administrativo de la UNSIS. La integración de diversas áreas de la informática facilitará la generación de estadísticas descriptivas básicas, las cuales podrán ser interpretadas por un especialista para detectar de manera temprana posibles riesgos cardiovasculares.
+    
+    Como resultado de este proyecto, se espera obtener un historial limpio y ordenado de toda la comunidad universitaria. A partir de esta herramienta web, se busca que la información sea más accesible para los expertos, presentándola de forma organizada y estructurada. Adicionalmente, se proporcionará información de estadística descriptiva sobre los datos para facilitar su análisis e interpretación.
 
-La detección de carga cognitiva basada en bioseñales en tiempo real carece de herramientas tecnológicas accesibles y usables, que nos permitan el tratamiento de bioseñales para su estudio y análisis. El desarrollo de un software libre, que permita el tratamiento de bioseñales y diseñado mediante un framework UX (basado en la experiencia de usuario) serviría como un sistema de apoyo durante el proceso de evaluación. Los beneficiarios con este sistema serían ingenieros de pruebas, investigadores y evaluadores de usabilidad, que deseen complementar las evaluaciones de experiencia de usuario con una evaluación del estado cognitivo en tiempo real. 
+    En el área de informática se desarrollará un sistema con una arquitectura que haga intuitivo el mantenimiento y escalamiento del sistema web, gracias a la integración de diversas tecnologías que optimizan el proceso y la experiencia de desarrollo. Además, se espera que las tecnologías usen los recursos físicos del servidor de forma optima.
 
+    El proyecto es técnicamente viable, ya que su desarrollo no requiere un equipo amplio de desarrolladores ni infraestructura computacional de alto rendimiento para su operación, gracias al tamaño del sistema y a la eficiencia de tecnologías como Node y Bun. Además, la UNSIS ya cuenta con servidores que ejecutan aplicaciones similares, por lo tanto, su desarrollo como su implementación no tendrán obstáculos tecnológicos significativos.
+    
+    Una vez desarrollado, el sistema web tendrá un impacto positivo en la comunidad UNSIS, particularmente en aspectos administrativos y médicos, poniendo a disposición de la universidad una herramienta web que les ayudará a realizar un proceso completo de recolección, almacenamiento y representación de la información.
 
-
-
-%\section{Hipótesis}
-%A continuación se presentan las hipótesis que se planean probar al concluir esta investigación.
-
-%\subsection*{Hipótesis general}
-
-
-%\subsection*{Hipótesis específicas}
-
-
+\section{Contribución}
+    El presente proyecto contribuye al área médica de la UNSIS mediante la creación de un historial clínico digital centralizado que sustituye los registros físicos dispersos. Socialmente, aporta una herramienta de medicina preventiva para el personal académico y administrativo, facilitando la identificación de riesgos como el sedentarismo y la hipertensión. Tecnológicamente, ofrece una arquitectura de alto rendimiento basada en Bun y Node.js que sirve como referencia para futuros desarrollos institucionales.
 \section{Objetivos}
-\subsection{Objetivo general}
-Desarrollo de un sistema diseñado mediante un framework UX y de software libre, que  proporcione el nivel de carga cognitiva a partir del tratamiento de bioseñales como parte de la evaluación en el  ciclo de vida del Diseño Centrado en el Usuario (DCU.
 
+    \subsection{Objetivo general}
+        Desarrollar un sistema web usable basado en tecnologías modernas para el registro, almacenamiento y representación de datos relacionados con los factores de riesgo cardiovascular del personal de la Universidad de la Sierra Sur, mediante una plataforma centralizada de información médica, que proporcione a los expertos una herramienta tecnológica usable para la toma de decisiones preventivas en materia cardiovascular.
+        
+    \subsection{Objetivos específicos}
+    
+        \begin{itemize}
+            \item \textbf{Diseño:} Diseñar una arquitectura y una interfaz de usuario del sistema web, estableciendo la estructura de datos, los módulos funcionales y un entorno visual intuitivo que permita el registro y consulta eficiente de la información médica del personal, garantizando usabilidad y coherencia en todos los componentes.
+        
+            \item \textbf{Desarrollo:} Desarrollar los módulos centrales del sistema web, incluyendo los módulos de captura, almacenamiento y procesamiento de los factores de riesgo cardiovascular, empleando tecnologías modernas que aseguren rendimiento y seguridad.
+        
+            \item \textbf{Implementación:} Implementar y desplegar un prototipo funcional en un entorno de producción, configurando los servidores y servicios necesarios para su operación, con el fin de validar el funcionamiento del sistema, evaluar su desempeño en escenarios reales y facilitar la adopción inicial por parte del personal de la UNSIS.
 
-\subsection{Objetivos específicos}
+            \item \textbf{Evaluación:} Evaluar la usabilidad de la interfaz gráfica del sistema web mediante la aplicación de Pruebas de Usabilidad Basadas en tareas y la Escala de Usabilidad del Sistema (SUS). Estas pruebas se realizarán con usuarios finales no expertos para comprobar la eficacia en la realización de tareas críticas, medir el nivel de satisfacción y validar la calidad de la Interacción Humano-Computadora (IHC) del sistema desarrollado.
+        \end{itemize}
 
-\begin{itemize}
-	\item Determinar y aplicar las técnicas de evaluación de usabilidad y de análisis en el diseño centrado en el usuario.
-	\item 
-	Conocer sobre la teoría de la carga cognitiva, la medición de las emociones, las señales psicofisiológicas.
-	\item Determinar si los sensores psicofisiológicos son capaces de discernir realmente los estados cognitivos y emocionales en cada etapa de evaluación de DCU.
-	\item Aplicar o diseñar algoritmos de procesamiento de bioseñales
-	\item Diseñar un plan de pruebas de usabilidad.
-\end{itemize}
-\clearpage
+\section{Hipotesis}
+    La implementación del sistema web usable basado en tecnologias modernas y escalables permitirá centralizar la información clínica relacionada con los factores de riesgo cardiovascular del personal académico y administrativo de la UNSIS, obteniendo una organización, disponibilidad y trazabilidad de los datos, además permitirá el análisis oportuno de indicadores de salud a traves de la visualización de graficas y tablas para el personal médico administrativo de la UNSIS, ayudando a la detección riesgos cardiovasculares.
 
+\section{Alcances y Limitaciones}
+
+        \textbf{Alcances:} 
+        El sistema está diseñado exclusivamente para el personal académico y administrativo de la Universidad de la Sierra Sur (UNSIS). Su principal alcance se centra en la recolección, almacenamiento y visualización de información relacionada con factores de riesgo cardiovascular, con el propósito de apoyar la identificación temprana de posibles riesgos en esta población. La plataforma permite el acceso a la información mediante una interfaz web, facilitando la consulta de datos de manera clara, centralizada y organizada, contribuyendo así a la promoción de la prevención y el autocuidado en el entorno universitario.
+        
+        \textbf{Limitaciones:} 
+        El sistema no sustituye bajo ninguna circunstancia el diagnóstico clínico definitivo realizado por un profesional de la salud, sino que funciona únicamente como una herramienta de apoyo para el análisis y seguimiento de factores de riesgo. Además, la disponibilidad y calidad de los datos recopilados dependen directamente de la disposición de los usuarios para proporcionar información veraz sobre su estado de salud. De igual forma, el correcto funcionamiento y acceso a la plataforma web está condicionado a la infraestructura de red interna de la universidad, por lo que posibles fallas de conectividad podrían limitar su uso en determinados momentos.
+
+% Se menciona como se van a realizar las metricas de la hipotesis 
+% Describir la estructura visual de la informacion (front)
+% Pruebas se puede poner el laboratorio de IHC como lugar de pruebas
+% Diagrama de grant como ejempl, buscar se hace en excel. Va casado con la metodología
+% Consultar timepos del cronograma con el acesor
 \section{Metodología}
-
-Los pasos que se llevarán  a cabo para el desarrollo de esta investigación son los siguientes:
-\begin{itemize}
-
- \item \textbf{Búsqueda bibliográfica:} Búsqueda de documentación con base en las tecnologías y dispositivos que se desean integrar en este sistema. 
-
-
-\item \textbf{Diseño:} El diseño se realizará en base a la metodología Design Thinking dividida en cinco fases: empatizar, definir, idear, prototipar y evaluar. Esta metodología consiste en un proceso iterativo entre los diferentes fases con el fin de generar soluciones basadas en las necesidades reales de los usuarios. 
-
-\item \textbf{Desarrollo:} En esta etapa se buscará implementar una metodología que considere la Ingeniería de Software y la usabilidad.
-
-		
-\item \textbf{Redacción y revisión:} La redacción se llevará a cabo conforme el producto se vaya desarrollando.
-
-\item \textbf{Evaluación del sistema:} En esta etapa se evaluará el sistema mediante la técnicas de evaluación de la usabilidad: indagación, inspección y test.
+    
+    \subsection{Marco Metodológico de Investigación: Design Science Research (DSR)}
+    
+    El marco metodológico unificador para la presente tesis es la Design Science Research (DSR), la cual se centra en la creación de un artefacto y su posterior evaluación. El artefacto central de este proyecto es un sistema web. DSR es el enfoque más adecuado para tesis en Sistemas de Información, ya que integra la creación de soluciones innovadoras con la investigación académica.
+    
+    \subsection{Estrategia de Diseño y Desarrollo: Kanban}
+    
+    Para la estrategia de diseño y desarrollo del sistema web se empleará Kanban, una metodología ágil orientada al flujo continuo y basada en los principios Lean. Este enfoque es idóneo para proyectos con un responsable único, ya que no requiere roles específicos complejos y permite organizar el trabajo de manera visual y flexible.
+    
+    \subsection{Tipo, Aplicación y Justificación}
+    
+    El desarrollo del sistema web adoptará la metodología Kanban como un modelo ágil e iterativo, utilizando el tablero con las columnas clave: "Backlog", "In Progress" y "Done". Cada funcionalidad se representará como una tarjeta que avanzará en el flujo, con un límite al trabajo en curso (para evitar la sobrecarga y optimizar la productividad). Se justifica su uso por la necesidad de flexibilidad y adaptabilidad inherente al desarrollo de software. Esta elección combina simplicidad operativa, control visual claro del progreso y priorización adecuada de funcionalidades críticas.
+    
+    \subsection{Fases de Desarrollo y Entregables}
+    
+    El desarrollo se articulará en fases iterativas y continuas, siguiendo el flujo de trabajo de Kanban, pero estructurado en las etapas fundamentales del ciclo de vida del desarrollo de software para asegurar la completitud:
+    
+    \begin{itemize}
+        \item \textbf{Fase 1: Análisis de Requerimientos.}
+        \begin{itemize}
+            \item \textit{Actividades:} Levantamiento y formalización de requisitos funcionales y no funcionales.
+            \item \textit{Entregable:} Documento de Requisitos.
+        \end{itemize}
+        \item \textbf{Fase 2: Diseño.}
+        \begin{itemize}
+            \item \textit{Actividades:} Definición de la arquitectura, diseño de la base de datos (modelo de datos), diagramas UML (e.g., clases, componentes).
+            \item \textit{Entregable:} Diseño Técnico.
+        \end{itemize}
+        \item \textbf{Fase 3: Implementación (Desarrollo Iterativo).}
+        \begin{itemize}
+            \item \textit{Actividades:} Codificación por módulos y desarrollo continuo según el flujo Kanban, gestión de API y componentes.
+            \item \textit{Entregable:} Código Fuente Funcional, API.
+        \end{itemize}
+        \item \textbf{Fase 4: Pruebas.}
+        \begin{itemize}
+            \item \textit{Actividades:} Ejecución de pruebas unitarias, de integración, de rendimiento y de aceptación (smoke testing).
+            \item \textit{Entregable:} Informe de Pruebas.
+        \end{itemize}
+        \item \textbf{Fase 5: Validación y Despliegue Piloto.}
+        \begin{itemize}
+            \item \textit{Actividades:} Pruebas con usuarios reales, recolección de \textit{feedback}, ajustes finales y despliegue en un entorno productivo limitado.
+            \item \textit{Entregable:} Evaluación de la Intervención y Versión Final Desplegada.
+        \end{itemize}
+    \end{itemize}
+    
+    \subsection{Tipos y Enfoque de Investigación}
+    \label{sec:tipo_enfoque}
+    
+    La investigación que sustenta la tesis se clasifica como:
+    
+    \begin{itemize}
+        \item \textbf{Enfoque:} \textbf{Mixto} (Cuantitativo y Cualitativo), con predominio en el desarrollo y la evaluación cualitativa del artefacto.
+        \item \textbf{Tipo de Investigación:} \textbf{Aplicada}, ya que busca generar conocimiento con aplicación directa para resolver un problema práctico (el desarrollo de SIRCAR).
+        \item \textbf{Diseño de Investigación:} El diseño es de \textbf{Investigación-Desarrollo (Research and Development)}, con énfasis en el ciclo de construcción y evaluación del artefacto, alineándose con el proceso propuesto por la DSR.
+    \end{itemize}
+    
 \section{Cronograma}
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=\textwidth]{imagenes//cronograma.jpg}
-	\caption{Cronograma del proyecto}\label{f:fig1y2}
-	Fuente: Elaboración propia
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{imagenes/cronograma.png} \\
+    \small Figure: Cronograma del proyecto \\ 
+    Fuente: Elaboración propia
 \end{figure}
-%\end{itemize}
-
-%\section{Organización de la Tesis}
-%A continuación se describe la organización de la tesis.
-
-%\begin{itemize}
-%	\item Capítulo 1: ``Introducción'', se incluyen los antecedentes del proyecto, el planteamiento del problema, la justificación, los objetivos y fundamentos del proyecto de investigación.
-%	\item Capítulo 2: ``Análisis de fundamentos'', se incluyen los conocimientos fundamentales sobre los cuales se encuentra basado el proyecto, así también, los principios básicos para el entendimiento del trabajo.
-%	\item Capítulo 3: ``Diseño de la arquitectura del sistema'', se presenta la integración de una arquitectura basada en el diseño centrado en el usuario y una metodología ágil en el desarrollo. Se exponen los procesos o técnicas que se emplearon para diseñar el sistema considerando las necesidades del usuario.
-%	\item Capítulo 4: ``Desarrollo de la arquitectura del sistema'', se define la codificación, la descripción de los datos, diseño e implementación de las pruebas.
-%	\item Capítulo 5: ``Pruebas y evaluación del sistema'', se presentan las pruebas realizadas al sistema y los resultados obtenidos de estas. Las pruebas diseñadas se evalúan con el apoyo de tres evaluadores.
-%	\item Capítulo 6: ``Conclusiones y trabajos a futuro'', contiene las conclusiones y los trabajos a futuro de este proyecto de investigación.
-\end{itemize}
-
-%\clearpage
-%\section{Cronograma}
-%A continuación se presenta el cronograma de tiempo que se planea implementar para elaborar el proyecto de investigación:
-
-%\begin{figure}[htb]
-%	\centering
-%	\includegraphics[width=\textwidth]{imagenes//cronograma.png}
-%	\caption{Cronograma}\label{f:fig1y2}
-%	Fuente: Elaboración propia
-%\end{figure}
-
-%\section{Índice tentativo}
-%\begin{description}
-%	\item[Capítulo 1.] Introducción
-%		\begin{description}
-%			\item 1.1. Antecedentes
-%			\item 1.2. Planteamiento del problema
-%			\item 1.3. Justificación
-%			\item 1.4. Hipótesis
-%			\item 1.5. Objetivos
-%			\item 1.6. Organización de la tesis		
-%		\end{description}
-%	\item[Capítulo 2.] Análisis de fundamentos
-%		\begin{description}
-%			\item 2.1. Introducción
-%			\item 2.2. Batería Neuropsicológica de Funciones Ejecutivas y Lóbulos Frontales 2 (BANFE-2)
-%				\begin{description}
-%					\item 2.2.1. Batería neuropsicológica
-%					\item 2.2.2. Funciones ejecutivas
-%					\item 2.2.3. Lóbulos frontales
-%					\item 2.2.4. Evaluación neuropsicológica
-%					\item 2.2.5. Prueba neuropsicológica
-%					\item 2.2.6. Pruebas de la BANFE-2
-%					\item 2.2.7. Expediente Clínico Electrónico (ECE)		
-%				\end{description}			
-%			\item 2.3. Búsqueda de sistemas informáticos para la BANFE-2
-%				\begin{description}
-%					\item 2.3.1. Sistemas comerciales
-%					\item 2.3.2. Sistemas propietarios
-%					\item 2.3.3. Sistemas gratuitos		
-%				\end{description}
-%			\item 2.4. Diseño centrado en el usuario
-%				\begin{description}
-%					\item 2.4.1. Principios del DCU
-%					\item 2.4.2. Proceso de DCU
-%				\end{description}		
-%			\item 2.5. Metodologías de Ingeniería de Usabilidad
-%				\begin{description}
-%					\item 2.5.1. Ingeniería de Usabilidad
-%					\item 2.5.2. Tipos de metodologías
-%				\end{description}
-%			\item 2.6. Metodologías de Ingeniería de Software
-%				\begin{description}
-%					\item 2.6.1. Ingeniería de Software
-%					\item 2.6.2. Metodologías clásicas
-%					\item 2.6.3. Metodologías evolutivas
-%					\item 2.6.4. Metodologías ágiles
-%				\end{description}
-%			\item 2.7. Estándares relacionados con el DCU
-%				\begin{description}
-%					\item 2.7.1. INTE/ISO/IEC 9241-210. Diseño centrado en la persona para sistemas interactivos
-%					\item 2.7.2. INTE/ISO 9241-151. Directrices para las interfaces de usuario Web
-%				\item 2.7.3. INTE/ISO 9241-171. Guías sobre accesibilidad del software
-%					\item 2.7.4. INTE/ISO 9241-125. Guía relativa a la presentación visual de la 	información	
-%				\end{description}	
-%			\item 2.8. Tecnologías de desarrollo		
-%			\item 2.9. Patrones de arquitectura						
-%			\item 2.10. Conclusión			
-%		\end{description}		
-%	\item[Capítulo 3.] Diseño de la arquitectura de la aplicación web
-%		\begin{description}
-%			\item 3.1. Introducción
-%			\item 3.2. Metodología Scrum
-%			\begin{description}
-%				\item 3.2.1. Metodología ágil
-%$				\item 3.2.2. Funcionamiento de Scrum
-%		\end{description}
-%			\item 3.3. Modelo de proceso de Ingeniería de la Usabilidad y accesibilidad (MPIu+a)
-%			\begin{description}
-%				\item 3.3.1. Características del modelo
-%				\item 3.3.2. Etapas del modelo
-%			\end{description}
-%			\item 3.4. MPIu+a ágil: Una metodología pensada en el usuario
-%			\begin{description}
-%				\item 3.4.1. Introducción
-%				\item 3.4.2. Diferencias entre Scrum y MPIU+a
-%				\item 3.4.3. Beneficios de la integración de Scrum con DCU
-%				\item 3.4.4. Integración de MPIu+a con Scrum
-%			\end{description}		
-%			\item 3.5. Tecnologías implementadas
-%			\item 3.6. Conclusión			
-%		\end{description}		
-%	\item[Capítulo 4.] Desarrollo de la aplicación web
-%		\begin{description}
-%			\item 4.1. Introducción
-%			\item 4.2. Descripción de los módulos del sistema
-%			\item 4.3. Diseño de las pruebas del sistema
-%			\item 4.4. Conclusión
-%		\end{description}	
-%	\item[Capítulo 5.] Pruebas y evaluación de la aplicación web
-%		\begin{description}
-%			\item 5.1. Introducción
-%			\item 5.2. Pruebas funcionales o de caja negra	
-%			\item 5.3. Evaluación heurística
-%			\item 5.4. Pruebas de usabilidad
-%			\item 5.5. Conclusión
-%		\end{description}		
-%	\item[Capítulo 6.] Conclusiones y trabajos a futuro
-%	\item[Referencias] 						
-%\end{description}
-
+\section{}
