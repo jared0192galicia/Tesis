@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3605098.3636068,
+author = {Archiwaranguprok, Chayapatr and Khunpanitchot, Kongkeit and Mano, Phoomparin and Toahchoodee, Manachai},
+title = {Elysia: Optimizing JavaScript Web Framework},
+year = {2024},
+isbn = {9798400702433},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3605098.3636068},
+doi = {10.1145/3605098.3636068},
+abstract = {As JavaScript and its backend web frameworks garnered mainstream adoption and played a pivotal role in today's industry, challenges of runtime performance, developer experience, and type safety are potential hindrances to scaling and maintainability.This paper suggests strategies for web frameworks in JavaScript to provide a balanced focus between performance and convenience by optimizing the performance of potentially expensive ergonomic features by utilizing JavaScript's interpreted nature and Just-In-Time compilation through the use of static analysis and dynamic code generation techniques in conjunction with adopting TypeScript's type system to provide an improved developer experience.The reference implementation of the optimization strategies and design for developer experience is illustrated through the implementations in the Elysia JavaScript web framework, in which the performance is evaluated against non-optimized code and bench-marked against other real-world backend web frameworks.},
+booktitle = {Proceedings of the 39th ACM/SIGAPP Symposium on Applied Computing},
+pages = {1789–1796},
+numpages = {8},
+keywords = {javascript, RESTful API, static analysis, optimization, type safety},
+location = {Avila, Spain},
+series = {SAC '24}
+}

@@ -1,0 +1,5 @@
+@article{di2024perbandingan,
+  title={PERBANDINGAN PERFORMA RUNTIME JAVASCRIPT NODE. JS, BUN, DAN DENO PADA REST API},
+  author={DI CIBIRU, KAMPUS UPI},
+  year={2024}
+}

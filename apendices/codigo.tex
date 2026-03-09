@@ -1,0 +1,27 @@
+\chapter{Código Fuente}
+
+function calcularTotales(respuestas: RespuestaUsuario[]): any {
+  const totales: MapeoTotal = {
+    Moral: 0, Legalidad: 0, Indiferencia: 0, Corrupto: 0,
+    Economico: 0, Politico: 0, Social: 0, Religioso: 0,
+  };
+
+  for (const respuesta of respuestas) {
+    const mapping = mapeo[respuesta.pregunta];
+    if (!mapping) continue;
+
+    for (const dimension in mapping) {
+      const letra = mapping[dimension as Dimensiones];
+      const index = letra.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+      const valor = respuesta.respuestas[index] ?? 0;
+      totales[dimension as Dimensiones] += valor;
+    }
+  }
+
+  const final = Object.entries(totales).map(([clave, valor]) => ({
+    nombre: clave,
+    valor: valor,
+  }));
+
+  return final;
+}

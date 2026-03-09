@@ -1,0 +1,5 @@
+@article{ancheytariesgo,
+  title={Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas},
+  author={Ancheyta Espinosa, Carlota},
+  publisher={Benem{\'e}rita Universidad Aut{\'o}noma de Puebla}
+}

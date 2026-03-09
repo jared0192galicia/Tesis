@@ -1,0 +1,9 @@
+@article{milione2023sedentarismo,
+  title={Sedentarismo y riesgo cardiovascular},
+  author={Milione, Hugo and Parodi, Roberto and Buchaca Faxas, Emilio and Rojas Orellana, Luis and Fortuna Peralta, Mar{\'\i}a Luc{\'\i}a and Coral Cristaldo, Cinthia and Ortellado, Jos{\'e}},
+  journal={MEDICINA (Buenos Aires)},
+  volume={83},
+  pages={11--13},
+  year={2023},
+  publisher={SciELO Argentina}
+}
