@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,26 +712,136 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count472
 \c@LT@chunks=\count473
 \LT@p@ftn=\toks32
-) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count474
-\lst@gtempboxa=\box66
-\lst@token=\toks33
-\lst@length=\count475
-\lst@currlwidth=\dimen197
-\lst@column=\count476
-\lst@pos=\count477
-\lst@lostspace=\dimen198
-\lst@width=\dimen199
-\lst@newlines=\count478
-\lst@lineno=\count479
-\lst@maxwidth=\dimen256
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+Package: glossaries 2025/11/09 v4.9 (NLCT)
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count474
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks35
+\@glsmrest=\toks36
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
+File: glossaries-spanish.ldf 2014/11/23 v1.0
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf)) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+\l__datatool_tmpa_int=\count475
+\l__datatool_tmpb_int=\count476
+\l__datatool_tmpc_int=\count477
+\l__datatool_tmpd_int=\count478
+\l__datatool_count_int=\count479
+\l__datatool_tmp_datatype_int=\count480
+\l__datatool_tmpa_dim=\dimen197
+\l__datatool_tmpb_dim=\dimen198
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks37
+\@dtl@tmpcount=\count481
+\dtl@tmplength=\skip112
+\l__datatool_measure_box=\box66
+\dtl@sortresult=\count482
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count483
+\c_datatool_unknown_int=\count484
+\l__datatool_year_int=\count485
+\l__datatool_month_int=\count486
+\l__datatool_day_int=\count487
+\l__datatool_hour_int=\count488
+\l__datatool_minute_int=\count489
+\l__datatool_second_int=\count490
+\l__datatool_tzhour_int=\count491
+\l__datatool_tzminute_int=\count492
+\l__datatool_julian_int=\count493
+\l__datatool_local_julian_int=\count494
+\l__datatool_prefix_int=\count495
+\l__datatool_suffix_int=\count496
+\@dtl@foreach@level=\count497
+
+
+Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9924.
+
+\dtl@codeA=\count498
+\dtl@codeB=\count499
+)
+\gls@level=\count500
+\@gls@tmpb=\toks38
+\gls@tmplen=\skip113
+\l__glossaries_tmpa_dim=\dimen199
+\l__glossaries_tmpb_dim=\dimen256
+\glskeylisttok=\toks39
+\glslabeltok=\toks40
+\glsshorttok=\toks41
+\glslongtok=\toks42
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
+Package: glossary-hypernav 2025/11/09 v4.9 (NLCT)
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
+Package: glossary-list 2025/11/09 v4.9 (NLCT)
+\glslistdottedwidth=\skip114
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
+Package: glossary-long 2025/11/09 v4.9 (NLCT)
+\glsdescwidth=\skip115
+\glspagelistwidth=\skip116
+) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
+Package: glossary-tree 2025/11/09 v4.9 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count501
+\l__glossaries_tree_offset_dim=\dimen257
+\l__glossaries_tree_namewidth_dim=\dimen258
+\l__glossaries_tree_symbolwidth_dim=\dimen259
+\l__glossaries_tree_prenamesym_width_dim=\dimen260
+\l__glossaries_tree_presubnamesym_width_dim=\dimen261
+\l__glossaries_tree_namewidth_padding_dim=\dimen262
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen263
+\l__glossaries_tree_namesymbolwidth_dim=\dimen264
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen265
+\l__glossaries_tree_level_int=\count502
+\glstreeindent=\skip117
+))
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `Tesis.glo'.
+
+Package glossaries Info: Writing glossary file Tesis.glo on input line 54.
+\glo@acronym@file=\write7
+\openout7 = `Tesis.acn'.
+
+Package glossaries Info: Writing glossary file Tesis.acn on input line 54.
+ (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count503
+\lst@gtempboxa=\box67
+\lst@token=\toks43
+\lst@length=\count504
+\lst@currlwidth=\dimen266
+\lst@column=\count505
+\lst@pos=\count506
+\lst@lostspace=\dimen267
+\lst@width=\dimen268
+\lst@newlines=\count507
+\lst@lineno=\count508
+\lst@maxwidth=\dimen269
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count480
-\lst@skipnumbers=\count481
-\lst@framebox=\box67
+\c@lstnumber=\count509
+\lst@skipnumbers=\count510
+\lst@framebox=\box68
 ) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
@@ -745,29 +855,28 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count482
-\mult@box=\box68
-\multicol@leftmargin=\dimen257
-\c@unbalance=\count483
-\c@collectmore=\count484
-\doublecol@number=\count485
-\multicoltolerance=\count486
-\multicolpretolerance=\count487
-\full@width=\dimen258
-\page@free=\dimen259
-\premulticols=\dimen260
-\postmulticols=\dimen261
-\multicolsep=\skip112
-\multicolbaselineskip=\skip113
-\partial@page=\box69
-\last@line=\box70
-\mc@boxedresult=\box71
-\maxbalancingoverflow=\dimen262
-\mult@rightbox=\box72
-\mult@grightbox=\box73
-\mult@firstbox=\box74
-\mult@gfirstbox=\box75
-\@tempa=\box76
+\c@tracingmulticols=\count511
+\mult@box=\box69
+\multicol@leftmargin=\dimen270
+\c@unbalance=\count512
+\c@collectmore=\count513
+\doublecol@number=\count514
+\multicoltolerance=\count515
+\multicolpretolerance=\count516
+\full@width=\dimen271
+\page@free=\dimen272
+\premulticols=\dimen273
+\postmulticols=\dimen274
+\multicolsep=\skip118
+\multicolbaselineskip=\skip119
+\partial@page=\box70
+\last@line=\box71
+\mc@boxedresult=\box72
+\maxbalancingoverflow=\dimen275
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@firstbox=\box75
+\mult@gfirstbox=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -803,48 +912,49 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box109
 \@tempa=\box110
 \@tempa=\box111
-\c@minrows=\count488
-\c@columnbadness=\count489
-\c@finalcolumnbadness=\count490
-\last@try=\dimen263
-\multicolovershoot=\dimen264
-\multicolundershoot=\dimen265
-\mult@nat@firstbox=\box112
-\colbreak@box=\box113
-\mc@col@check@num=\count491
-\g__mc_curr_col_int=\count492
+\@tempa=\box112
+\c@minrows=\count517
+\c@columnbadness=\count518
+\c@finalcolumnbadness=\count519
+\last@try=\dimen276
+\multicolovershoot=\dimen277
+\multicolundershoot=\dimen278
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
+\mc@col@check@num=\count520
+\g__mc_curr_col_int=\count521
 )
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 103.
+(hyperref)                setting the option has no effect on input line 107.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 103.
+Package hyperref Info: Option `colorlinks' set `false' on input line 107.
 (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip114
-\enit@outerparindent=\dimen266
-\enit@toks=\toks34
-\enit@inbox=\box114
-\enit@count@id=\count493
-\enitdp@description=\count494
+\labelindent=\skip120
+\enit@outerparindent=\dimen279
+\enit@toks=\toks44
+\enit@inbox=\box115
+\enit@count@id=\count522
+\enitdp@description=\count523
 )
-\enitdp@todolist=\count495
+\enitdp@todolist=\count524
  (seppal.tex) (defmat.tex)
-\mylength=\skip115
+\mylength=\skip121
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-)
+) (glosario.tex)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count496
-\@quotereset=\count497
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 169.
+\@quotelevel=\count525
+\@quotereset=\count526
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 173.
 (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )
@@ -853,52 +963,52 @@ LaTeX Warning: Unused global option(s):
     [stu].
 
 (Tesis.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 12.
- (cap1.aux))
+(babel)             Reported on input line 19.
+ (capitulos/cap1.aux))
 \openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count498
-\scratchdimen=\dimen267
-\scratchbox=\box115
-\nofMPsegments=\count499
-\nofMParguments=\count500
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count501
-\MPscratchDim=\dimen268
-\MPnumerator=\count502
-\makeMPintoPDFobject=\count503
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count527
+\scratchdimen=\dimen280
+\scratchbox=\box116
+\nofMPsegments=\count528
+\nofMParguments=\count529
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count530
+\MPscratchDim=\dimen281
+\MPnumerator=\count531
+\makeMPintoPDFobject=\count532
+\everyMPtoPDFconversion=\toks46
 ) (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 169.
-LaTeX Info: Redefining \% on input line 169.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -910,10 +1020,10 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 169.
+Package hyperref Info: Link coloring OFF on input line 173.
  (Tesis.out) (Tesis.out)
-\@outlinefile=\write5
-\openout5 = `Tesis.out'.
+\@outlinefile=\write8
+\openout8 = `Tesis.out'.
 
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
@@ -937,49 +1047,51 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
  (Tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 169.
-Package biblatex Info: Reference segment=0 on input line 169.
-\c@lstlisting=\count504
-<logos/logounsis1.png, id=187, 165.0165pt x 169.8345pt>
+Package biblatex Info: Reference section=0 on input line 173.
+Package biblatex Info: Reference segment=0 on input line 173.
+\c@lstlisting=\count533
+<logos/logounsis1.png, id=199, 165.0165pt x 169.8345pt>
 File: logos/logounsis1.png Graphic file (type png)
 <use logos/logounsis1.png>
-Package pdftex.def Info: logos/logounsis1.png  used on input line 172.
+Package pdftex.def Info: logos/logounsis1.png  used on input line 176.
 (pdftex.def)             Requested size: 102.42834pt x 105.41809pt.
  [1
 
-{C:/Users/Jared Galicia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/logounsis1.png>] [2
+\openout5 = `Tesis.ist'.
 
-] [3
+{C:/Users/Jared Galicia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/logounsis1.png>] (preliminares/dedicatoria.tex) (preliminares/agradecimientos.tex [2
 
-] [4
+]) (preliminares/resumen.tex [3
 
-] [5
+]) (preliminares/abstract.tex [4
+
+]) [5
 
 ] (Tesis.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [6
 
 ])
-\tf@toc=\write6
-\openout6 = `Tesis.toc'.
+\tf@toc=\write9
+\openout9 = `Tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 188.
+(babel)             Reported on input line 190.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -993,8 +1105,8 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lof=\write7
-\openout7 = `Tesis.lof'.
+\tf@lof=\write10
+\openout10 = `Tesis.lof'.
 
  [8
 
@@ -1003,20 +1115,29 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-\tf@lot=\write8
-\openout8 = `Tesis.lot'.
+\tf@lot=\write11
+\openout11 = `Tesis.lot'.
 
+ [9
+
+]
+No file Tesis.acr.
+[10
+
+]
+No file Tesis.gls.
+No file Tesis.gls.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \include{cap1}
-                     [1
+l.209 \include{capitulos/cap1}
+                               [1
 
 ]
-\openout2 = `cap1.aux'.
+\openout2 = `capitulos/cap1.aux'.
 
- (cap1.tex
+ (capitulos/cap1.tex
 Cap\'{\i }tulo 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
@@ -1133,7 +1254,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.124             \item \textit
                                {Entregable:} Diseño Técnico. [8]
-<imagenes/cronograma.png, id=320, 1239.88219pt x 270.25969pt>
+<imagenes/cronograma.png, id=346, 1239.88219pt x 270.25969pt>
 File: imagenes/cronograma.png Graphic file (type png)
 <use imagenes/cronograma.png>
 Package pdftex.def Info: imagenes/cronograma.png  used on input line 158.
@@ -1148,9 +1269,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[9])
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.162 \section
+              {} [9])
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1159,9 +1285,14 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[10 <./imagenes/cronograma.png>]
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \include{capitulos/cap1}
+                               [10 <./imagenes/cronograma.png>] (apendices/codigo.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1176,8 +1307,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 ]
 Overfull \vbox (664.25293pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1186,13 +1317,17 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[12] [13
+[12]
+Ap\'{e}ndice A.
+) [13
+
+] [14
 
 ] (Tesis.aux
-LaTeX Info: Redefining \sptext on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- (cap1.aux))
+LaTeX Info: Redefining \sptext on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ (capitulos/cap1.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1202,23 +1337,26 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 673585AFD2BBFA389ADD70F68CB172F8;8044.
+(rerunfilecheck)             Checksum: AF0B9FEC12DB901D8E56E4972B8792F6;8423.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24787 strings out of 467871
- 433446 string characters out of 5414469
- 1368684 words of memory out of 5000000
- 53204 multiletter control sequences out of 15000+600000
+ 31918 strings out of 467871
+ 604017 string characters out of 5414469
+ 1570210 words of memory out of 5000000
+ 60242 multiletter control sequences out of 15000+600000
  661748 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,989b,2813s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tesis.pdf (21 pages, 1086312 bytes).
+ 75i,12n,97p,2504b,2905s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:apirest} has been referenced but does not exist, replaced by a fixed one
+
+ <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Tesis.pdf (24 pages, 1099862 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

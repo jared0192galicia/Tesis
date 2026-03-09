@@ -49,6 +49,10 @@
 \usepackage{longtable}
 \usepackage{rotating}
 
+% GLOSARIO
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
 
 %%%%%%%%%%%
 \usepackage{color}
@@ -165,7 +169,7 @@ backgroundcolor=\color{gray75},
 	tabsize=3
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
-
+\input{glosario}
 \begin{document}
     \renewcommand{\tablename}{Tabla}
     \renewcommand{\listtablename}{Índice de tablas}  
@@ -178,24 +182,31 @@ backgroundcolor=\color{gray75},
  %    \cleardoublepage
     \newpage
     
-    \chapter*{Dedicatoria}
-    % contenido después
-    
-    \chapter*{Agradecimientos}
-    \chapter*{Resumen}
-    \chapter*{Abstract}
+    \input{preliminares/dedicatoria}
+    \input{preliminares/agradecimientos}
+    \input{preliminares/resumen}
+    \input{preliminares/abstract}
     \tableofcontents
     \listoffigures
     \listoftables
- %    \listoffigures
-  % \cleardoublepage
-   %\listoftables
-%   \cleardoublepage
+
+    % Glosario y Abreviaturas
+    \chapter*{Abreviaturas y Acrónimos}
+    \addcontentsline{toc}{chapter}{Abreviaturas y Acrónimos}
+    \glsaddall
+    \printglossary[type=\acronymtype]
+
+    \chapter*{Glosario}
+    \addcontentsline{toc}{chapter}{Glosario}
+    \printglossary
+    % Glosario y Abreviaturas
+\printglossary
+
     \pagenumbering{arabic}
     
 
 % TESISSS
-\include{cap1}
+\include{capitulos/cap1}
 
 \section{Marco técnico y conceptual}
     \section{Introducción}
@@ -243,6 +254,10 @@ backgroundcolor=\color{gray75},
     \subsection{Conclusiones}
     \subsection{Limitaciones del estudio}
     \subsection{Trabajos futuros}
+
+
+\appendix
+\input{apendices/codigo}
 % \endgroup
 
 	% \bibliography{bibliografia}

@@ -204,6 +204,52 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\xfor\xfor.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\xfor\xfor.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\translator\translator.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries-spanish\glossaries-spanish-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+OUTPUT Tesis.glo
+OUTPUT Tesis.acn
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstpatch.sty
@@ -238,6 +284,11 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\ls
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT .\glosario.tex
+INPUT .\glosario.tex
+INPUT .\glosario.tex
+INPUT .\glosario.tex
+INPUT glosario.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\latex\ae\t1aer.fd
@@ -245,9 +296,9 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\a
 INPUT .\Tesis.aux
 INPUT .\Tesis.aux
 INPUT Tesis.aux
-INPUT .\cap1.aux
-INPUT .\cap1.aux
-INPUT cap1.aux
+INPUT .\capitulos\cap1.aux
+INPUT .\capitulos\cap1.aux
+INPUT capitulos\cap1.aux
 OUTPUT Tesis.aux
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -294,6 +345,7 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\a
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
+OUTPUT Tesis.ist
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
@@ -315,8 +367,18 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT .\preliminares\dedicatoria.tex
+INPUT .\preliminares\dedicatoria.tex
+INPUT .\preliminares\dedicatoria.tex
+INPUT .\preliminares\dedicatoria.tex
+INPUT preliminares\dedicatoria.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer17.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
+INPUT .\preliminares\agradecimientos.tex
+INPUT .\preliminares\agradecimientos.tex
+INPUT .\preliminares\agradecimientos.tex
+INPUT .\preliminares\agradecimientos.tex
+INPUT preliminares\agradecimientos.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\vf\public\ae\aeb10.vf
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
@@ -327,6 +389,16 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+INPUT .\preliminares\resumen.tex
+INPUT .\preliminares\resumen.tex
+INPUT .\preliminares\resumen.tex
+INPUT .\preliminares\resumen.tex
+INPUT preliminares\resumen.tex
+INPUT .\preliminares\abstract.tex
+INPUT .\preliminares\abstract.tex
+INPUT .\preliminares\abstract.tex
+INPUT .\preliminares\abstract.tex
+INPUT preliminares\abstract.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ae\aer12.tfm
 INPUT .\Tesis.toc
 INPUT .\Tesis.toc
@@ -371,12 +443,12 @@ INPUT .\Tesis.lot
 INPUT .\Tesis.lot
 INPUT Tesis.lot
 OUTPUT Tesis.lot
-INPUT .\cap1.tex
-INPUT .\cap1.tex
-OUTPUT cap1.aux
-INPUT .\cap1.tex
-INPUT .\cap1.tex
-INPUT cap1.tex
+INPUT .\capitulos\cap1.tex
+INPUT .\capitulos\cap1.tex
+OUTPUT capitulos\cap1.aux
+INPUT .\capitulos\cap1.tex
+INPUT .\capitulos\cap1.tex
+INPUT capitulos\cap1.tex
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\imagenes\cronograma.png
 INPUT .\imagenes\cronograma.png
@@ -392,10 +464,15 @@ INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
+INPUT .\apendices\codigo.tex
+INPUT .\apendices\codigo.tex
+INPUT .\apendices\codigo.tex
+INPUT .\apendices\codigo.tex
+INPUT apendices\codigo.tex
 INPUT Tesis.aux
-INPUT .\cap1.aux
-INPUT .\cap1.aux
-INPUT cap1.aux
+INPUT .\capitulos\cap1.aux
+INPUT .\capitulos\cap1.aux
+INPUT capitulos\cap1.aux
 INPUT .\Tesis.out
 INPUT .\Tesis.out
 INPUT Tesis.run.xml
@@ -404,6 +481,8 @@ INPUT C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dp
 INPUT C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
