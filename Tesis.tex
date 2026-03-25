@@ -53,6 +53,10 @@
 \usepackage[acronym]{glossaries}
 \makeglossaries
 
+% Tablas
+\usepackage{tabularx}
+\usepackage{float} 
+
 
 %%%%%%%%%%%
 \usepackage{color}
@@ -200,13 +204,13 @@ backgroundcolor=\color{gray75},
     \addcontentsline{toc}{chapter}{Glosario}
     \printglossary
     % Glosario y Abreviaturas
-\printglossary
 
     \pagenumbering{arabic}
     
 
 % TESISSS
 \include{capitulos/cap1}
+\include{capitulos/cap2}
 
 \section{Marco técnico y conceptual}
     \section{Introducción}
@@ -257,7 +261,7 @@ backgroundcolor=\color{gray75},
 
 
 \appendix
-\input{apendices/codigo}
+\input{apendices/dataBase.tex}
 % \endgroup
 
 	% \bibliography{bibliografia}

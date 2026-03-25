@@ -1,2 +1,6 @@
-\glossaryentry{Framework?\glossentry{framework}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{Backend?\glossentry{backend}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Reverse Proxy (Proxy Inverso)?\glossentry{reverseproxy}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Framework (Marco de Trabajo)?\glossentry{framework}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Runtime (Entorno de Ejecución)?\glossentry{runtime}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Runtime (API (Application Programming Interface))?\glossentry{API}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Runtime (SPA (Single Page Application))?\glossentry{SPA}|setentrycounter[]{page}"\glsnumberformat}{10}
