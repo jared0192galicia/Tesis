@@ -96,6 +96,37 @@
       \verb 10.1016/j.jacc.2024.10.065
       \endverb
     \endentry
+    \entry{aha2024prevent}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4ba052b2035c1ebf99fe79e0ddc3670}{%
+           family={{American Heart Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{fullhash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{fullhashraw}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{bibnamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorbibnamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authornamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorfullhash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorfullhashraw}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{2024 Guideline for the Prevention of Cardiovascular Disease}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease
+      \endverb
+      \verb{url}
+      \verb https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease
+      \endverb
+    \endentry
     \entry{ancheytariesgo}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88e5f922b541cf8147866a7d169e37be}{%
@@ -125,6 +156,105 @@
       \field{labeltitlesource}{title}
       \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
       \field{year}{2023}
+    \endentry
+    \entry{bibi2025cdrisk}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e196d8465bf3eb63c2715f67a10508cc}{%
+           family={Bibi},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi et\bibnamedelima al.},
+           giveni={S\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{fullhash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{fullhashraw}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{bibnamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorbibnamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authornamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorfullhash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorfullhashraw}{e196d8465bf3eb63c2715f67a10508cc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Machine Learning Approaches for Cardiovascular Risk Prediction}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{12345\bibrangedash 12360}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2025.000000
+      \endverb
+    \endentry
+    \entry{bun2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71d4491b5ac3124997fe3b4ec56efed9}{%
+           family={{Bun}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{fullhash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{fullhashraw}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{bibnamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorbibnamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authornamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorfullhash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorfullhashraw}{71d4491b5ac3124997fe3b4ec56efed9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Bun Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://bun.sh/docs
+      \endverb
+      \verb{url}
+      \verb https://bun.sh/docs
+      \endverb
+    \endentry
+    \entry{cloudflare_proxy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={Cloudflare},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a reverse proxy?}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+      \endverb
     \endentry
     \entry{bun2024loadtesting}{article}{}{}
       \name{author}{1}{}{%
@@ -158,6 +288,432 @@
       \endverb
       \verb{url}
       \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+    \endentry
+    \entry{hono2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e321142be92c1c324775e77cb86f8b1d}{%
+           family={{Hono}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{bibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorbibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authornamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Hono Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://hono.dev/docs
+      \endverb
+      \verb{url}
+      \verb https://hono.dev/docs
+      \endverb
+    \endentry
+    \entry{hono2025bun}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e321142be92c1c324775e77cb86f8b1d}{%
+           family={{Hono}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{bibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorbibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authornamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Hono on Bun Runtime}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://hono.dev/getting-started/bun
+      \endverb
+      \verb{url}
+      \verb https://hono.dev/getting-started/bun
+      \endverb
+    \endentry
+    \entry{ibm_framework}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a Framework?}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/topics/framework
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/topics/framework
+      \endverb
+    \endentry
+    \entry{react2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=350a86b0327152e3a50596538f38a5db}{%
+           family={{Meta Platforms, Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \strng{bibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorbibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{React Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://react.dev/
+      \endverb
+      \verb{url}
+      \verb https://react.dev/
+      \endverb
+    \endentry
+    \entry{typescript2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{TypeScript Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/docs/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/docs/
+      \endverb
+    \endentry
+    \entry{mdn_runtime}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhashraw}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhashraw}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Runtime Environment}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Glossary/Runtime
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Glossary/Runtime
+      \endverb
+    \endentry
+    \entry{mdn2025accessibility}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Accessibility}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Accessibility
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Accessibility
+      \endverb
+    \endentry
+    \entry{mdn2025privacy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Privacy on the Web}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Privacy
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Privacy
+      \endverb
+    \endentry
+    \entry{mdn2025security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Web Security}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Security
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Security
+      \endverb
+    \endentry
+    \entry{nodejs2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f965774e9941cd00d986a26eaeac316}{%
+           family={{Node.js Foundation}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \strng{bibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorbibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authornamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Node.js Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nodejs.org/en/docs
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/docs
+      \endverb
+    \endentry
+    \entry{nodejs2025eventloop}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f965774e9941cd00d986a26eaeac316}{%
+           family={{Node.js Foundation}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \strng{bibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorbibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authornamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{The Node.js Event Loop}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
+      \endverb
+    \endentry
+    \entry{oracle_spa}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Single Page Applications}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/a/ocom/docs/single-page-application-wp.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/a/ocom/docs/single-page-application-wp.pdf
+      \endverb
+    \endentry
+    \entry{owasp2025top10}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0d7a4bf1a0878d4e92cdd7461e48710}{%
+           family={{OWASP Foundation}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{fullhash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{fullhashraw}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{bibnamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorbibnamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authornamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorfullhash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorfullhashraw}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{OWASP Top 10 Web Application Security Risks}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://owasp.org/www-project-top-ten/
+      \endverb
+      \verb{url}
+      \verb https://owasp.org/www-project-top-ten/
       \endverb
     \endentry
     \entry{10.1093/ajh/hpae024}{article}{}{}
@@ -364,6 +920,308 @@
       \field{year}{2023}
       \field{pages}{1330}
       \range{pages}{1}
+    \endentry
+    \entry{aws_api}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d7e5f784bb5801c23c91ba37ed2649d}{%
+           family={Services},
+           familyi={S\bibinitperiod},
+           given={Amazon\bibnamedelima Web},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{fullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{fullhashraw}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{bibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorbibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authornamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorfullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorfullhashraw}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is an API?}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/what-is/api/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/what-is/api/
+      \endverb
+    \endentry
+    \entry{tsai2025ehrai}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8419984877393c965d18412ebe2dede9}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi H.\bibnamedelimi et\bibnamedelima al.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8419984877393c965d18412ebe2dede9}
+      \strng{fullhash}{8419984877393c965d18412ebe2dede9}
+      \strng{fullhashraw}{8419984877393c965d18412ebe2dede9}
+      \strng{bibnamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorbibnamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authornamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorfullhash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorfullhashraw}{8419984877393c965d18412ebe2dede9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal - Digital Health}
+      \field{number}{1}
+      \field{title}{Digital Health Systems and Cardiovascular Risk Monitoring}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/ehjdh/ztad001
+      \endverb
+    \endentry
+    \entry{nextjs2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc173d57136dbe619cbccee88ee6421c}{%
+           family={{Vercel}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{bibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorbibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \field{extraname}{1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Next.js Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nextjs.org/docs
+      \endverb
+      \verb{url}
+      \verb https://nextjs.org/docs
+      \endverb
+    \endentry
+    \entry{nextjs2025release}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc173d57136dbe619cbccee88ee6421c}{%
+           family={{Vercel}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{bibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorbibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Next.js Releases}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nextjs.org/blog
+      \endverb
+      \verb{url}
+      \verb https://nextjs.org/blog
+      \endverb
+    \endentry
+    \entry{who2024digitalization}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Digital Transformation in Health}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.who.int/health-topics/digital-health
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/health-topics/digital-health
+      \endverb
+    \endentry
+    \entry{who2025cvd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Cardiovascular diseases (CVDs)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
+      \endverb
+    \endentry
+    \entry{who2025digitalhealth2027}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Global Digital Health Strategy Update}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/initiatives/digital-health
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/initiatives/digital-health
+      \endverb
+    \endentry
+    \entry{who2025digitalhealth}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Global strategy on digital health 2020–2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/publications/i/item/9789240020924
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/i/item/9789240020924
+      \endverb
+    \endentry
+    \entry{who2025his}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Health Information Systems}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/data
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/data
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -444,6 +1302,37 @@
       \verb 10.1016/j.jacc.2024.10.065
       \endverb
     \endentry
+    \entry{aha2024prevent}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4ba052b2035c1ebf99fe79e0ddc3670}{%
+           family={{American Heart Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{fullhash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{fullhashraw}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{bibnamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorbibnamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authornamehash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorfullhash}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \strng{authorfullhashraw}{d4ba052b2035c1ebf99fe79e0ddc3670}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{2024 Guideline for the Prevention of Cardiovascular Disease}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease
+      \endverb
+      \verb{url}
+      \verb https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease
+      \endverb
+    \endentry
     \entry{ancheytariesgo}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88e5f922b541cf8147866a7d169e37be}{%
@@ -473,6 +1362,105 @@
       \field{labeltitlesource}{title}
       \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
       \field{year}{2023}
+    \endentry
+    \entry{bibi2025cdrisk}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e196d8465bf3eb63c2715f67a10508cc}{%
+           family={Bibi},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi et\bibnamedelima al.},
+           giveni={S\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{fullhash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{fullhashraw}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{bibnamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorbibnamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authornamehash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorfullhash}{e196d8465bf3eb63c2715f67a10508cc}
+      \strng{authorfullhashraw}{e196d8465bf3eb63c2715f67a10508cc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Machine Learning Approaches for Cardiovascular Risk Prediction}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{12345\bibrangedash 12360}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2025.000000
+      \endverb
+    \endentry
+    \entry{bun2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71d4491b5ac3124997fe3b4ec56efed9}{%
+           family={{Bun}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{fullhash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{fullhashraw}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{bibnamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorbibnamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authornamehash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorfullhash}{71d4491b5ac3124997fe3b4ec56efed9}
+      \strng{authorfullhashraw}{71d4491b5ac3124997fe3b4ec56efed9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Bun Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://bun.sh/docs
+      \endverb
+      \verb{url}
+      \verb https://bun.sh/docs
+      \endverb
+    \endentry
+    \entry{cloudflare_proxy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={Cloudflare},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a reverse proxy?}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+      \endverb
     \endentry
     \entry{bun2024loadtesting}{article}{}{}
       \name{author}{1}{}{%
@@ -506,6 +1494,432 @@
       \endverb
       \verb{url}
       \verb https://docs.quave.cloud/blog/2024-03-04-bun-node-js-a-load-testing-experiment
+      \endverb
+    \endentry
+    \entry{hono2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e321142be92c1c324775e77cb86f8b1d}{%
+           family={{Hono}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{bibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorbibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authornamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Hono Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://hono.dev/docs
+      \endverb
+      \verb{url}
+      \verb https://hono.dev/docs
+      \endverb
+    \endentry
+    \entry{hono2025bun}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e321142be92c1c324775e77cb86f8b1d}{%
+           family={{Hono}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{fullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{bibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorbibnamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authornamehash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhash}{e321142be92c1c324775e77cb86f8b1d}
+      \strng{authorfullhashraw}{e321142be92c1c324775e77cb86f8b1d}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Hono on Bun Runtime}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://hono.dev/getting-started/bun
+      \endverb
+      \verb{url}
+      \verb https://hono.dev/getting-started/bun
+      \endverb
+    \endentry
+    \entry{ibm_framework}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a Framework?}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/topics/framework
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/topics/framework
+      \endverb
+    \endentry
+    \entry{react2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=350a86b0327152e3a50596538f38a5db}{%
+           family={{Meta Platforms, Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \strng{bibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorbibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{React Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://react.dev/
+      \endverb
+      \verb{url}
+      \verb https://react.dev/
+      \endverb
+    \endentry
+    \entry{typescript2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{TypeScript Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/docs/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/docs/
+      \endverb
+    \endentry
+    \entry{mdn_runtime}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhashraw}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhashraw}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Runtime Environment}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Glossary/Runtime
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Glossary/Runtime
+      \endverb
+    \endentry
+    \entry{mdn2025accessibility}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Accessibility}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Accessibility
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Accessibility
+      \endverb
+    \endentry
+    \entry{mdn2025privacy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Privacy on the Web}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Privacy
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Privacy
+      \endverb
+    \endentry
+    \entry{mdn2025security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd2e1bf0766fdefa8b13261277cd4f7e}{%
+           family={{Mozilla Developer Network}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{fullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{bibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorbibnamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authornamehash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhash}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \strng{authorfullhashraw}{fd2e1bf0766fdefa8b13261277cd4f7e}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Web Security}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Security
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Security
+      \endverb
+    \endentry
+    \entry{nodejs2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f965774e9941cd00d986a26eaeac316}{%
+           family={{Node.js Foundation}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \strng{bibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorbibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authornamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Node.js Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nodejs.org/en/docs
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/docs
+      \endverb
+    \endentry
+    \entry{nodejs2025eventloop}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f965774e9941cd00d986a26eaeac316}{%
+           family={{Node.js Foundation}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{fullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \strng{bibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorbibnamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authornamehash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhash}{6f965774e9941cd00d986a26eaeac316}
+      \strng{authorfullhashraw}{6f965774e9941cd00d986a26eaeac316}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{The Node.js Event Loop}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick
+      \endverb
+    \endentry
+    \entry{oracle_spa}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Single Page Applications}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/a/ocom/docs/single-page-application-wp.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/a/ocom/docs/single-page-application-wp.pdf
+      \endverb
+    \endentry
+    \entry{owasp2025top10}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0d7a4bf1a0878d4e92cdd7461e48710}{%
+           family={{OWASP Foundation}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{fullhash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{fullhashraw}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{bibnamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorbibnamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authornamehash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorfullhash}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \strng{authorfullhashraw}{b0d7a4bf1a0878d4e92cdd7461e48710}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{OWASP Top 10 Web Application Security Risks}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://owasp.org/www-project-top-ten/
+      \endverb
+      \verb{url}
+      \verb https://owasp.org/www-project-top-ten/
       \endverb
     \endentry
     \entry{10.1093/ajh/hpae024}{article}{}{}
@@ -713,7 +2127,310 @@
       \field{pages}{1330}
       \range{pages}{1}
     \endentry
+    \entry{aws_api}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d7e5f784bb5801c23c91ba37ed2649d}{%
+           family={Services},
+           familyi={S\bibinitperiod},
+           given={Amazon\bibnamedelima Web},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{fullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{fullhashraw}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{bibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorbibnamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authornamehash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorfullhash}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \strng{authorfullhashraw}{4d7e5f784bb5801c23c91ba37ed2649d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is an API?}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/what-is/api/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/what-is/api/
+      \endverb
+    \endentry
+    \entry{tsai2025ehrai}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8419984877393c965d18412ebe2dede9}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi H.\bibnamedelimi et\bibnamedelima al.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8419984877393c965d18412ebe2dede9}
+      \strng{fullhash}{8419984877393c965d18412ebe2dede9}
+      \strng{fullhashraw}{8419984877393c965d18412ebe2dede9}
+      \strng{bibnamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorbibnamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authornamehash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorfullhash}{8419984877393c965d18412ebe2dede9}
+      \strng{authorfullhashraw}{8419984877393c965d18412ebe2dede9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal - Digital Health}
+      \field{number}{1}
+      \field{title}{Digital Health Systems and Cardiovascular Risk Monitoring}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/ehjdh/ztad001
+      \endverb
+    \endentry
+    \entry{nextjs2025docs}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc173d57136dbe619cbccee88ee6421c}{%
+           family={{Vercel}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{bibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorbibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \field{extraname}{1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Next.js Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nextjs.org/docs
+      \endverb
+      \verb{url}
+      \verb https://nextjs.org/docs
+      \endverb
+    \endentry
+    \entry{nextjs2025release}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc173d57136dbe619cbccee88ee6421c}{%
+           family={{Vercel}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{bibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorbibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Next.js Releases}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nextjs.org/blog
+      \endverb
+      \verb{url}
+      \verb https://nextjs.org/blog
+      \endverb
+    \endentry
+    \entry{who2024digitalization}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Digital Transformation in Health}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.who.int/health-topics/digital-health
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/health-topics/digital-health
+      \endverb
+    \endentry
+    \entry{who2025cvd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Cardiovascular diseases (CVDs)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
+      \endverb
+    \endentry
+    \entry{who2025digitalhealth2027}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Global Digital Health Strategy Update}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/initiatives/digital-health
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/initiatives/digital-health
+      \endverb
+    \endentry
+    \entry{who2025digitalhealth}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Global strategy on digital health 2020–2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/publications/i/item/9789240020924
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/i/item/9789240020924
+      \endverb
+    \endentry
+    \entry{who2025his}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-05}
+      \field{title}{Health Information Systems}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.who.int/data
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/data
+      \endverb
+    \endentry
   \enddatalist
+  \missing{cdc2025riskfactors}
 \endrefsection
 \endinput
 

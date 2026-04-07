@@ -1,0 +1,20 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Tesis.blg'
+[280] biber-MSWIN64:342> INFO - === 
+[364] Biber.pm:421> INFO - Reading 'Tesis.bcf'
+[712] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
+[763] Biber.pm:4487> INFO - Processing section 0
+[785] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[873] bibtex.pm:1713> INFO - LaTeX decoding ...
+[957] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[1419] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1419] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1419] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1575] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1575] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1575] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1662] bbl.pm:676> INFO - Writing 'Tesis.bbl' with encoding 'UTF-8'
+[1755] bbl.pm:779> INFO - Output to Tesis.bbl
+[1755] Biber.pm:132> WARN - Duplicate entry key: 'hono2025docs' in file 'bibliografia.bib', skipping ...
+[1756] Biber.pm:132> WARN - I didn't find a database entry for 'cdc2025riskfactors' (section 0)
+[1756] Biber.pm:134> INFO - WARNINGS: 2

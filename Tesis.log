@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  25 MAR 2026 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  6 APR 2026 00:33
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **d:/Anteproyecto/Tesis.tex
 (d:/Anteproyecto/Tesis.tex
@@ -234,8 +235,8 @@ Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 27.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 27.
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 26.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 26.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/ae\ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -816,11 +817,11 @@ Package: glossary-tree 2025/11/09 v4.9 (NLCT)
 \glo@main@file=\write6
 \openout6 = `Tesis.glo'.
 
-Package glossaries Info: Writing glossary file Tesis.glo on input line 54.
+Package glossaries Info: Writing glossary file Tesis.glo on input line 53.
 \glo@acronym@file=\write7
 \openout7 = `Tesis.acn'.
 
-Package glossaries Info: Writing glossary file Tesis.acn on input line 54.
+Package glossaries Info: Writing glossary file Tesis.acn on input line 53.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen266
@@ -934,9 +935,9 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 )
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 111.
+(hyperref)                setting the option has no effect on input line 110.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 111.
+Package hyperref Info: Option `colorlinks' set `false' on input line 110.
 (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip120
@@ -962,7 +963,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count526
 \@quotereset=\count527
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 177.
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 176.
 (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )
@@ -978,24 +979,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
  (capitulos/cap1.aux) (capitulos/cap2.aux))
 \openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count528
@@ -1015,8 +1016,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 177.
-LaTeX Info: Redefining \% on input line 177.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1028,7 +1029,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 177.
+Package hyperref Info: Link coloring OFF on input line 176.
  (Tesis.out) (Tesis.out)
 \@outlinefile=\write8
 \openout8 = `Tesis.out'.
@@ -1054,14 +1055,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
- (Tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 177.
-Package biblatex Info: Reference segment=0 on input line 177.
+ (Tesis.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                cdc2025riskfactors
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 176.
+Package biblatex Info: Reference segment=0 on input line 176.
 \c@lstlisting=\count534
-<logos/logounsis1.png, id=203, 165.0165pt x 169.8345pt>
+<logos/logounsis1.png, id=207, 165.0165pt x 169.8345pt>
 File: logos/logounsis1.png Graphic file (type png)
 <use logos/logounsis1.png>
-Package pdftex.def Info: logos/logounsis1.png  used on input line 180.
+Package pdftex.def Info: logos/logounsis1.png  used on input line 179.
 (pdftex.def)             Requested size: 102.42834pt x 105.41809pt.
  [1
 
@@ -1096,10 +1105,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write9
 \openout9 = `Tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 194.
+(babel)             Reported on input line 193.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1126,56 +1135,16 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write11
 \openout11 = `Tesis.lot'.
 
- [9
+ (Tesis.acr [9
 
-] (Tesis.acr [10
-
-]) [11
+]) (Tesis.gls [10
 
 
-] (Tesis.gls [12
-
-]
-
-LaTeX Warning: Citation 'ibm_framework' on page 13 undefined on input line 8.
-
-
-LaTeX Warning: Citation '' on page 13 undefined on input line 8.
-
-
-Overfull \hbox (66.90779pt too wide) in paragraph at lines 8--8
-\T1/aer/m/n/12 fra-me-work con-tro-la el flu-jo de la eje-cu-ción (in-ver-sión de con-trol). [][].
- []
-
-
-LaTeX Warning: Citation 'cloudflare_proxy' on page 13 undefined on input line 11.
-
-
-LaTeX Warning: Citation '' on page 13 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'aws_api' on page 13 undefined on input line 13.
-
-
-LaTeX Warning: Citation '' on page 13 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'mdn_runtime' on page 13 undefined on input line 15.
-
-
-LaTeX Warning: Citation '' on page 13 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'oracle_spa' on page 13 undefined on input line 17.
-
-
-LaTeX Warning: Citation '' on page 13 undefined on input line 17.
-
-)
+])
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \include{capitulos/cap1}
+l.211 \include{capitulos/cap1}
                                [1
 
 
@@ -1299,7 +1268,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.124             \item \textit
                                {Entregable:} DiseÃ±o TÃ©cnico. [8]
-<imagenes/cronograma.png, id=387, 1239.88219pt x 270.25969pt>
+<imagenes/cronograma.png, id=390, 1239.88219pt x 270.25969pt>
 File: imagenes/cronograma.png Graphic file (type png)
 <use imagenes/cronograma.png>
 Package pdftex.def Info: imagenes/cronograma.png  used on input line 158.
@@ -1320,8 +1289,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
                    \relax 
 l.162 \section
               {} [9])
-LaTeX Info: Redefining \. on input line 212.
-LaTeX Info: Redefining \% on input line 212.
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1334,26 +1303,23 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 \include{capitulos/cap1}
+l.211 \include{capitulos/cap1}
                                [10 <./imagenes/cronograma.png>]
 \openout2 = `capitulos/cap2.aux'.
 
  (capitulos/cap2.tex
 Cap\'{\i }tulo 2.
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.213 \include{capitulos/cap2}
-                               [11
+[11
 
 
 
 
-] (apendices/dataBase.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+]
 
+LaTeX Warning: Citation 'cdc2025riskfactors' on page 12 undefined on input line 24.
+
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1361,19 +1327,9 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Esquema de base de datos} [12
-
-
-]
-Overfull \vbox (664.25293pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+[12]
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1383,12 +1339,141 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [13]
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[14]
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[15]
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[16]
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[17]
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[18]
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[19]
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[20])
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[21] (apendices/dataBase.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[22
+
+
+]
 Ap\'{e}ndice A.
-) [14
+) [23
 
-] [15
+]
+Overfull \hbox (28.78287pt too wide) in paragraph at lines 271--271
+[][]\T1/aer/m/n/12 Microsoft. (2025). Ty-peS-cript Do-cu-men-ta-tion [Ac-ces-sed: 2026-04-05]. []$https : / / www . typescriptlang .
+ []
 
-] (Tesis.aux
+[24
+
+]
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[25]
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[26] (Tesis.aux
 LaTeX Info: Redefining \sptext on input line 19.
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
@@ -1401,32 +1486,24 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 649F8D1FF3D14FC9409814755AD1A707;8546.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Tesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: A9E8EFDAECA0809C0F2B6AD0F87FA5C4;8734.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32142 strings out of 467871
- 608090 string characters out of 5414469
- 1578952 words of memory out of 5000000
- 60434 multiletter control sequences out of 15000+600000
+ 32408 strings out of 467871
+ 615661 string characters out of 5414469
+ 1581148 words of memory out of 5000000
+ 60662 multiletter control sequences out of 15000+600000
  661748 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,97p,2504b,2905s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tesis.pdf (27 pages, 1107945 bytes).
+ <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Tesis.pdf (36 pages, 1163221 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 411 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 419 words of extra memory for PDF output out of 10000 (max. 10000000)
 

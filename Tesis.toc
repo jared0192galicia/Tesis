@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Abreviaturas y Acrónimos}{10}{chapter*.8}%
-\contentsline {chapter}{Glosario}{12}{chapter*.11}%
+\contentsline {chapter}{Abreviaturas y Acrónimos}{9}{chapter*.7}%
+\contentsline {chapter}{Glosario}{10}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Introducción}{2}{chapter.1}%
 \contentsline {section}{\numberline {1}Antecedentes}{2}{section.1.1}%
 \contentsline {section}{\numberline {2}Planteamiento del problema}{4}{section.1.2}%
@@ -19,46 +19,49 @@
 \contentsline {subsection}{\numberline {8.5}Tipos y Enfoque de Investigación}{9}{subsection.1.8.5}%
 \contentsline {section}{\numberline {9}Cronograma}{10}{section.1.9}%
 \contentsline {section}{\numberline {10}}{10}{section.1.10}%
-\contentsline {chapter}{\numberline {2}Marco Teorico}{11}{chapter.2}%
-\contentsline {section}{\numberline {1}Marco técnico y conceptual}{13}{section.2.1}%
-\contentsline {section}{\numberline {2}Introducción}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.1}Sistemas de información en el ámbito de la salud}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2}Riesgo cardiovascular}{13}{subsection.2.2.2}%
-\contentsline {subsubsection}{Factores de riesgo cardiovascular}{13}{section*.15}%
-\contentsline {subsubsection}{Clasificación del riesgo cardiovascular}{13}{section*.16}%
-\contentsline {subsection}{\numberline {2.3}Sistemas web}{13}{subsection.2.2.3}%
-\contentsline {subsubsection}{Arquitectura de sistemas web}{13}{section*.17}%
-\contentsline {subsubsection}{Aplicaciones web modernas}{13}{section*.18}%
-\contentsline {subsection}{\numberline {2.4}Tecnologías utilizadas}{13}{subsection.2.2.4}%
-\contentsline {subsubsection}{Bun}{13}{section*.19}%
-\contentsline {subsubsection}{Node.js}{13}{section*.20}%
-\contentsline {subsubsection}{Frameworks y librerías empleadas}{13}{section*.21}%
-\contentsline {subsubsection}{Base de datos}{13}{section*.22}%
-\contentsline {subsection}{\numberline {2.5}Usabilidad}{13}{subsection.2.2.5}%
-\contentsline {subsubsection}{Concepto de usabilidad}{13}{section*.23}%
-\contentsline {subsubsection}{Principios de usabilidad}{13}{section*.24}%
-\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{13}{section*.25}%
-\contentsline {subsection}{\numberline {2.6}Seguridad de la información}{13}{subsection.2.2.6}%
-\contentsline {subsubsection}{Protección de datos personales}{13}{section*.26}%
-\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{13}{section*.27}%
-\contentsline {subsection}{\numberline {2.7}Trabajos relacionados}{13}{subsection.2.2.7}%
-\contentsline {section}{\numberline {3}Capítulo III: Diseño y desarrollo del sistema}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {3.1}Introducción}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {3.2}Análisis de requisitos}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {3.3}Prototipado de baja fidelidad}{13}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {3.4}Pruebas de prototipado}{13}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {3.5}Prototipado de AF}{13}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {3.6}Pruebas de usuario}{13}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {3.7}Resultados}{13}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {3.8}Conclusiones}{13}{subsection.2.3.8}%
-\contentsline {section}{\numberline {4}Capítulo IV: Resultados}{13}{section.2.4}%
-\contentsline {subsection}{\numberline {4.1}Introducción}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {4.2}Resultados del desarrollo del sistema}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {4.3}Resultados de las pruebas}{13}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {4.4}Evaluación del sistema}{13}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {4.5}Conclusiones}{13}{subsection.2.4.5}%
-\contentsline {section}{\numberline {5}Capítulo V: Conclusiones y trabajos futuros}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {5.1}Conclusiones}{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {5.2}Limitaciones del estudio}{13}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {5.3}Trabajos futuros}{13}{subsection.2.5.3}%
-\contentsline {chapter}{\numberline {A}Esquema de base de datos}{14}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {2}Marco teórico}{11}{chapter.2}%
+\contentsline {section}{\numberline {1}Marco técnico y conceptual}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {1.1}Introducción}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {1.2}Sistemas de información en el ámbito de la salud}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {1.3}Riesgo cardiovascular}{12}{subsection.2.1.3}%
+\contentsline {subsubsection}{Factores de riesgo cardiovascular}{13}{section*.13}%
+\contentsline {subsubsection}{Clasificación del riesgo cardiovascular}{13}{section*.14}%
+\contentsline {subsection}{\numberline {1.4}Sistemas web}{14}{subsection.2.1.4}%
+\contentsline {subsubsection}{Arquitectura de sistemas web}{14}{section*.15}%
+\contentsline {subsubsection}{Aplicaciones web modernas}{15}{section*.16}%
+\contentsline {subsection}{\numberline {1.5}Tecnologías utilizadas}{15}{subsection.2.1.5}%
+\contentsline {subsubsection}{Bun}{15}{section*.17}%
+\contentsline {subsubsection}{Node.js}{16}{section*.18}%
+\contentsline {subsubsection}{React}{16}{section*.19}%
+\contentsline {subsubsection}{Next.js}{16}{section*.20}%
+\contentsline {subsubsection}{TypeScript}{17}{section*.21}%
+\contentsline {subsubsection}{Hono y API REST}{17}{section*.22}%
+\contentsline {subsubsection}{Base de datos y persistencia}{17}{section*.23}%
+\contentsline {subsection}{\numberline {1.6}Usabilidad}{18}{subsection.2.1.6}%
+\contentsline {subsubsection}{Concepto de usabilidad}{18}{section*.24}%
+\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{19}{section*.25}%
+\contentsline {subsection}{\numberline {1.7}Seguridad de la información}{19}{subsection.2.1.7}%
+\contentsline {subsubsection}{Protección de datos personales}{19}{section*.26}%
+\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{20}{section*.27}%
+\contentsline {subsection}{\numberline {1.8}Trabajos relacionados}{20}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {1.9}Síntesis del capítulo}{21}{subsection.2.1.9}%
+\contentsline {section}{\numberline {2}Capítulo III: Diseño y desarrollo del sistema}{22}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Introducción}{22}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2}Análisis de requisitos}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Prototipado de baja fidelidad}{22}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.4}Pruebas de prototipado}{22}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.5}Prototipado de AF}{22}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.6}Pruebas de usuario}{22}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.7}Resultados}{22}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.8}Conclusiones}{22}{subsection.2.2.8}%
+\contentsline {section}{\numberline {3}Capítulo IV: Resultados}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Introducción}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.2}Resultados del desarrollo del sistema}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {3.3}Resultados de las pruebas}{22}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {3.4}Evaluación del sistema}{22}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {3.5}Conclusiones}{22}{subsection.2.3.5}%
+\contentsline {section}{\numberline {4}Capítulo V: Conclusiones y trabajos futuros}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {4.1}Conclusiones}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {4.2}Limitaciones del estudio}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {4.3}Trabajos futuros}{22}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {A}Esquema de base de datos}{23}{appendix.Alph1}%

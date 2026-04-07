@@ -1,2 +1,146 @@
-\chapter{Marco Teorico}
+% !TeX root = ../Tesis.tex
+\chapter{Marco teórico}
 
+\section{Marco técnico y conceptual}
+
+\subsection{Introducción}
+
+El presente capítulo expone los fundamentos teóricos y técnicos que sustentan el desarrollo de un sistema web para la gestión y evaluación del riesgo cardiovascular del personal académico y administrativo de la Universidad de la Sierra Sur. La organización del contenido retoma la estructura mostrada en el documento base del proyecto y la amplía para servir como referencia de redacción académica en la tesis, con un énfasis particular en la salud digital, el riesgo cardiovascular, las arquitecturas web modernas, la usabilidad y la seguridad de la información \textcite{who2025cvd,who2025digitalhealth}.
+
+La revisión teórica se presenta desde una perspectiva aplicada, debido a que el sistema propuesto pretende centralizar información clínica, facilitar su consulta y apoyar la toma de decisiones preventivas. En este sentido, el marco conceptual no se limita a describir definiciones aisladas, sino que articula los conceptos con las necesidades funcionales de la solución tecnológica y con las condiciones de uso en un entorno institucional donde se manejan datos sensibles de salud \textcite{who2025digitalhealth}.
+
+\subsection{Sistemas de información en el ámbito de la salud}
+
+Los sistemas de información en salud constituyen el conjunto de personas, procesos, datos y tecnologías que permiten recolectar, almacenar, procesar y distribuir información útil para la atención, la vigilancia y la toma de decisiones. En la actualidad, la salud digital se reconoce como un componente estratégico para fortalecer los sistemas sanitarios, ampliar el acceso a la información y favorecer la continuidad de la atención mediante soluciones interoperables y orientadas al uso de datos \textcite{who2025digitalhealth}.
+
+Desde esta perspectiva, la digitalización de la información clínica ofrece ventajas relevantes: reduce la dispersión de registros, mejora la trazabilidad de los datos, facilita la generación de reportes y contribuye a la estandarización de los procesos administrativos y asistenciales. En escenarios institucionales, como el universitario, estas características son especialmente importantes, ya que permiten sustituir esquemas basados en expedientes físicos aislados por repositorios centralizados que favorecen el seguimiento longitudinal del estado de salud \textcite{who2025his,who2025digitalhealth}.
+
+Asimismo, la incorporación de tecnologías digitales en salud exige considerar aspectos de interoperabilidad, calidad del dato, seguridad y gobernanza de la información. Un sistema de este tipo no sólo debe registrar datos, sino garantizar que la información sea confiable, recuperable y útil para la práctica preventiva. Por ello, el diseño de sistemas de información en salud debe contemplar reglas de captura, validación, control de acceso y mecanismos de protección acordes con la sensibilidad de los datos clínicos \textcite{who2025digitalhealth,who2025his,mdn2025security}.
+
+\subsection{Riesgo cardiovascular}
+
+El riesgo cardiovascular se entiende como la probabilidad de que una persona presente un evento cardiovascular en un periodo determinado, a partir de la combinación de factores clínicos, biológicos y conductuales. La relevancia de este concepto es evidente, ya que las enfermedades cardiovasculares continúan siendo la principal causa de muerte a nivel mundial y concentran una proporción considerable de decesos por infarto y accidente cerebrovascular \textcite{who2025cvd}.
+
+En la literatura y en la práctica clínica reciente, la estimación del riesgo cardiovascular se apoya en modelos y herramientas que integran variables como edad, presión arterial, colesterol, tabaquismo, diabetes, índice de masa corporal y antecedentes familiares. La guía y calculadora PREVENT de la American Heart Association constituye un ejemplo reciente de herramienta orientada a evaluar el riesgo y guiar la prevención clínica \cite{aha2024prevent}. De forma complementaria, los reportes de salud pública continúan identificando como factores de riesgo principales la hipertensión, la dislipidemia, el tabaquismo, la diabetes, la obesidad, la inactividad física y los hábitos alimentarios inadecuados \cite{cdc2025riskfactors}.
+
+\subsubsection{Factores de riesgo cardiovascular}
+
+Los factores de riesgo cardiovascular pueden clasificarse en modificables y no modificables. Entre los no modificables se encuentran la edad, el sexo y los antecedentes familiares; mientras que entre los modificables destacan la hipertensión arterial, la hipercolesterolemia, la glucosa elevada, el sobrepeso, la obesidad, el sedentarismo, la alimentación no saludable y el consumo de tabaco. Esta distinción es importante porque orienta la prevención hacia aquellas condiciones que sí pueden ser intervenidas mediante cambios en el estilo de vida o mediante tratamiento médico oportuno \cite{who2025cvd}.
+
+Para un sistema de seguimiento preventivo, la identificación de factores de riesgo resulta indispensable, ya que permite organizar la información clínica en torno a variables relevantes y producir indicadores de apoyo para el personal especializado. En un contexto universitario, donde predominan jornadas prolongadas de trabajo sedentario, el análisis de estos factores adquiere una importancia particular por su asociación con el aumento del riesgo cardiometabólico \cite{who2025cvd}.
+
+\subsubsection{Clasificación del riesgo cardiovascular}
+
+La clasificación del riesgo cardiovascular se construye a partir de la combinación de factores de riesgo y del cálculo de una probabilidad estimada de eventos futuros. En términos generales, estas clasificaciones permiten agrupar a las personas en categorías de riesgo bajo, intermedio o alto, con el fin de priorizar intervenciones preventivas y seguimiento clínico. Sin embargo, la clasificación exacta depende del modelo utilizado, de la población de referencia y de las variables incluidas en el cálculo \cite{aha2024prevent,who2025cvd}.
+
+En el caso de esta tesis, la clasificación del riesgo cardiovascular debe entenderse como un apoyo para la toma de decisiones, no como un diagnóstico definitivo. Por ello, el sistema web se orienta a centralizar información, visualizar tendencias y facilitar la interpretación de los datos por parte de especialistas, quienes conservan la responsabilidad de emitir valoraciones clínicas. Esta delimitación resulta esencial para mantener la coherencia entre la herramienta tecnológica y el ámbito profesional de la salud \cite{who2025digitalhealth,mdn2025privacy}.
+
+\subsection{Sistemas web}
+
+Un sistema web es una aplicación accesible mediante un navegador que integra componentes de presentación, lógica de negocio y persistencia de datos. Su arquitectura suele basarse en el modelo cliente-servidor, en el cual el cliente solicita recursos o ejecuta acciones y el servidor procesa la información, responde peticiones y coordina el acceso a los datos. Esta forma de diseño facilita la actualización centralizada del sistema, la escalabilidad y la disponibilidad desde distintos dispositivos \cite{nextjs2025docs,nodejs2025docs,hono2025docs}.
+
+Las aplicaciones web modernas han evolucionado hacia esquemas más dinámicos, modulares y orientados a componentes. React, por ejemplo, propone la construcción de interfaces mediante componentes reutilizables, mientras que Next.js extiende estas capacidades para facilitar el desarrollo de aplicaciones web con mejores opciones de renderizado, enrutamiento y organización del proyecto \cite{react2025docs,nextjs2025docs}. En el contexto de una plataforma de salud, estas características favorecen la creación de interfaces responsivas, consistentes y adaptables a flujos de trabajo clínicos o administrativos.
+
+\subsubsection{Arquitectura de sistemas web}
+
+La arquitectura de un sistema web define la forma en que se distribuyen las responsabilidades entre presentación, lógica de aplicación y almacenamiento. En una arquitectura bien estructurada, el front-end se encarga de la interacción con el usuario; el back-end administra la lógica, la validación y las reglas del negocio; y la base de datos conserva la información de manera persistente. Cuando estas capas se separan adecuadamente, el sistema mejora su mantenibilidad, reduce el acoplamiento y facilita la evolución futura \cite{hono2025docs,nextjs2025docs,nodejs2025docs}.
+
+Además, en sistemas que manejan información clínica, la arquitectura debe incorporar mecanismos de autenticación, autorización, registro de eventos y validación de entradas. La separación de responsabilidades no sólo aporta claridad técnica, sino que contribuye a la seguridad y al control del acceso a la información sensible. Por esta razón, los patrones basados en API REST y componentes reutilizables resultan especialmente convenientes para este tipo de soluciones \cite{hono2025docs,owasp2025top10,mdn2025security}.
+
+\subsubsection{Aplicaciones web modernas}
+
+Las aplicaciones web modernas se caracterizan por ofrecer experiencias de uso cercanas a las de una aplicación de escritorio, con interacción continua, actualización dinámica de contenido y una mejor adaptación a diferentes resoluciones de pantalla. Este enfoque resulta útil en proyectos de salud, donde la rapidez de acceso, la claridad visual y la reducción de errores de captura influyen directamente en la calidad del proceso de registro y consulta \cite{nextjs2025docs,react2025docs,mdn2025accessibility}.
+
+En el presente proyecto, la adopción de una aplicación web moderna se justifica porque permite centralizar la información, mejorar la disponibilidad del sistema y simplificar su mantenimiento. Asimismo, la posibilidad de desplegar el sistema en un navegador reduce barreras de instalación y facilita la adopción por parte de distintos perfiles de usuario dentro de la institución \cite{nextjs2025docs,who2025digitalhealth}.
+
+\subsection{Tecnologías utilizadas}
+
+\subsubsection{Bun}
+
+Bun es un runtime de JavaScript orientado a integrar en una sola plataforma funciones que tradicionalmente se distribuyen entre varias herramientas. Su documentación oficial lo presenta como un entorno “todo en uno” para ejecutar JavaScript del lado del servidor y para simplificar el flujo de trabajo de desarrollo. En consecuencia, se posiciona como una alternativa moderna para proyectos que buscan rapidez de ejecución, menor complejidad operativa y compatibilidad con APIs web y con buena parte del ecosistema de Node.js \cite{bun2025docs}.
+
+Para este trabajo, Bun se considera relevante por su alineación con la construcción de servicios web ligeros y por su capacidad de integrarse con herramientas modernas de desarrollo. Su uso en el back-end se justifica por la necesidad de construir una base tecnológica contemporánea, capaz de soportar una arquitectura modular y de responder con eficiencia a múltiples solicitudes simultáneas \cite{bun2025docs,hono2025docs}.
+
+\subsubsection{Node.js}
+
+Node.js es un entorno de ejecución de JavaScript de código abierto y multiplataforma que permite desarrollar servidores, aplicaciones web y herramientas de línea de comandos. Su arquitectura basada en un modelo de E/S no bloqueante y en un ciclo de eventos favorece la construcción de aplicaciones escalables, especialmente en escenarios donde se requieren múltiples conexiones concurrentes \cite{nodejs2025docs,nodejs2025eventloop}.
+
+En esta tesis, Node.js se integra como referencia técnica porque forma parte del ecosistema de ejecución de JavaScript y constituye una base ampliamente adoptada para el desarrollo de servicios de red. Su presencia también facilita la compatibilidad con bibliotecas, herramientas de construcción y patrones de diseño empleados de forma común en aplicaciones web modernas \cite{nodejs2025docs}.
+
+\subsubsection{React}
+
+React es una biblioteca para construir interfaces de usuario a partir de componentes. Su modelo de desarrollo permite dividir la interfaz en piezas reutilizables, gestionar estados visuales y estructurar pantallas complejas de manera organizada. Esta filosofía favorece la mantenibilidad del código, la reutilización y la consistencia visual de la aplicación \cite{react2025docs}.
+
+En el contexto del sistema propuesto, React resulta adecuado para construir formularios, tablas, paneles de control y visualizaciones de datos vinculadas al seguimiento del riesgo cardiovascular. Su enfoque basado en componentes facilita la separación entre presentación y lógica de interfaz, lo que contribuye a una experiencia de usuario más clara y predecible \cite{react2025docs,mdn2025accessibility}.
+
+\subsubsection{Next.js}
+
+Next.js es un framework basado en React que facilita la creación de aplicaciones web con una estructura organizada y opciones de renderizado modernas. Su documentación oficial lo presenta como un marco para construir aplicaciones web de alta calidad con el apoyo de componentes React, rutas definidas y herramientas de desarrollo integradas \cite{nextjs2025docs,nextjs2025release}.
+
+La elección de Next.js para este proyecto se vincula con la necesidad de contar con una aplicación estructurada, fácil de escalar y capaz de integrar de manera ordenada las distintas vistas del sistema. Asimismo, su adopción favorece la creación de una arquitectura más clara para el mantenimiento futuro y para la incorporación progresiva de nuevas funcionalidades \cite{nextjs2025docs}.
+
+\subsubsection{TypeScript}
+
+TypeScript es un lenguaje que amplía JavaScript mediante un sistema de tipos estático, con el propósito de mejorar la detección de errores y ofrecer un mejor soporte de herramientas durante el desarrollo. Su documentación oficial lo describe como una opción que brinda mejor capacidad de mantenimiento y mayor claridad en proyectos de distinta escala \cite{typescript2025docs}.
+
+En un sistema que maneja información de salud, TypeScript aporta ventajas notables, ya que permite modelar estructuras de datos con mayor precisión, documentar contratos entre módulos y reducir errores derivados de valores inesperados. Por ello, su utilización contribuye a la robustez general del sistema y a la legibilidad del código fuente \cite{typescript2025docs}.
+
+\subsubsection{Hono y API REST}
+
+Hono es un marco de trabajo web ligero, rápido y basado en estándares web, compatible con múltiples runtimes de JavaScript. Su documentación destaca que puede ejecutarse en Bun, Node.js y otras plataformas, lo que lo convierte en una alternativa conveniente para construir APIs modernas \cite{hono2025docs,hono2025bun}.
+
+En este proyecto, Hono permite estructurar la capa de servicios mediante una API REST, entendida como un conjunto de puntos de acceso que intercambian información entre cliente y servidor. Esta aproximación favorece la separación de responsabilidades, simplifica la integración con el front-end y facilita el crecimiento modular del sistema \cite{hono2025docs,owasp2025top10}.
+
+\subsubsection{Base de datos y persistencia}
+
+La persistencia de datos en un sistema de salud debe garantizar organización, consistencia y capacidad de recuperación. La base de datos constituye el repositorio principal de la información clínica y administrativa, por lo que su diseño debe responder a criterios de integridad, normalización y control de acceso. En una solución de este tipo, la base de datos centralizada permite consultar historiales, generar estadísticas descriptivas y conservar la trazabilidad de los registros \cite{who2025his,who2025digitalhealth}.
+
+Para esta tesis, la capa de persistencia debe concebirse como un componente crítico, debido a que almacena datos personales y de salud que requieren protección reforzada. En consecuencia, el modelo de datos debe diseñarse con especial atención a la confidencialidad, la minimización del dato y la posibilidad de realizar respaldos y recuperaciones controladas \cite{mdn2025privacy,mdn2025security}.
+
+\subsection{Usabilidad}
+
+La usabilidad se refiere al grado en que un sistema puede ser utilizado por usuarios específicos para alcanzar objetivos concretos con eficacia, eficiencia y satisfacción. En sistemas de información para salud, la usabilidad adquiere una importancia central porque una interfaz confusa o poco clara puede provocar errores de captura, retrabajo y pérdida de tiempo durante el registro o la consulta de datos \cite{mdn2025accessibility,nextjs2025docs}.
+
+La evaluación de la usabilidad puede realizarse mediante pruebas basadas en tareas, cuestionarios estandarizados y observación directa del desempeño del usuario. En esta tesis, la usabilidad se considera un criterio esencial, ya que el sistema debe ser comprensible para usuarios con distintos niveles de familiaridad tecnológica y, al mismo tiempo, debe permitir que especialistas y personal administrativo realicen sus actividades con precisión \cite{mdn2025accessibility,who2025digitalhealth}.
+
+\subsubsection{Concepto de usabilidad}
+
+Desde una perspectiva práctica, un sistema usable es aquel que reduce la carga cognitiva del usuario, presenta información de forma clara y evita ambigüedades en la interacción. Esto implica que los elementos visuales, los formularios, los mensajes de ayuda y los flujos de navegación deben diseñarse de manera coherente para facilitar la ejecución de tareas \cite{mdn2025accessibility}.
+
+En el caso de un sistema para la evaluación del riesgo cardiovascular, la usabilidad no sólo mejora la experiencia del usuario, sino que también favorece la calidad de los datos recolectados. Una interfaz bien diseñada minimiza errores de captura y apoya la correcta interpretación de los resultados mostrados al personal autorizado \cite{mdn2025accessibility,who2025digitalhealth}.
+
+\subsubsection{Usabilidad en sistemas web de salud}
+
+Los sistemas web de salud requieren criterios de usabilidad más estrictos que otras aplicaciones, debido a la sensibilidad de la información y a la necesidad de reducir errores. La presentación clara de formularios, etiquetas, tablas y validaciones tiene un impacto directo en la confiabilidad del proceso de registro y en la comprensión de la información clínica \cite{mdn2025accessibility,mdn2025security}.
+
+Por ello, en este proyecto la usabilidad debe entenderse como una condición transversal del sistema. No se limita a la apariencia de la interfaz, sino que abarca la accesibilidad, la consistencia de los componentes, la claridad del lenguaje y la capacidad de adaptación a distintos dispositivos \cite{nextjs2025docs,react2025docs,mdn2025accessibility}.
+
+\subsection{Seguridad de la información}
+
+La seguridad de la información comprende las medidas destinadas a preservar la confidencialidad, integridad y disponibilidad de los datos. En aplicaciones de salud, esta dimensión es especialmente relevante porque se trabaja con datos personales y clínicos que exigen protección contra accesos no autorizados, alteraciones accidentales y pérdida de información \cite{owasp2025top10,mdn2025security,mdn2025privacy}.
+
+Las buenas prácticas actuales recomiendan validar y sanitizar toda entrada proveniente del navegador, no confiar en los datos enviados por el cliente y aplicar controles adecuados de autenticación y autorización. Estas medidas reducen el riesgo de vulnerabilidades frecuentes en aplicaciones web y contribuyen a una operación más segura del sistema \cite{mdn2025security,owasp2025top10}.
+
+\subsubsection{Protección de datos personales}
+
+La protección de datos personales implica limitar la recopilación a la información estrictamente necesaria, informar con claridad el uso de los datos y establecer controles de acceso acordes con el perfil del usuario. En entornos de salud, esta protección es indispensable debido a la naturaleza sensible de la información registrada \cite{mdn2025privacy,who2025digitalhealth}.
+
+En este proyecto, la protección de datos debe considerarse desde el diseño. Esto incluye reglas de acceso diferenciadas, almacenamiento seguro, manejo de sesiones, registro de auditoría y mecanismos de respaldo. De esta forma, el sistema no sólo administra información clínica, sino que también preserva la confianza de los usuarios y el cumplimiento de principios básicos de seguridad \cite{mdn2025security,owasp2025top10}.
+
+\subsubsection{Buenas prácticas de seguridad en sistemas web}
+
+Entre las buenas prácticas de seguridad más relevantes se encuentran la validación de entradas, el uso de controles de autorización por roles, la protección de formularios contra datos maliciosos, el cifrado de información sensible y la administración segura de credenciales. Estas medidas ayudan a mitigar riesgos asociados con inyección, exposición accidental de datos, manipulación de solicitudes y otros problemas frecuentes en aplicaciones web \cite{owasp2025top10,mdn2025security}.
+
+En consecuencia, la seguridad debe incorporarse como parte integral del diseño y no como una etapa posterior. Un sistema de salud seguro requiere decisiones técnicas consistentes en la interfaz, la API, la base de datos y la infraestructura de despliegue, de modo que la protección de la información se mantenga a lo largo de todo el flujo de uso \cite{owasp2025top10,mdn2025privacy}.
+
+\subsection{Trabajos relacionados}
+
+La literatura reciente muestra un interés creciente por el uso de registros electrónicos, herramientas de evaluación de riesgo y sistemas digitales para apoyar la atención cardiovascular. Revisiones publicadas entre 2024 y 2025 destacan la incorporación de historias clínicas electrónicas y enfoques basados en inteligencia artificial para la predicción del riesgo cardiovascular, así como la necesidad de abordar el problema de la deriva de datos y de la validez clínica de los modelos \cite{tsai2025ehrai,bibi2025cdrisk}.
+
+De manera complementaria, la digitalización de los sistemas hospitalarios y la adopción de plataformas integradas continúan siendo una prioridad para organismos internacionales, especialmente donde persisten esquemas mixtos o fragmentados de gestión de datos. Los informes recientes de la Organización Mundial de la Salud señalan que la integración, la estandarización y la seguridad son elementos clave para fortalecer los sistemas de información en salud \cite{who2024digitalization,who2025digitalhealth2027}.
+
+En el ámbito del desarrollo web, la evolución de frameworks y runtimes modernos ha permitido construir aplicaciones más eficientes, mantenibles y adaptables a distintos contextos. Bun, Node.js, React, Next.js y Hono ejemplifican esta tendencia al ofrecer herramientas que favorecen el desarrollo modular, la interoperabilidad y la escalabilidad del sistema propuesto \cite{bun2025docs,nodejs2025docs,react2025docs,nextjs2025docs,hono2025docs}.
+
+\subsection{Síntesis del capítulo}
+
+En síntesis, el presente marco teórico establece la base conceptual y técnica necesaria para comprender el desarrollo del sistema web propuesto. Los apartados revisados permiten vincular el problema de salud cardiovascular con el uso de sistemas de información, justificar la selección de tecnologías modernas y enfatizar la importancia de la usabilidad y la seguridad en el manejo de datos clínicos. Esta fundamentación sirve como soporte para los capítulos posteriores, en los que se presentará el diseño, desarrollo, pruebas y resultados del sistema.
