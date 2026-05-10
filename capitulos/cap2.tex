@@ -53,7 +53,7 @@ Las aplicaciones web modernas se caracterizan por ofrecer experiencias de uso ce
 
 En el presente proyecto, la adopción de una aplicación web moderna se justifica porque permite centralizar la información, mejorar la disponibilidad del sistema y simplificar su mantenimiento. Asimismo, la posibilidad de desplegar el sistema en un navegador reduce barreras de instalación y facilita la adopción por parte de distintos perfiles de usuario dentro de la institución \cite{nextjs2025docs,who2025digitalhealth}.
 
-\subsection{Tecnologías utilizadas}
+\subsection{Tecnologías modernas}
 
 \subsubsection{Bun}
 
@@ -66,6 +66,9 @@ Para este trabajo, Bun se considera relevante por su alineación con la construc
 Node.js es un entorno de ejecución de JavaScript de código abierto y multiplataforma que permite desarrollar servidores, aplicaciones web y herramientas de línea de comandos. Su arquitectura basada en un modelo de E/S no bloqueante y en un ciclo de eventos favorece la construcción de aplicaciones escalables, especialmente en escenarios donde se requieren múltiples conexiones concurrentes \cite{nodejs2025docs,nodejs2025eventloop}.
 
 En esta tesis, Node.js se integra como referencia técnica porque forma parte del ecosistema de ejecución de JavaScript y constituye una base ampliamente adoptada para el desarrollo de servicios de red. Su presencia también facilita la compatibilidad con bibliotecas, herramientas de construcción y patrones de diseño empleados de forma común en aplicaciones web modernas \cite{nodejs2025docs}.
+
+\subsubsection{Deno}
+Deno es un runtime de JavaScript y TypeScript que se presenta como una alternativa moderna a Node.js, con un enfoque en la seguridad, la simplicidad y el soporte nativo para TypeScript. Su documentación oficial destaca características como la ejecución segura por defecto, la integración de herramientas de desarrollo y la compatibilidad con módulos ES \cite{deno2025docs}.
 
 \subsubsection{React}
 
@@ -108,6 +111,20 @@ La evaluación de la usabilidad puede realizarse mediante pruebas basadas en tar
 Desde una perspectiva práctica, un sistema usable es aquel que reduce la carga cognitiva del usuario, presenta información de forma clara y evita ambigüedades en la interacción. Esto implica que los elementos visuales, los formularios, los mensajes de ayuda y los flujos de navegación deben diseñarse de manera coherente para facilitar la ejecución de tareas \cite{mdn2025accessibility}.
 
 En el caso de un sistema para la evaluación del riesgo cardiovascular, la usabilidad no sólo mejora la experiencia del usuario, sino que también favorece la calidad de los datos recolectados. Una interfaz bien diseñada minimiza errores de captura y apoya la correcta interpretación de los resultados mostrados al personal autorizado \cite{mdn2025accessibility,who2025digitalhealth}.
+
+\subsubsection{Métodos de evaluación de usabilidad UI/UX}
+
+\textbf{Pruebas de usabilidad con usuarios}
+Consisten en la observación directa de usuarios representativos mientras realizan tareas específicas dentro de una interfaz. Este método permite identificar fricciones en el flujo de navegación y problemas de comprensión en la arquitectura de información, evaluando métricas como la tasa de éxito y el tiempo de ejecución \cite{bargas2023usability}.
+
+\textbf{Evaluación heurística}
+Es un método de inspección de usabilidad donde evaluadores expertos revisan la interfaz basándose en principios reconocidos, como las heurísticas de Nielsen. Su objetivo es detectar problemas de diseño mediante la comparación sistemática de la interfaz contra estándares de diseño interactivo \cite{molich2022heuristic}.
+
+\textbf{Test A/B}
+Es una técnica de experimentación cuantitativa que compara dos versiones de una misma interfaz. Al exponer a grupos distintos a variaciones específicas de diseño, se mide estadísticamente cuál versión optimiza los indicadores de rendimiento del sistema \cite{kohavi2023abtesting}.
+
+\textbf{Pruebas de carga cognitiva (SUS)}
+El System Usability Scale (SUS) es un cuestionario estandarizado que mide la percepción subjetiva de la facilidad de uso. A través de una escala tipo Likert, se cuantifica la satisfacción del usuario respecto a la complejidad y eficiencia percibida en la interacción con el sistema \cite{bangor2024sus}.
 
 \subsubsection{Usabilidad en sistemas web de salud}
 

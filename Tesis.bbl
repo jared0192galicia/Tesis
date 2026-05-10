@@ -157,6 +157,78 @@
       \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
       \field{year}{2023}
     \endentry
+    \entry{bangor2024sus}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a11225ab91c29395be53a5dd7d212ba9}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aba27d557264c98b8367c0362efd4cd}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{fullhash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{fullhashraw}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{bibnamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorbibnamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authornamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorfullhash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorfullhashraw}{7c940a0dd0a09dbb47263757a989eb50}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human-Computer Interaction}
+      \field{number}{5}
+      \field{title}{Standardizing the System Usability Scale for Modern Web Applications}
+      \field{volume}{40}
+      \field{year}{2024}
+    \endentry
+    \entry{bargas2023usability}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=67bf7f499b94f3218d5265c1d8fc8480}{%
+           family={Bargas-Avila},
+           familyi={B\bibinithyphendelim A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a170d8dd7f507163aeaa9cfa305c1e8}{%
+           family={Hornb{æ}k},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{fullhash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{fullhashraw}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{bibnamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorbibnamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authornamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorfullhash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorfullhashraw}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Usability Studies}
+      \field{number}{2}
+      \field{title}{User experience evaluation methods in digital health systems: A systematic review}
+      \field{volume}{18}
+      \field{year}{2023}
+    \endentry
     \entry{bibi2025cdrisk}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e196d8465bf3eb63c2715f67a10508cc}{%
@@ -390,6 +462,42 @@
       \verb https://www.ibm.com/topics/framework
       \endverb
     \endentry
+    \entry{kohavi2023abtesting}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7120a2e96e83a82f9c24c62998a3c99a}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fecc02424d26dc92105e31c5bae498a9}{%
+           family={Longbotham},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{fullhash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{fullhashraw}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{bibnamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorbibnamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authornamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorfullhash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorfullhashraw}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{number}{1}
+      \field{title}{Controlled Experiments on the Web: A Survey of A/B Testing Practices}
+      \field{volume}{40}
+      \field{year}{2023}
+    \endentry
     \entry{react2025docs}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=350a86b0327152e3a50596538f38a5db}{%
@@ -451,6 +559,36 @@
       \verb{url}
       \verb https://www.typescriptlang.org/docs/
       \endverb
+    \endentry
+    \entry{molich2022heuristic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16f4f39d66bea76cd86560101fa03ff9}{%
+           family={Molich},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{fullhash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{fullhashraw}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{bibnamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorbibnamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authornamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorfullhash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorfullhashraw}{16f4f39d66bea76cd86560101fa03ff9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usability Inspections: Methods and Applications in Modern Interfaces}
+      \field{year}{2022}
     \endentry
     \entry{mdn_runtime}{misc}{}{}
       \name{author}{1}{}{%
@@ -1363,6 +1501,78 @@
       \field{title}{Riesgo cardiovascular en los pacientes hipertensos de la UMF 01 Tapachula, Chiapas}
       \field{year}{2023}
     \endentry
+    \entry{bangor2024sus}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a11225ab91c29395be53a5dd7d212ba9}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aba27d557264c98b8367c0362efd4cd}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{fullhash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{fullhashraw}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{bibnamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorbibnamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authornamehash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorfullhash}{7c940a0dd0a09dbb47263757a989eb50}
+      \strng{authorfullhashraw}{7c940a0dd0a09dbb47263757a989eb50}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human-Computer Interaction}
+      \field{number}{5}
+      \field{title}{Standardizing the System Usability Scale for Modern Web Applications}
+      \field{volume}{40}
+      \field{year}{2024}
+    \endentry
+    \entry{bargas2023usability}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=67bf7f499b94f3218d5265c1d8fc8480}{%
+           family={Bargas-Avila},
+           familyi={B\bibinithyphendelim A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a170d8dd7f507163aeaa9cfa305c1e8}{%
+           family={Hornb{æ}k},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{fullhash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{fullhashraw}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{bibnamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorbibnamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authornamehash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorfullhash}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \strng{authorfullhashraw}{944d7f16c3d0fbc7dde72c26f33b330b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Usability Studies}
+      \field{number}{2}
+      \field{title}{User experience evaluation methods in digital health systems: A systematic review}
+      \field{volume}{18}
+      \field{year}{2023}
+    \endentry
     \entry{bibi2025cdrisk}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e196d8465bf3eb63c2715f67a10508cc}{%
@@ -1596,6 +1806,42 @@
       \verb https://www.ibm.com/topics/framework
       \endverb
     \endentry
+    \entry{kohavi2023abtesting}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7120a2e96e83a82f9c24c62998a3c99a}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fecc02424d26dc92105e31c5bae498a9}{%
+           family={Longbotham},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{fullhash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{fullhashraw}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{bibnamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorbibnamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authornamehash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorfullhash}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \strng{authorfullhashraw}{ad5b6fc5ff3d05d65732188fddcf1d83}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{number}{1}
+      \field{title}{Controlled Experiments on the Web: A Survey of A/B Testing Practices}
+      \field{volume}{40}
+      \field{year}{2023}
+    \endentry
     \entry{react2025docs}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=350a86b0327152e3a50596538f38a5db}{%
@@ -1657,6 +1903,36 @@
       \verb{url}
       \verb https://www.typescriptlang.org/docs/
       \endverb
+    \endentry
+    \entry{molich2022heuristic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16f4f39d66bea76cd86560101fa03ff9}{%
+           family={Molich},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{fullhash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{fullhashraw}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{bibnamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorbibnamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authornamehash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorfullhash}{16f4f39d66bea76cd86560101fa03ff9}
+      \strng{authorfullhashraw}{16f4f39d66bea76cd86560101fa03ff9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usability Inspections: Methods and Applications in Modern Interfaces}
+      \field{year}{2022}
     \endentry
     \entry{mdn_runtime}{misc}{}{}
       \name{author}{1}{}{%
@@ -2431,6 +2707,7 @@
     \endentry
   \enddatalist
   \missing{cdc2025riskfactors}
+  \missing{deno2025docs}
 \endrefsection
 \endinput
 

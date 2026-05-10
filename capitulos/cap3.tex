@@ -1,0 +1,139 @@
+\chapter{Capítulo III: Diseño y Desarrollo del Artefacto}
+
+\section{Introducción}
+El presente capítulo detalla el proceso de creación del sistema SIRCAR, fundamentado en el marco metodológico de \textit{Design Science Research} (DSR). Esta metodología guía la investigación hacia la creación de un artefacto innovador que resuelve un problema práctico: la dispersión y falta de seguimiento de datos de salud cardiovascular en la UNSIS. 
+
+Para la ejecución técnica, se emplea la metodología ágil \textbf{Kanban}. A diferencia de otros marcos, Kanban permite un flujo de trabajo continuo y visual, ideal para proyectos con un responsable único, optimizando el tiempo de ciclo desde la definición de requisitos hasta el despliegue funcional del sistema.
+
+\section{Fase de Diseño (DSR): Determinación de Requisitos}
+En la etapa de \textit{Problem Identification and Motivation} de DSR, se determinó que el artefacto debe centrarse en la recolección estructurada de factores de riesgo modificables (sedentarismo, hipertensión, IMC) y no modificables (edad, antecedentes).
+
+\subsection{Requisitos Funcionales y No Funcionales}
+
+\begin{itemize}
+    \item \textbf{Requisitos Funcionales (RF):}
+    \begin{itemize}
+        \item \textbf{RF1: Gestión de Formularios Dinámicos:} El sistema debe permitir la definición de estructuras de datos mediante esquemas JSON para adaptarse a distintos protocolos médicos.
+        \item \textbf{RF2: Recolección de Datos Clínicos:} Registro de constantes vitales y hábitos de salud del personal académico y administrativo.
+        \item \textbf{RF3: Control de Acceso Basado en Roles (RBAC):} Diferenciación entre usuarios especializados (médicos) y administrativos para la consulta y captura de datos.
+        \item \textbf{RF4: Representación de Información:} Visualización organizada de historiales clínicos para facilitar la interpretación del especialista.
+    \end{itemize}
+    
+    \item \textbf{Requisitos No Funcionales (RNF):}
+    \begin{itemize}
+        \item \textbf{RNF1: Rendimiento:} El backend debe procesar peticiones concurrentes con baja latencia aprovechando el motor de ejecución Bun.
+        \item \textbf{RNF2: Usabilidad:} Interfaz responsiva y consistente basada en los principios de diseño de React y Tailwind CSS.
+        \item \textbf{RNF3: Seguridad:} Cifrado de datos sensibles y manejo de sesiones seguras mediante estándares modernos de la industria.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Requisitos Funcionales y No Funcionales}
+
+\begin{itemize}
+    \item \textbf{Requisitos Funcionales (RF):}
+    \begin{itemize}
+        \item \textbf{RF1: Gestión de Formularios Dinámicos:} El sistema debe permitir la definición de estructuras de datos mediante esquemas JSON para adaptarse a distintos protocolos médicos.
+        \item \textbf{RF2: Recolección de Datos Clínicos:} Registro de constantes vitales y hábitos de salud del personal académico y administrativo.
+        \item \textbf{RF3: Control de Acceso Basado en Roles (RBAC):} Diferenciación entre usuarios especializados (médicos) y administrativos para la consulta y captura de datos.
+        \item \textbf{RF4: Representación de Información:} Visualización organizada de historiales clínicos y métricas de riesgo en tableros interactivos.
+    \end{itemize}
+    
+    \item \textbf{Requisitos No Funcionales (RNF):}
+    \begin{itemize}
+        \item \textbf{RNF1: Rendimiento:} El backend debe procesar peticiones concurrentes con baja latencia (menor a 2s) aprovechando el motor de ejecución Bun.
+        \item \textbf{RNF2: Usabilidad:} Interfaz responsiva y consistente basada en los principios de diseño de React y Tailwind CSS.
+        \item \textbf{RNF3: Seguridad:} Cifrado de datos sensibles (at-rest y in-transit) y manejo de sesiones seguras mediante JWT.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Matriz de Requisitos}
+La trazabilidad de los requisitos se gestionó mediante el tablero Kanban, donde cada funcionalidad se desglosó en tareas técnicas vinculadas directamente a los objetivos específicos del proyecto.
+
+% Tabla 1: Conceptos Técnicos
+\begin{table}[h!]
+    \centering
+    \caption{Matriz de Conceptos Técnicos (CT)}
+    \begin{tabular}{|l|p{8cm}|p{4cm}|}
+        \hline
+        \textbf{ID} & \textbf{Definición resumida} & \textbf{Fuente / Autor} \\ \hline
+        CT-01 & Autenticación y Autorización: Proceso de verificar la identidad de un usuario y sus permisos de acceso (RBAC). & ISO/IEC 27001 \\ \hline
+        CT-02 & Esquemas Dinámicos (JSON): Estructuras de datos flexibles para almacenamiento no relacional o híbrido. & IETF RFC 8259 \\ \hline
+        CT-03 & Trazabilidad de la Información: Capacidad de reconstruir el historial y uso de un dato. & Sommerville \\ \hline
+        CT-04 & Usabilidad y Rendimiento (UX/UI): Facilidad de uso y eficiencia en la respuesta del sistema. & Jakob Nielsen \\ \hline
+        CT-05 & Criptografía de Datos: Uso de algoritmos para proteger la información (Bcrypt, AES). & NIST \\ \hline
+    \end{tabular}
+\end{table}
+
+% Tabla 2: Matriz de Requisitos
+\begin{table}[h!]
+    \centering
+    \caption{Matriz de Requisitos del Sistema SIRCAR}
+    \begin{tabular}{|l|l|p{7.5cm}|l|}
+        \hline
+        \textbf{ID} & \textbf{Tipo} & \textbf{Descripción del requisito} & \textbf{Origen} \\ \hline
+        RF1 & Funcional & Definición de formularios mediante JSON para flexibilidad clínica. & CT-02 \\ \hline
+        RF2 & Funcional & Registro de constantes vitales y evaluaciones cardiovasculares. & CT-03 \\ \hline
+        RF3 & Funcional & Acceso diferenciado por roles (Administrador, Médico). & CT-01 \\ \hline
+        RF4 & Funcional & Dashboard centralizado de métricas e historiales. & CT-04 \\ \hline
+        RNF1 & No Funcional & Tiempo de respuesta del backend menor a 2 segundos (Bun). & CT-04 \\ \hline
+        RNF2 & No Funcional & Interfaz responsiva con Tailwind CSS y React. & CT-04 \\ \hline
+        RNF3 & No Funcional & Encriptación de datos sensibles y manejo de JWT. & CT-05 \\ \hline
+    \end{tabular}
+\end{table}
+
+% Tabla 3: Componentes Técnicos
+\begin{table}[h!]
+    \centering
+    \caption{Matriz de Componentes Técnicos (Solución)}
+    \begin{tabular}{|l|p{8cm}|l|}
+        \hline
+        \textbf{ID} & \textbf{Descripción técnica} & \textbf{Requisito} \\ \hline
+        COMP-01 & Módulo de Login (Frontend + JWT): Manejo de sesiones y RBAC. & RF3, RNF3 \\ \hline
+        COMP-02 & Base de Datos (PostgreSQL + JSONB): Almacenamiento de esquemas y registros. & RF1, RF2 \\ \hline
+        COMP-03 & API REST (Elysia + Bun): Lógica de negocio y procesamiento de alta velocidad. & RF2, RNF1 \\ \hline
+        COMP-04 & Servicio de Cifrado (Bcrypt): Librería para hash de credenciales. & RNF3 \\ \hline
+        COMP-05 & UI Kit (Tailwind + Motion): Componentes responsivos e interactivos. & RF4, RNF2 \\ \hline
+    \end{tabular}
+\end{table}
+
+% Tabla 4: Cobertura
+% Nota: Requiere \usepackage{amssymb} para el comando \checkmark
+\begin{table}[h!]
+    \centering
+    \caption{Matriz de Cobertura de Requisitos}
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{ID Req.} & \textbf{Autenticación} & \textbf{Dashboard} & \textbf{Formularios} & \textbf{Core API} \\ \hline
+        RF1 & & & \checkmark & \checkmark \\ \hline
+        RF2 & & & \checkmark & \checkmark \\ \hline
+        RF3 & \checkmark & & & \checkmark \\ \hline
+        RF4 & & \checkmark & & \\ \hline
+        RNF1 & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+        RNF2 & \checkmark & \checkmark & \checkmark & \\ \hline
+        RNF3 & \checkmark & & & \checkmark \\ \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Matriz de Componentes (Descripción de módulos)}
+\begin{enumerate}
+    \item \textbf{Módulo de Autenticación:} Valida la identidad del personal y asigna permisos específicos por sección institucional.
+    \item \textbf{Módulo de Recopilación (Forms):} Motor encargado de renderizar y validar las respuestas almacenadas en formato JSONB para mantener la flexibilidad del historial clínico.
+    \item \textbf{Módulo de Dashboard:} Representación gráfica de los indicadores recolectados (frecuencia de sedentarismo, niveles de hipertensión reportados).
+\end{enumerate}
+
+\subsection{Diseño de Interfaz y Experiencia de Usuario (UX/UI)}
+El diseño se centra en la limpieza visual utilizando \textit{Light Mode} por defecto. Se implementaron componentes de Lucide para la iconografía y Tailwind CSS para garantizar que la interfaz sea usable en dispositivos móviles y de escritorio dentro de la red universitaria.
+
+\section{Proceso de Desarrollo Ágil (Kanban)}
+
+\subsection{Planificación del Backlog}
+El \textit{Backlog} del proyecto se organizó en tarjetas visuales que representaban el ciclo de vida de cada componente: Análisis, Diseño, Implementación y Pruebas. Se priorizaron las funcionalidades críticas como la seguridad y la captura de datos antes que la visualización estadística.
+
+\subsection{Ejecución de Flujo Continuo (Incrementos del artefacto)}
+Bajo el flujo Kanban, el desarrollo no se dividió en Sprints cerrados, sino en una entrega continua de incrementos funcionales:
+\begin{itemize}
+    \item \textbf{Incremento 1:} Infraestructura base (VPS Hostinger + Dokploy) y esquema de base de datos inicial.
+    \item \textbf{Incremento 2:} API REST funcional para la gestión de usuarios y permisos.
+    \item \textbf{Incremento 3:} Interfaz de captura de datos clínicos y validación de formularios dinámicos.
+    \item \textbf{Incremento 4:} Integración de visualización de datos y reportes administrativos.
+\end{itemize}

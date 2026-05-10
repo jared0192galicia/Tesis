@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  6 APR 2026 00:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.4)  8 MAY 2026 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -976,7 +976,7 @@ LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 19.
- (capitulos/cap1.aux) (capitulos/cap2.aux))
+ (capitulos/cap1.aux) (capitulos/cap2.aux) (capitulos/cap3.aux))
 \openout1 = `Tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
@@ -1063,11 +1063,18 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                deno2025docs
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 176.
 Package biblatex Info: Reference segment=0 on input line 176.
 \c@lstlisting=\count534
-<logos/logounsis1.png, id=207, 165.0165pt x 169.8345pt>
+<logos/logounsis1.png, id=182, 165.0165pt x 169.8345pt>
 File: logos/logounsis1.png Graphic file (type png)
 <use logos/logounsis1.png>
 Package pdftex.def Info: logos/logounsis1.png  used on input line 179.
@@ -1268,7 +1275,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.124             \item \textit
                                {Entregable:} Diseño Técnico. [8]
-<imagenes/cronograma.png, id=390, 1239.88219pt x 270.25969pt>
+<imagenes/cronograma.png, id=370, 1239.88219pt x 270.25969pt>
 File: imagenes/cronograma.png Graphic file (type png)
 <use imagenes/cronograma.png>
 Package pdftex.def Info: imagenes/cronograma.png  used on input line 158.
@@ -1361,9 +1368,11 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [15]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
 
+LaTeX Warning: Citation 'deno2025docs' on page 16 undefined on input line 71.
+
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1394,8 +1403,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [18]
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
+LaTeX Info: Redefining \. on input line 132.
+LaTeX Info: Redefining \% on input line 132.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1405,8 +1414,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [19]
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1415,7 +1424,18 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[20])
+[20]
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[21])
 LaTeX Info: Redefining \. on input line 212.
 LaTeX Info: Redefining \% on input line 212.
 
@@ -1426,9 +1446,19 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[21] (apendices/dataBase.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+[22]
+\openout2 = `capitulos/cap3.aux'.
+
+ (capitulos/cap3.tex
+Cap\'{\i }tulo 3.
+[23
+
+
+
+
+]
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1437,24 +1467,18 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[22
+[24]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-]
-Ap\'{e}ndice A.
-) [23
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-]
-Overfull \hbox (28.78287pt too wide) in paragraph at lines 271--271
-[][]\T1/aer/m/n/12 Microsoft. (2025). Ty-peS-cript Do-cu-men-ta-tion [Ac-ces-sed: 2026-04-05]. []$https : / / www . typescriptlang .
- []
 
-[24
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-]
-LaTeX Info: Redefining \. on input line 270.
-LaTeX Info: Redefining \% on input line 270.
-
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1463,8 +1487,53 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [25]
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
+
+LaTeX Warning: Text page 26 contains only floats.
+
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[26]
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 15.77997pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.77997pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.77997pt}.
+
+[27])
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 15.77997pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.77997pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.77997pt}.
+
+[28] (apendices/dataBase.tex
+Ap\'{e}ndice A.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 6.
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 6.
+(C:\Users\Jared Galicia\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+) [29
+
+
+
+]
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1473,11 +1542,76 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[26] (Tesis.aux
+[30]) (apendices/arquitectura.tex
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[31]
+pdfTeX warning (ext4): destination with the same identifier (name{appendix.Alph1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \chapter{Arquitectura del Sistema}
+                                      
+Ap\'{e}ndice A.
+<imagenes/arquitectura.png, id=674, 737.75626pt x 486.31688pt>
+File: imagenes/arquitectura.png Graphic file (type png)
+<use imagenes/arquitectura.png>
+Package pdftex.def Info: imagenes/arquitectura.png  used on input line 10.
+(pdftex.def)             Requested size: 422.52054pt x 278.51694pt.
+[32
+
+ <./imagenes/arquitectura.png>])
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[33]
+Overfull \hbox (28.78287pt too wide) in paragraph at lines 225--225
+[][]\T1/aer/m/n/12 Microsoft. (2025). Ty-peS-cript Do-cu-men-ta-tion [Ac-ces-sed: 2026-04-05]. []$https : / / www . typescriptlang .
+ []
+
+[34
+
+]
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[35]
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[36] (Tesis.aux
 LaTeX Info: Redefining \sptext on input line 19.
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- (capitulos/cap1.aux) (capitulos/cap2.aux))
+ (capitulos/cap1.aux) (capitulos/cap2.aux) (capitulos/cap3.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1487,23 +1621,23 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: A9E8EFDAECA0809C0F2B6AD0F87FA5C4;8734.
+(rerunfilecheck)             Checksum: 4F38D44A6FFE96E73CE51677038ABC55;8728.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32408 strings out of 467871
- 615661 string characters out of 5414469
- 1581148 words of memory out of 5000000
- 60662 multiletter control sequences out of 15000+600000
- 661748 words of font info for 104 fonts, out of 8000000 for 9000
+ 33039 strings out of 467871
+ 624088 string characters out of 5414469
+ 1661587 words of memory out of 5000000
+ 61192 multiletter control sequences out of 15000+600000
+ 664390 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,97p,2504b,2905s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tesis.pdf (36 pages, 1163221 bytes).
+ <C:\Users\Jared Galicia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Jared Galicia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Tesis.pdf (46 pages, 1367305 bytes).
 PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 419 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 830 PDF objects out of 1000 (max. 8388607)
+ 230 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -29,39 +29,35 @@
 \contentsline {subsection}{\numberline {1.4}Sistemas web}{14}{subsection.2.1.4}%
 \contentsline {subsubsection}{Arquitectura de sistemas web}{14}{section*.15}%
 \contentsline {subsubsection}{Aplicaciones web modernas}{15}{section*.16}%
-\contentsline {subsection}{\numberline {1.5}Tecnologías utilizadas}{15}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {1.5}Tecnologías modernas}{15}{subsection.2.1.5}%
 \contentsline {subsubsection}{Bun}{15}{section*.17}%
 \contentsline {subsubsection}{Node.js}{16}{section*.18}%
-\contentsline {subsubsection}{React}{16}{section*.19}%
-\contentsline {subsubsection}{Next.js}{16}{section*.20}%
-\contentsline {subsubsection}{TypeScript}{17}{section*.21}%
-\contentsline {subsubsection}{Hono y API REST}{17}{section*.22}%
-\contentsline {subsubsection}{Base de datos y persistencia}{17}{section*.23}%
+\contentsline {subsubsection}{Deno}{16}{section*.19}%
+\contentsline {subsubsection}{React}{16}{section*.20}%
+\contentsline {subsubsection}{Next.js}{17}{section*.21}%
+\contentsline {subsubsection}{TypeScript}{17}{section*.22}%
+\contentsline {subsubsection}{Hono y API REST}{17}{section*.23}%
+\contentsline {subsubsection}{Base de datos y persistencia}{18}{section*.24}%
 \contentsline {subsection}{\numberline {1.6}Usabilidad}{18}{subsection.2.1.6}%
-\contentsline {subsubsection}{Concepto de usabilidad}{18}{section*.24}%
-\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{19}{section*.25}%
-\contentsline {subsection}{\numberline {1.7}Seguridad de la información}{19}{subsection.2.1.7}%
-\contentsline {subsubsection}{Protección de datos personales}{19}{section*.26}%
-\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{20}{section*.27}%
-\contentsline {subsection}{\numberline {1.8}Trabajos relacionados}{20}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {1.9}Síntesis del capítulo}{21}{subsection.2.1.9}%
-\contentsline {section}{\numberline {2}Capítulo III: Diseño y desarrollo del sistema}{22}{section.2.2}%
-\contentsline {subsection}{\numberline {2.1}Introducción}{22}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2}Análisis de requisitos}{22}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Prototipado de baja fidelidad}{22}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.4}Pruebas de prototipado}{22}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.5}Prototipado de AF}{22}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.6}Pruebas de usuario}{22}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.7}Resultados}{22}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.8}Conclusiones}{22}{subsection.2.2.8}%
-\contentsline {section}{\numberline {3}Capítulo IV: Resultados}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {3.1}Introducción}{22}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {3.2}Resultados del desarrollo del sistema}{22}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {3.3}Resultados de las pruebas}{22}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {3.4}Evaluación del sistema}{22}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {3.5}Conclusiones}{22}{subsection.2.3.5}%
-\contentsline {section}{\numberline {4}Capítulo V: Conclusiones y trabajos futuros}{22}{section.2.4}%
-\contentsline {subsection}{\numberline {4.1}Conclusiones}{22}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {4.2}Limitaciones del estudio}{22}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {4.3}Trabajos futuros}{22}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {A}Esquema de base de datos}{23}{appendix.Alph1}%
+\contentsline {subsubsection}{Concepto de usabilidad}{18}{section*.25}%
+\contentsline {subsubsection}{Métodos de evaluación de usabilidad UI/UX}{19}{section*.26}%
+\contentsline {subsubsection}{Usabilidad en sistemas web de salud}{19}{section*.27}%
+\contentsline {subsection}{\numberline {1.7}Seguridad de la información}{20}{subsection.2.1.7}%
+\contentsline {subsubsection}{Protección de datos personales}{20}{section*.28}%
+\contentsline {subsubsection}{Buenas prácticas de seguridad en sistemas web}{21}{section*.29}%
+\contentsline {subsection}{\numberline {1.8}Trabajos relacionados}{21}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {1.9}Síntesis del capítulo}{22}{subsection.2.1.9}%
+\contentsline {chapter}{\numberline {3}Capítulo III: Diseño y Desarrollo del Artefacto}{23}{chapter.3}%
+\contentsline {section}{\numberline {1}Introducción}{23}{section.3.1}%
+\contentsline {section}{\numberline {2}Fase de Diseño (DSR): Determinación de Requisitos}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}Requisitos Funcionales y No Funcionales}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Requisitos Funcionales y No Funcionales}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {2.3}Matriz de Requisitos}{25}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {2.4}Matriz de Componentes (Descripción de módulos)}{25}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {2.5}Diseño de Interfaz y Experiencia de Usuario (UX/UI)}{27}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3}Proceso de Desarrollo Ágil (Kanban)}{27}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Planificación del Backlog}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.2}Ejecución de Flujo Continuo (Incrementos del artefacto)}{27}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {A}Esquema de Base de Datos SQL}{29}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {A}Arquitectura del Sistema}{32}{appendix.Alph1}%
+\contentsline {section}{\numberline {1}Descripción de los componentes}{32}{section.Alph1.1}%

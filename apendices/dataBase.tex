@@ -1,3 +1,72 @@
-\chapter{Esquema de base de datos}
+\appendix
+\chapter{Esquema de Base de Datos SQL}
 
-// This is your Prisma schema file
+A continuación se detalla la estructura física de la base de datos PostgreSQL generada a partir del modelo de Prisma:
+
+\begin{lstlisting}[caption={Script de creación de base de datos SQL}, label={code:db_schema}]
+-- Crear Enum
+CREATE TYPE "ResponseStatus" AS ENUM ('IN_PROGRESS', 'COMPLETED');
+
+-- Crear tabla User
+CREATE TABLE "User" (
+    "id" TEXT NOT NULL,
+    "email" TEXT NOT NULL,
+    "name" TEXT,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
+);
+
+-- Crear tabla AppSection
+CREATE TABLE "AppSection" (
+    "id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "description" TEXT,
+    CONSTRAINT "AppSection_pkey" PRIMARY KEY ("id")
+);
+
+-- Crear tabla UserPermission
+CREATE TABLE "UserPermission" (
+    "id" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "sectionId" TEXT NOT NULL,
+    "canCreate" BOOLEAN NOT NULL DEFAULT false,
+    "canRead" BOOLEAN NOT NULL DEFAULT true,
+    "canUpdate" BOOLEAN NOT NULL DEFAULT false,
+    "canDelete" BOOLEAN NOT NULL DEFAULT false,
+    CONSTRAINT "UserPermission_pkey" PRIMARY KEY ("id")
+);
+
+-- Crear tabla Form
+CREATE TABLE "Form" (
+    "id" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "description" TEXT,
+    "schemaJson" JSONB NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT "Form_pkey" PRIMARY KEY ("id")
+);
+
+-- Crear tabla Response
+CREATE TABLE "Response" (
+    "id" TEXT NOT NULL,
+    "formId" TEXT NOT NULL,
+    "userId" TEXT NOT NULL,
+    "status" "ResponseStatus" NOT NULL DEFAULT 'IN_PROGRESS',
+    "answersJson" JSONB NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+    CONSTRAINT "Response_pkey" PRIMARY KEY ("id")
+);
+
+-- Restricciones e Indices
+CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+CREATE UNIQUE INDEX "AppSection_name_key" ON "AppSection"("name");
+CREATE UNIQUE INDEX "UserPermission_userId_sectionId_key" ON "UserPermission"("userId", "sectionId");
+CREATE INDEX "Response_userId_idx" ON "Response"("userId");
+
+-- Foreign Keys
+ALTER TABLE "UserPermission" ADD CONSTRAINT "UserPermission_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE;
+ALTER TABLE "UserPermission" ADD CONSTRAINT "UserPermission_sectionId_fkey" FOREIGN KEY ("sectionId") REFERENCES "AppSection"("id") ON DELETE CASCADE;
+ALTER TABLE "Response" ADD CONSTRAINT "Response_formId_fkey" FOREIGN KEY ("formId") REFERENCES "Form"("id") ON DELETE RESTRICT;
+ALTER TABLE "Response" ADD CONSTRAINT "Response_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT;
+\end{lstlisting}
